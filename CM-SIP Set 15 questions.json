@@ -1,0 +1,738 @@
+{
+ "title": "CM-SIP Set 15 (Must do)",
+ "source": "Set 15 - 51 Questions (Must do).pdf",
+ "answer_source": "inline 'Answer:' lines, cross-checked against the highlight annotations",
+ "anomalies": {
+  "no_answer": [],
+  "multi_answer": [],
+  "odd_option_count": [],
+  "fragment_option": [
+   [
+    32,
+    [
+     "d"
+    ]
+   ]
+  ],
+  "short_stem": [],
+  "empty_option": [],
+  "duplicate_number": []
+ },
+ "questions": [
+  {
+   "n": 1,
+   "q": "There are certain risks involved in hedging in the forward or futures market. Which of the following is TRUE?",
+   "o": [
+    "Futures contracts have no counterparty risk, only the risk of the exchange, while forward contracts carry the credit risk of the counterparty",
+    "Futures contracts have basis risk, whereas forward contracts do not",
+    "Forward contracts have the risk of the exchange",
+    "Forward contracts have interim partial settlements"
+   ],
+   "a": [
+    0
+   ],
+   "page": 1
+  },
+  {
+   "n": 2,
+   "q": "Advantages of exchange-traded instruments over OTC instruments include: I. More transparency in pricing II. Market liquidity III. Reduced credit risk",
+   "o": [
+    "I only",
+    "II only",
+    "I & II",
+    "I, II & III"
+   ],
+   "a": [
+    3
+   ],
+   "page": 1
+  },
+  {
+   "n": 3,
+   "q": "For every financial futures contract, the delivery dates are __________.",
+   "o": [
+    "standardized across all exchanges",
+    "fixed and there is one delivery date per month",
+    "designated and limited to an efficient number for a particular exchange",
+    "flexible and determined by the traders"
+   ],
+   "a": [
+    2
+   ],
+   "page": 1
+  },
+  {
+   "n": 4,
+   "q": "Spot USD/CAD is trading at 0.990. Given that 3-month US interest rates at 0.30% and 3-month Canadian interest rates at 1.2%. What should be the 3-month outright rate for USD/CAD?",
+   "o": [
+    "0.9922",
+    "0.9878",
+    "0.9900",
+    "0.9989"
+   ],
+   "a": [
+    0
+   ],
+   "page": 1
+  },
+  {
+   "n": 5,
+   "q": "Where the yield curve is positive, we would expect the T-bonds futures price to be __________ than the cash price.",
+   "o": [
+    "Lower",
+    "Higher",
+    "Same",
+    "Not enough information provided"
+   ],
+   "a": [
+    0
+   ],
+   "page": 1
+  },
+  {
+   "n": 6,
+   "q": "A trader expects that the Japanese Yen will reverse its recent course and decline in the coming months. Given that the current level of 3-month US and Japan interest rates in the money markets are 2% and 0.25% respectively, which of the following choices would the trader pick? (Assume other factors are not a concern.)",
+   "o": [
+    "Buy USD/JPY in the foreign exchange market at 82.20 for spot delivery",
+    "Buy a JPN YEN currency futures Sep12 contract at 0.012295",
+    "Sell a JPN YEN currency futures Sep12 contract at 0.012265",
+    "Sell USD/JPY in the foreign exchange market at 82.20 for spot delivery"
+   ],
+   "a": [
+    2
+   ],
+   "page": 1
+  },
+  {
+   "n": 7,
+   "q": "A local company wishes to take a 6-month USD 50 million loan and the prevailing the 6-month USD lending rate is 2.15%. The September Eurodollar futures contract is trading at 98.15. At the time of entering the hedge, the price of September Eurodollar futures is 98.65. Assuming that the interest rate on the loan is correlated one to one with the Eurodollar, and the company intends to fully hedge its interest rate exposure using September futures, calculate the number of contracts that will be needed to execute the hedge.",
+   "o": [
+    "25",
+    "50",
+    "100",
+    "150"
+   ],
+   "a": [
+    2
+   ],
+   "page": 2
+  },
+  {
+   "n": 8,
+   "q": "There is a positive relationship between the value of a call option and __________. I. Interest rates II. Time to expiration of the call option III. Dividend rate of the underlying stock IV. Volatility of the underlying stock",
+   "o": [
+    "I, II & III",
+    "I, III & IV",
+    "I, II & IV",
+    "II, III & IV"
+   ],
+   "a": [
+    2
+   ],
+   "page": 2
+  },
+  {
+   "n": 9,
+   "q": "Which of the following statements are TRUE about theta and vega? I. Theta measures the change in asset price with respect to time while Vega measures the volatility of the option’s portfolio II. Theta is always negative for calls and puts since it reflects the time decay III. Vega is positive for long calls and short puts IV. Vega is positive for a long volatility investment position with call or put options",
+   "o": [
+    "I & II",
+    "I, II & III",
+    "I, II & IV",
+    "II, III & IV"
+   ],
+   "a": [
+    2
+   ],
+   "page": 2
+  },
+  {
+   "n": 10,
+   "q": "Which of the following will increase the value of both a call and a put option?",
+   "o": [
+    "Increase in the exercise price",
+    "Increase in volatility",
+    "Increase in interest rates",
+    "Decrease in time to maturity"
+   ],
+   "a": [
+    1
+   ],
+   "page": 2
+  },
+  {
+   "n": 11,
+   "q": "Which of the following about zero cost options is/are TRUE? I. Since the option is zero cost, it is possible to buy as much as possible to take advantage of its zero cost structure without having to worry about the risk associated with it II. Zero cost structures give unlimited profits and limited losses III. A zero cost collar is defined as buying a protective put and selling an out-of-the-money covered call",
+   "o": [
+    "I only",
+    "II only",
+    "III only",
+    "I, II & III"
+   ],
+   "a": [
+    2
+   ],
+   "page": 3
+  },
+  {
+   "n": 12,
+   "q": "A trader buys a Nikkei 225 futures contract at 10,000, a put struck at 9500 (premium is 200) and sells a callstruck at 10500 (premium is 190). What is the synthetic position created by the trader?",
+   "o": [
+    "Bull Spread",
+    "Bear Spread",
+    "Ratio Put Spread",
+    "Short Call"
+   ],
+   "a": [
+    0
+   ],
+   "page": 3
+  },
+  {
+   "n": 13,
+   "q": "The warrant premium is affected by: I. The length of time before expiration date II. The size of the cash dividends paid on the underlying share III. The intrinsic value of the warrant",
+   "o": [
+    "I &II",
+    "I & III only",
+    "I & III only",
+    "I, II & III"
+   ],
+   "a": [
+    3
+   ],
+   "page": 3
+  },
+  {
+   "n": 14,
+   "q": "A call warrant with an exercise price of $1.00 is trading at $1.20. One warrant converts to one share. What is its conversion price?",
+   "o": [
+    "$1.00;",
+    "$1.20;",
+    "$2.20;",
+    "$0.20"
+   ],
+   "a": [
+    2
+   ],
+   "page": 3
+  },
+  {
+   "n": 15,
+   "q": "A warrant is trading at $0.40. The exercise price is $0.80. The share price is $2.40. What is its gearing? (Assume that the warrant is company-issued; in practice they all have a conversion ratio of 1, unless otherwise stated)",
+   "o": [
+    "2x",
+    "6x",
+    "3x",
+    "5x"
+   ],
+   "a": [
+    1
+   ],
+   "page": 3
+  },
+  {
+   "n": 16,
+   "q": "Company A’s warrant is trading at $0.35, its exercise price is $0.50 while the share price is $0.65. What is its intrinsic value?",
+   "o": [
+    "$0.85",
+    "$0.15",
+    "$0.30",
+    "$1.00"
+   ],
+   "a": [
+    1
+   ],
+   "page": 4
+  },
+  {
+   "n": 17,
+   "q": "The market price of Company B's common share is $5 and the exercise price of the warrant is $3.50. Two warrants can be converted into one common share. The warrant price is currently trading at $2. What is the warrant premium?",
+   "o": [
+    "10%",
+    "50%",
+    "57%",
+    "100%"
+   ],
+   "a": [
+    1
+   ],
+   "page": 4
+  },
+  {
+   "n": 18,
+   "q": "Which of the following is considered as a form of structured products? I. A combination of a bond and a call option whereby the coupon payment of the bond is used to purchase the option contracts II. A basket of bonds used as collateral to provide guarantee on credit risk of external companies and in return for receiving premium from those companies III. A derivative contract on commodities",
+   "o": [
+    "I only",
+    "II only",
+    "I & II",
+    "I, II & III"
+   ],
+   "a": [
+    2
+   ],
+   "page": 4
+  },
+  {
+   "n": 19,
+   "q": "Understanding a structured product is important to determine suitability to the investor because:",
+   "o": [
+    "It is a complex product with various risks and features that may not be transparent",
+    "It is difficult to determine the investment objective of the product",
+    "It is important to know what collaterals are involved in providing the guarantee on the product",
+    "It is a product that can assist the investor in its tax planning for retirement"
+   ],
+   "a": [
+    0
+   ],
+   "page": 4
+  },
+  {
+   "n": 20,
+   "q": "The underlying instruments of a structured note could include products relating to movements of: I. Interest rates II. Equities indices III. Credit markets",
+   "o": [
+    "I only",
+    "II only",
+    "I & III",
+    "I, II & III"
+   ],
+   "a": [
+    3
+   ],
+   "page": 4
+  },
+  {
+   "n": 21,
+   "q": "It is advisable for an investor to consider which of the following before investing in a structured note? I. Own liquidity needs II. Terms and condition of the structured note III. Fees and charges of the structured note IV. Risk and return",
+   "o": [
+    "I & II",
+    "II & III",
+    "I, II & III",
+    "I, II, III & IV"
+   ],
+   "a": [
+    3
+   ],
+   "page": 5
+  },
+  {
+   "n": 22,
+   "q": "A range accrual note is a structured note where a client receives a higher return if:",
+   "o": [
+    "The reference index is within a certain range",
+    "The reference index is beyond a certain range",
+    "The coupon rate is within certain range",
+    "The coupon rate is beyond certain range"
+   ],
+   "a": [
+    0
+   ],
+   "page": 5
+  },
+  {
+   "n": 23,
+   "q": "The price of the Exchange Traded Notes is a function of: I. Credit quality of the issuer II. Performance of the underlying market benchmark III. Transaction volume",
+   "o": [
+    "I & II",
+    "I & III",
+    "II & III",
+    "I, II & III"
+   ],
+   "a": [
+    0
+   ],
+   "page": 5
+  },
+  {
+   "n": 24,
+   "q": "Which structured note/s would typically be structured with a principal preservation feature?",
+   "o": [
+    "Bond with call option",
+    "Range Accrual Note",
+    "Inverse Floater Note",
+    "Exchange-Traded Note"
+   ],
+   "a": [
+    0
+   ],
+   "page": 5
+  },
+  {
+   "n": 25,
+   "q": "How are derivatives used within a structured fund? I. Derivatives are used to synthetically track/replicate the performance of the underlying(s) II. Derivatives are used to provide a return linked to the underlying asset of the fund III. Derivatives are used to protect capital of the fund",
+   "o": [
+    "I only",
+    "I & II",
+    "II & III",
+    "I, II & III"
+   ],
+   "a": [
+    1
+   ],
+   "page": 5
+  },
+  {
+   "n": 26,
+   "q": "Which of the following parameters can be used to judge the performance of any fund? I. Sharpe-Ratio II. Drawdown III. Excess return IV. Share class",
+   "o": [
+    "I only",
+    "II only",
+    "I, II & III",
+    "I, II, III & IV"
+   ],
+   "a": [
+    2
+   ],
+   "page": 6
+  },
+  {
+   "n": 27,
+   "q": "A structured fund has the investment objective of providing a return linked to a basket of 25 stocks from the infrastructure, utilities and real estate sectors, and a quarterly potential dividend payment. The investment strategy involves: I. Notionally holding stocks that may distribute dividends in the next quarter and also benefit from potential capital appreciation; II. Selling call options on each stock to receive premium income; and III. Buying put options on each stock as a stop loss mechanism If the premium paid for buying put options of all 25 stocks is lower, do we expect dividend to be lower/higher?",
+   "o": [
+    "Lower",
+    "Higher",
+    "Same",
+    "Not enough information provided"
+   ],
+   "a": [
+    1
+   ],
+   "page": 6
+  },
+  {
+   "n": 28,
+   "q": "Which of the following statements best describes credit risk?",
+   "o": [
+    "Risk relating to a credit product whereby the borrower is unable to fulfil its loan conditions due to a default situation",
+    "Risk relating to the credit rating of a structured product",
+    "Risk relating to a structured product that involves borrowing of funds for its investment",
+    "Risk relating to the issuer of a structured product when it is involved in other credit activities as well"
+   ],
+   "a": [
+    0
+   ],
+   "page": 6
+  },
+  {
+   "n": 29,
+   "q": "In the case of a structured product with short put options on the securities index, what happens when there’s a fall in the securities index?",
+   "o": [
+    "There is no loss to the structured product",
+    "The put option will be in the money and investors of the structured product have to payout to the option buyer",
+    "Both the principal and return component will be definitely affected",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 6
+  },
+  {
+   "n": 30,
+   "q": "Liquidity risk is a result of:",
+   "o": [
+    "Too much funds in the market, hence driving up the prices of financial instruments",
+    "Lack of buyers and sellers of financial instruments",
+    "Investment in assets that are illiquid, e.g. real estate",
+    "Investment in liquid assets only, e.g. treasury products"
+   ],
+   "a": [
+    1
+   ],
+   "page": 6
+  },
+  {
+   "n": 31,
+   "q": "For an investor who wants higher fixed returns than a straight bond, investing in a structured note that gives a higher return is an option for him when: I. He is aware that part or all of its investment can be lost II. He understands all the risks involved in the investment III. He understands the mechanism of the structured note IV. A structured note is not a good investment option for him",
+   "o": [
+    "I only",
+    "I & II only",
+    "I, II & III",
+    "IV only"
+   ],
+   "a": [
+    2
+   ],
+   "page": 7
+  },
+  {
+   "n": 32,
+   "q": "Market risk will impact:",
+   "o": [
+    "The principal component of a structured product only",
+    "The return component of a structured product only",
+    "Both the principal and return component of a structured product",
+    "The holding period of a structured product only"
+   ],
+   "a": [
+    2
+   ],
+   "page": 7
+  },
+  {
+   "n": 33,
+   "q": "The relevant credit risk(s) of trading a futures contract or and an exchange-traded options contract is (are)__________. I. Counterparty risk II. Exchange risk III. Clearing broker risk",
+   "o": [
+    "I & II",
+    "I & III",
+    "II & III",
+    "I, II, III & IV"
+   ],
+   "a": [
+    2
+   ],
+   "page": 7
+  },
+  {
+   "n": 34,
+   "q": "Options carry multiple risk parameters. Which of the following is TRUE?",
+   "o": [
+    "Theta risk does not measure the potential loss through time decay",
+    "Rho risk is associated with volatility",
+    "Delta and gamma risk cannot be hedged",
+    "Vega is associated with volatility which is the major trading risk in options"
+   ],
+   "a": [
+    3
+   ],
+   "page": 7
+  },
+  {
+   "n": 35,
+   "q": "With DV01 of USD 10,000, the position size of a 1-year instrument is limited to USD 100 million (i.e. every basis point move would generate USD 10,000 profit or loss for the position). With the same DV01 of US$10,000, the size of a 5-year instrument will be limited to:",
+   "o": [
+    "USD 100 million",
+    "USD 200 million",
+    "USD 50 million",
+    "USD 20 million"
+   ],
+   "a": [
+    3
+   ],
+   "page": 7
+  },
+  {
+   "n": 36,
+   "q": "A reverse convertible is constructed using:",
+   "o": [
+    "A long zero-coupon bond and short put option",
+    "A short zero-coupon bond and short put option",
+    "A long zero-coupon bond and long put option",
+    "A short zero-coupon bond and long put option"
+   ],
+   "a": [
+    0
+   ],
+   "page": 8
+  },
+  {
+   "n": 37,
+   "q": "For a single “knock out” call barrier option, the barrier level is:",
+   "o": [
+    "Call price < Strike price",
+    "Call price ≤ Strike price",
+    "Call price > Strike price",
+    "Call price ≥ Strike price"
+   ],
+   "a": [
+    3
+   ],
+   "page": 8
+  },
+  {
+   "n": 38,
+   "q": "Which of the following statements is CORRECT? I. For a Category-N callable bull/bear contracts (CBBC), there is no residual value when a mandatory call event occurs II. For a Category-R CBBCs, there is always a positive residual value when a mandatory call event occurs III. The Category-N CBBC call price is always equal to the strike price IV. The Category-R CBBC call price is always different from the strike price",
+   "o": [
+    "I & II",
+    "II & III",
+    "III & IV",
+    "I, III & IV"
+   ],
+   "a": [
+    3
+   ],
+   "page": 8
+  },
+  {
+   "n": 39,
+   "q": "In a double “knock-out” barrier option, the barrier levels:",
+   "o": [
+    "For both barriers are higher than the strike price for a call option",
+    "For both barriers are lower than the strike price for a call option",
+    "Vary – there are 2 strike prices and there is 1 barrier level for each strike price",
+    "Vary – there is one barrier level above the strike price and another barrier level below the strike price"
+   ],
+   "a": [
+    3
+   ],
+   "page": 8
+  },
+  {
+   "n": 40,
+   "q": "All the following are common features of callable bull/bear contracts (CBBC) and structured warrants except one. Which characteristic is TRUE for CBBC products but NOT for structured warrants?",
+   "o": [
+    "Call price specified",
+    "Fixed maturity period",
+    "No margin requirement",
+    "Traded on an exchange"
+   ],
+   "a": [
+    0
+   ],
+   "page": 8
+  },
+  {
+   "n": 41,
+   "q": "Which barrier options work like simple European-style options whereby they operate as if they are “Out-of-the-Money (OTM)” and become active when the spot price hits the strike price?",
+   "o": [
+    "“Down & In” calls and “Down & Out” puts",
+    "“Down & In” puts and “Up & In” calls",
+    "“Down & Out” calls and “Up & Out” puts",
+    "“Down & Out” puts and “Up & Out” calls"
+   ],
+   "a": [
+    1
+   ],
+   "page": 8
+  },
+  {
+   "n": 42,
+   "q": "If an investor has a negative view on a stock and believes the stock price will fall, he can execute a profitable trade with:",
+   "o": [
+    "Callable bull/bear contracts or CFDs only",
+    "CFDs or options only",
+    "Options or callable bull/bear contracts only",
+    "CFDs, options or callable bull/bear contracts"
+   ],
+   "a": [
+    3
+   ],
+   "page": 9
+  },
+  {
+   "n": 43,
+   "q": "Which statement regarding CFDs and stock futures is INCORRECT?",
+   "o": [
+    "CFDs have counterparty risk but stock futures do not",
+    "CFDs can be extended by the investor for as long as the investor wishes but stock futures have a fixed maturity date",
+    "CFDs have implicit financing cost as part of its price and stock futures’ financing cost is explicitly computed",
+    "CFDs are entitled to dividends and stock futures have no dividend entitlements"
+   ],
+   "a": [
+    2
+   ],
+   "page": 9
+  },
+  {
+   "n": 44,
+   "q": "An investor holding a CFD position can use a “stop-loss” order and: I. It will always be executed when the market stock price hits the stop-loss price II. It may not always be executed in a volatile market as the stop-loss price may not be hit III. To ensure further safety, the investor should use a “guaranteed stop-loss” as the order will be executed once the price is reached IV. The CFD margin requirement can be lower than a position without a “stop-loss order",
+   "o": [
+    "I & III",
+    "I, III & IV",
+    "II & III",
+    "II, III & IV"
+   ],
+   "a": [
+    3
+   ],
+   "page": 9
+  },
+  {
+   "n": 45,
+   "q": "An investor using a CFD trading strategy involving dividend capture should look for companies:",
+   "o": [
+    "That are start-ups and early growth stage",
+    "That do stock splits and issue scrip dividends regularly",
+    "That have strong earnings and a high payout ratio",
+    "Whose price performance is strongly driven by macroeconomic factors"
+   ],
+   "a": [
+    2
+   ],
+   "page": 9
+  },
+  {
+   "n": 46,
+   "q": "Trading in a CFD in an international stock outside the investor’s home country can give rise to: I. Currency risk II. Liquidity risk III. Market risk IV. Credit risk",
+   "o": [
+    "I, II & III",
+    "I, II & IV",
+    "I, III & IV",
+    "I, II, III & IV"
+   ],
+   "a": [
+    0,
+    3
+   ],
+   "page": 9
+  },
+  {
+   "n": 47,
+   "q": "A player in the financial markets who sells ES contracts to manage his cash market exposure while holding the underlying stock is a/an:",
+   "o": [
+    "Arbitrageur",
+    "Hedger",
+    "Market maker",
+    "Speculator"
+   ],
+   "a": [
+    1
+   ],
+   "page": 10
+  },
+  {
+   "n": 48,
+   "q": "Which statement regarding ES contracts procedures is CORRECT?",
+   "o": [
+    "ES contracts trading schedule is flexible and can be done according to the date and time set by the brokerage firm for individual contracts",
+    "First trading day is the 15th of the month immediately preceding the contract month",
+    "If all positions on outstanding ES contracts have been settled, it may be removed from quotation by SGX if it is deemed fit by SGX due to market conditions",
+    "ES contracts do not require any initial or maintenance margins"
+   ],
+   "a": [
+    2
+   ],
+   "page": 10
+  },
+  {
+   "n": 49,
+   "q": "Settlement of an ES contract is done on:",
+   "o": [
+    "Last Trading Day (LTD)",
+    "Last Trading Day + 1 (LTD+1)",
+    "Last Trading Day + 2 (LTD+2)",
+    "Last Trading Day + 3 (LTD+3)"
+   ],
+   "a": [
+    3
+   ],
+   "page": 10
+  },
+  {
+   "n": 50,
+   "q": "If there is a margin call for an ES contract position and the client indicates that the margin amount is forthcoming within the T+2 period, new orders may be accepted if they are:",
+   "o": [
+    "Risk increasing or risk neutral",
+    "Risk neutral only",
+    "Risk reducing or risk increasing",
+    "Risk increasing, risk neutral or risk reducing"
+   ],
+   "a": [
+    3
+   ],
+   "page": 10
+  },
+  {
+   "n": 51,
+   "q": "An investor enters into a long ES contract for 1000 shares of Company A at $15/share. The maintenance margin is 10%. After a week, the price of the share is $14. What is the investor’s required margin?",
+   "o": [
+    "$1,400",
+    "$1,500",
+    "$2,000",
+    "$2,400"
+   ],
+   "a": [
+    3
+   ],
+   "page": 10
+  }
+ ]
+}

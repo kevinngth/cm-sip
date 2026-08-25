@@ -1,0 +1,218 @@
+[
+ {
+  "n": 8,
+  "page": 3,
+  "chapter": "",
+  "q": "The study of demand and supply factors and their effects on prices of a commodity is known as ________",
+  "o": [
+   "Fundamental analysis",
+   "Technical analysis",
+   "Fiscal policy",
+   "Monetary policy"
+  ],
+  "a": [
+   0
+  ],
+  "mark": "circle=a margin=a"
+ },
+ {
+  "n": 9,
+  "page": 3,
+  "chapter": "",
+  "q": "Which of the following will NOT affect the price of a stock index",
+  "o": [
+   "Surprise earnings drop for a component stock",
+   "Unexpected interest rates hike by the Fed despite weak economic number",
+   "Eruption of war",
+   "Changes in foreign exchange rates"
+  ],
+  "a": [
+   3
+  ],
+  "mark": "circle=d margin=d"
+ },
+ {
+  "n": 10,
+  "page": 3,
+  "chapter": "",
+  "q": "Inflationary pressures have been building up but the Fed is not expected to raise rates soon. Which of the following is true regarding the yield curve?",
+  "o": [
+   "The yield curve will steepen",
+   "The yield curve will invert",
+   "The yield curve will flatten",
+   "The yield curve will shift upward"
+  ],
+  "a": [
+   0
+  ],
+  "mark": "circle=a margin=a"
+ },
+ {
+  "n": 11,
+  "page": 3,
+  "chapter": "",
+  "q": "Inflationary pressures have been building up and the Fed is widely expected to raise interest rates soon. The Fed finally raised interest rates as expected. Which of the following is NOT likely to happen?",
+  "o": [
+   "The yield curve flatten",
+   "The yield curve steepen",
+   "The yield curve shift upward",
+   "None of the above"
+  ],
+  "a": [
+   1
+  ],
+  "mark": "circle=b margin=b"
+ },
+ {
+  "n": 12,
+  "page": 3,
+  "chapter": "",
+  "q": "Which of the following statements about equity prices is NOT necessarily true",
+  "o": [
+   "When interest rates are lowered, equity prices will rise",
+   "Earnings mainly determine equity prices",
+   "P/E ratio is one of the main measures of equity prices",
+   "High beta stocks tend to be more volatile than the market index"
+  ],
+  "a": [
+   1
+  ],
+  "mark": "circle=b margin=b"
+ },
+ {
+  "n": 1,
+  "page": 5,
+  "chapter": "Chapter 4 - Technical Analysis",
+  "q": "The relative strength index of 70 and 30 are often used to",
+  "o": [
+   "Establish the beginning of non trending pattern",
+   "Generate sell/buy signal",
+   "Form the %R oscillator",
+   "All of the above"
+  ],
+  "a": [
+   1
+  ],
+  "mark": "circle=b margin=b"
+ },
+ {
+  "n": 2,
+  "page": 5,
+  "chapter": "Chapter 4 - Technical Analysis",
+  "q": "Which of the following statement is/are true about the Elliot Wave Theory",
+  "o": [
+   "There are 5 waves in the direction of the main trend followed by 3 corrective waves (a 5, 3 move)",
+   "A 5, 3 moves complete the circle. This 5, 3 move than become 2 sub divisions of the next higher 5, 3 move",
+   "The underlying 5, 3 pattern remain constant although the time spent of each 5,3 wave varies",
+   "All of the above"
+  ],
+  "a": [
+   0
+  ],
+  "mark": "circle=a margin=a"
+ },
+ {
+  "n": 3,
+  "page": 5,
+  "chapter": "Chapter 4 - Technical Analysis",
+  "q": "Which of the following statement is true about the Dow Theory",
+  "o": [
+   "The theory forecasts the magnitude of the trend",
+   "The theory forecasts the duration of the trend",
+   "Maturity of circle is one of the tenet of the theory",
+   "One limitation of the theory is that the buy/sell signals are slow by the time confirmation appears"
+  ],
+  "a": [
+   3
+  ],
+  "mark": "circle=d margin=d"
+ },
+ {
+  "n": 4,
+  "page": 5,
+  "chapter": "Chapter 4 - Technical Analysis",
+  "q": "Which of the following is not used in technical analysis",
+  "o": [
+   "Bar chart",
+   "Candlestick chart",
+   "Pie chart",
+   "Point and figure chart"
+  ],
+  "a": [
+   2
+  ],
+  "mark": "circle=c margin=c"
+ },
+ {
+  "n": 5,
+  "page": 5,
+  "chapter": "Chapter 4 - Technical Analysis",
+  "q": "Elliot wave theory states that the market moves in the direction of the overall trend in a series of ________ waves followed by ________ waves, which fluctuate against the general trend",
+  "o": [
+   "5 ..... 5",
+   "3 ..... 3",
+   "5 ..... 3",
+   "3 ..... 5"
+  ],
+  "a": [
+   2
+  ],
+  "mark": "circle=c margin=c"
+ },
+ {
+  "n": 6,
+  "page": 5,
+  "chapter": "Chapter 4 - Technical Analysis",
+  "q": "A buy signal may be triggered when ________",
+  "o": [
+   "A fast moving average crosses down under a slow moving average",
+   "The moon is full",
+   "The RSI runs below 30",
+   "A fast moving average crosses up over a slow moving average"
+  ],
+  "a": [],
+  "mark": "circle=d margin=a"
+ },
+ {
+  "n": 7,
+  "page": 5,
+  "chapter": "Chapter 4 - Technical Analysis",
+  "q": "Which statement is false about gaps",
+  "o": [
+   "Are open areas on a chart by prices trading entirely above or below the prior trading range",
+   "Occur relatively frequently in thinly traded markets",
+   "Are usually caused by fundamental factors of demand and supply",
+   "If a breakaway gap is on low volume, one might expect a pullback"
+  ],
+  "a": [],
+  "mark": "circle=c margin=d"
+ },
+ {
+  "n": 8,
+  "page": 7,
+  "chapter": "Chapter 4 - Technical Analysis",
+  "q": "Which statement is false about point and figure charts",
+  "o": [
+   "Point and figure charts may be used to plot intraday data",
+   "The two important variables that must be defined to use a point and figure chart are box size and reversal criteria",
+   "Point and figure charts can be read in much the same way as a bar chart",
+   "The horizontal axis of a point and figure chart references time"
+  ],
+  "a": [],
+  "mark": "circle=d margin=a"
+ },
+ {
+  "n": 9,
+  "page": 7,
+  "chapter": "Chapter 4 - Technical Analysis",
+  "q": "Which of the following about technical analysis is true",
+  "o": [
+   "The more studies are included, the more accurate the timing will be",
+   "Technical analysis is used for timing and trend following",
+   "Technical analysis is more useful than fundamental analysis",
+   "Once a study has been found to be reliable, it will always work and the user must not change it"
+  ],
+  "a": [],
+  "mark": "circle=b margin=d"
+ }
+]

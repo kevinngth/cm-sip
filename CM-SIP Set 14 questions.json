@@ -1,0 +1,1992 @@
+{
+ "title": "CM-SIP Set 14 (Module 6A Set 3)",
+ "source": "Set 14 - 130 Questions.pdf",
+ "answer_source": "highlight",
+ "anomalies": {
+  "no_answer": [],
+  "multi_answer": [],
+  "odd_option_count": [],
+  "fragment_option": [
+   [
+    58,
+    [
+     "c"
+    ]
+   ],
+   [
+    59,
+    [
+     "b"
+    ]
+   ],
+   [
+    64,
+    [
+     "b"
+    ]
+   ],
+   [
+    68,
+    [
+     "c"
+    ]
+   ],
+   [
+    104,
+    [
+     "c"
+    ]
+   ]
+  ],
+  "short_stem": [],
+  "empty_option": [],
+  "duplicate_number": []
+ },
+ "questions": [
+  {
+   "n": 1,
+   "q": "What are the forms of collateral accepted by CDP as margins?",
+   "o": [
+    "Cash",
+    "Letters of credit to the order of CDP in a form and from a bank acceptable to CDP.",
+    "Other instruments as may be approved by CDP from time to time.",
+    "All of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 1,
+   "ref": "Ch18, Sect 6.6"
+  },
+  {
+   "n": 2,
+   "q": "What index maps the companies on the Tokyo Stock Exchange?",
+   "o": [
+    "Nihon Keizai",
+    "Nikkei 225 Stock Index",
+    "Shimbun",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 1,
+   "ref": "Ch19, Sect 3.1"
+  },
+  {
+   "n": 3,
+   "q": "Who records the ES transaction in the Register of Securities once a position is held?",
+   "o": [
+    "Member and Trading Representative",
+    "Seller",
+    "Buyer",
+    "Investor"
+   ],
+   "a": [
+    0
+   ],
+   "page": 1,
+   "ref": "Ch18, Sect 3.6"
+  },
+  {
+   "n": 4,
+   "q": "Which of the following is a similar characteristic of ETNs and ETFs?",
+   "o": [
+    "Debt securities issued by banks are not subject to the requirements of funds such as diversification rules.",
+    "The debt is typically senior and unsecured.",
+    "Structures are traded on an exchange and provide a return linked to the performance of an underlying benchmark.",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 1,
+   "ref": "Ch13, Sect 2.6"
+  },
+  {
+   "n": 5,
+   "q": "What will happen to a structured product with a callable feature if no barrier event occurs during the life of the product?",
+   "o": [
+    "It will be redeemed at an earlier date.",
+    "It will be redeemed at a later date.",
+    "It will be given a new expiry date.",
+    "It runs until the predetermined expiry date."
+   ],
+   "a": [
+    3
+   ],
+   "page": 1,
+   "ref": "Ch14, Sect 1.3"
+  },
+  {
+   "n": 6,
+   "q": "How much is the clearing fee for ES contracts transactions?",
+   "o": [
+    "4 Percent on the value of the contract, maximum of SGD 600.",
+    "0.04 Percent on the value of the contract, maximum of SGD 600.",
+    "40 Percent on the value of the contract.",
+    "4.40 Percent on the value of the contract."
+   ],
+   "a": [
+    3
+   ],
+   "page": 1
+  },
+  {
+   "n": 7,
+   "q": "Which of the following statement is CORRECT?",
+   "o": [
+    "The CFDS are not limited to domestic Singapore securities.",
+    "CFDs are cash settled products as there is no delivery of an underlying instrument, such as share certificates.",
+    "Investors can trade in CFDs on many individual stocks, market indices, government treasuries, foreign exchange, commodities and exchange - traded funds.",
+    "All of the above"
+   ],
+   "a": [
+    3
+   ],
+   "page": 1,
+   "ref": "Ch17, Sect 1.3"
+  },
+  {
+   "n": 8,
+   "q": "What risk is involved in CBBC investments if the investor took a a bearish or bullish view but the market did not move according to expectations?",
+   "o": [
+    "Potential loss of capital",
+    "Mandatory call",
+    "Gearing effects",
+    "Limited life"
+   ],
+   "a": [
+    0
+   ],
+   "page": 2,
+   "ref": "Ch16, Sect 5"
+  },
+  {
+   "n": 9,
+   "q": "Investors with short positions in Stock CFDs will ___.",
+   "o": [
+    "receive a dividend credit",
+    "have the amount debited from their account.",
+    "have alter cancellations",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 2,
+   "ref": "Ch17, Sect 2.8"
+  },
+  {
+   "n": 10,
+   "q": "An investor is obligated to physically deliver the stock for settlement, what happens if an investor does not have the required shares in his account on the due date?",
+   "o": [
+    "A reprieve of 3 days will be given to fulfill the obligation.",
+    "The CDP will buy - in shares on the market to satisfy the delivery obligation.",
+    "The investor will issue a counterpart share to honor the obligation.",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 2,
+   "ref": "Ch18, Sect 3.5"
+  },
+  {
+   "n": 11,
+   "q": "What scheme is an arrangement that enables a number of investors to 'pool' their assets and have these professionally managed by an independent manager?",
+   "o": [
+    "Asset Management Scheme",
+    "Collective Investment Scheme",
+    "Investor Investment Scheme",
+    "Collective Pool Scheme"
+   ],
+   "a": [
+    1
+   ],
+   "page": 2,
+   "ref": "Ch13, Sect 1.7"
+  },
+  {
+   "n": 12,
+   "q": "What is a contract between two parties, to buy or sell a specific quantity of a specific underlying security at a specific price for settlement at a specific future date?",
+   "o": [
+    "Specific contract",
+    "Extended Settlement contract",
+    "Future Specific contract",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 2,
+   "ref": "Ch15, Sect 3"
+  },
+  {
+   "n": 13,
+   "q": "How is the residual value of a Bear contract determined if a mandatory call event occurs?",
+   "o": [
+    "RV = Settlement price - Strike price / Conversion ratio",
+    "RV = Strike price - Settlement price / Conversion ratio",
+    "RV = Settlement price + Strike price / Conversion ratio",
+    "RV = Strike price + Settlement price / Conversion ratio"
+   ],
+   "a": [
+    1
+   ],
+   "page": 2,
+   "ref": "Ch16, Sect 4.7"
+  },
+  {
+   "n": 14,
+   "q": "Which of the following is a similarity between CBBCs and warrants?",
+   "o": [
+    "Underlying asset",
+    "Trading method",
+    "Strike price",
+    "All of the above"
+   ],
+   "a": [
+    3
+   ],
+   "page": 2,
+   "ref": "Ch16, Sect 6"
+  },
+  {
+   "n": 15,
+   "q": "Which of the following is a useful indicator of Liquidity?",
+   "o": [
+    "Volume of trading and open interest",
+    "ES position",
+    "Unusual trading activity",
+    "Investor's ability"
+   ],
+   "a": [
+    0
+   ],
+   "page": 3,
+   "ref": "Ch18, Sect 3.3"
+  },
+  {
+   "n": 16,
+   "q": "How is the ETF wrapper different from other popular fund formats such as mutual funds or closed - end funds?",
+   "o": [
+    "ETFs offer investors two sources of liquidity.",
+    "ETFs offer investors a source of liquidity.",
+    "ETFs does not offer investors a source of liquidity.",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 3,
+   "ref": "Ch13, Sect 2.6"
+  },
+  {
+   "n": 17,
+   "q": "What index is Europe's leading blue - chip index for the Eurozone and provides blue - chip representation of supersector leaders in the Eurozone?",
+   "o": [
+    "EURO STOXX 50 Index",
+    "Nikkei 225 Stock Index",
+    "Markit iBOXX",
+    "Dow Jones - UBS Commodity Excess Return Index"
+   ],
+   "a": [
+    0
+   ],
+   "page": 3,
+   "ref": "Ch19, Sect 3.1"
+  },
+  {
+   "n": 18,
+   "q": "What is the Last Trading Day for the 5 - year Singapore Government Bond Futures?",
+   "o": [
+    "2 business days preceding the 3rd Wednesday of the expiring contract month.",
+    "The 2nd last business day of the expiring contract month.",
+    "Last Singapore business day of the expiring contract month.",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 3
+  },
+  {
+   "n": 19,
+   "q": "What is the trading platform for CFDs?",
+   "o": [
+    "OTC only",
+    "Mostly OTC (except Exchange traded CFDs)",
+    "On exchanges",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 3,
+   "ref": "Ch17, Sect 2.9"
+  },
+  {
+   "n": 20,
+   "q": "What theoretical factor may affect the pricing of a Callable Bull/Bear Contract?",
+   "o": [
+    "Price movement of underlying asset.",
+    "Strike price",
+    "Financial cost",
+    "All of the above"
+   ],
+   "a": [
+    3
+   ],
+   "page": 3,
+   "ref": "Ch16, Sect 4.6"
+  },
+  {
+   "n": 21,
+   "q": "What happens in the event of a corporate action such as bonus issues, rights issues, share splits and reverse share splits if the regular share dividends have been taken into account by the issuer as part of the funding cost?",
+   "o": [
+    "An adjustment is made",
+    "No action is needed",
+    "There will be pre - termination",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 3,
+   "ref": "Ch16, Sect 4.9"
+  },
+  {
+   "n": 22,
+   "q": "What barrier option category is when the underlying asset has to move up and beyond the barrier price for the option to terminate?",
+   "o": [
+    "Up - and - out",
+    "Down - and - out",
+    "Up - and - in",
+    "Down - and in"
+   ],
+   "a": [
+    0
+   ],
+   "page": 4,
+   "ref": "Ch16, Sect 3.3"
+  },
+  {
+   "n": 23,
+   "q": "How is settlement at maturity calculated for a Bear contract where MCE settlement price equals closing price of the underlying asset on settlement day?",
+   "o": [
+    "RV = Settlement price - Strike price / Conversion ratio",
+    "RV = Strike price - Settlement price / Conversion ratio",
+    "RV = Settlement price + Strike price / Conversion ratio",
+    "RV = Strike price + Settlement price / Conversion ratio"
+   ],
+   "a": [
+    1
+   ],
+   "page": 4,
+   "ref": "Ch16, Sect 4.8"
+  },
+  {
+   "n": 24,
+   "q": "What possible parameter that go into building a structured fund can be any or both fixed or variable coupons distributed at regular intervals and/or participative returns based on the outcome of the underlying asset(s)?",
+   "o": [
+    "Choice of Maturity",
+    "Choice of the Underlying Asset",
+    "Degree of Payout Schedule",
+    "Anticipated View on Market Scenarios"
+   ],
+   "a": [
+    2
+   ],
+   "page": 4,
+   "ref": "Ch13, Sect 1.4"
+  },
+  {
+   "n": 25,
+   "q": "Which of the following is an example of Equity Indices?",
+   "o": [
+    "FTSE 200",
+    "Hang Seng 40",
+    "China H - Shares",
+    "Nikkei 235"
+   ],
+   "a": [
+    1
+   ],
+   "page": 4,
+   "ref": "Ch17, Sect 3.2"
+  },
+  {
+   "n": 26,
+   "q": "What risk is involved if the market moves against the investor or margin levels are increased by the stock broker?",
+   "o": [
+    "Liquidity",
+    "Volatility",
+    "Leverage",
+    "Margin calls"
+   ],
+   "a": [
+    3
+   ],
+   "page": 4,
+   "ref": "Ch18, Sect 3.2"
+  },
+  {
+   "n": 27,
+   "q": "What instruments combine an underlying asset, such as an equity security, a fixed income security, or other financial assets and an option, where the underlying asset is the 'principal component', while the option product determines the 'return component'?",
+   "o": [
+    "Knock - out products.",
+    "High yield products",
+    "Performance capped products",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 4,
+   "ref": "Ch15, Sect 1"
+  },
+  {
+   "n": 28,
+   "q": "A CBBC with an effective gearing of 10 times means that for each 1 Percent change in the price of the underlying asset, the theoretical price of the CBBC may increase or decrease by ___.",
+   "o": [
+    "5",
+    "10",
+    "15",
+    "20"
+   ],
+   "a": [
+    1
+   ],
+   "page": 4,
+   "ref": "Ch16, Sect 4.3"
+  },
+  {
+   "n": 29,
+   "q": "What is meant by Last Trading Day (LTD)?",
+   "o": [
+    "Last market day of the contract month",
+    "Last market day of the month.",
+    "Last market day of the trading month.",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 5,
+   "ref": "Ch18, Sect 4"
+  },
+  {
+   "n": 30,
+   "q": "What type of barrier option will you choose if the structured product consist of a zero - coupon bond (principal preservation component) and a call option (return component)?",
+   "o": [
+    "Up - and - out",
+    "Down - and - out",
+    "Up - and - in",
+    "Down - and in"
+   ],
+   "a": [
+    0
+   ],
+   "page": 5,
+   "ref": "Ch14, Sect 1.2"
+  },
+  {
+   "n": 31,
+   "q": "Which product requires a minimum investment amount of one board lot?",
+   "o": [
+    "Equity Linked Structured Note",
+    "Equity Linked ETF",
+    "Equity Linked ILP",
+    "Equity Linked ETN"
+   ],
+   "a": [
+    1
+   ],
+   "page": 5,
+   "ref": "Ch14, Sect 2"
+  },
+  {
+   "n": 32,
+   "q": "The ___ will be higher the longer the maturity of the CBBC and it declines over time as the CBBC moves closer to expiration date.",
+   "o": [
+    "supply",
+    "price",
+    "financial cost",
+    "demand"
+   ],
+   "a": [
+    2
+   ],
+   "page": 5,
+   "ref": "Ch16, Sect 4.6"
+  },
+  {
+   "n": 33,
+   "q": "What strategy for trading equity pairs is a play on two companies in the same sector, one that is undervalued and the other is overvalued?",
+   "o": [
+    "Industry Sector plays",
+    "Statistical Arbitrage",
+    "Merger Arbitrage",
+    "Equity Indices"
+   ],
+   "a": [
+    0
+   ],
+   "page": 5,
+   "ref": "Ch17, Sect 4.2"
+  },
+  {
+   "n": 34,
+   "q": "What risk is involved when there is an unfavourable price movement in the underlying security?",
+   "o": [
+    "Leverage",
+    "Margin calls",
+    "Liquidity",
+    "Volatility"
+   ],
+   "a": [
+    0
+   ],
+   "page": 5,
+   "ref": "Ch18, Sect 3.1"
+  },
+  {
+   "n": 35,
+   "q": "How is settlement at maturity calculated for a Bull contract where MCE settlement price equals closing price of the underlying asset on settlement day?",
+   "o": [
+    "RV = Settlement price - Strike price / Conversion ratio",
+    "RV = Strike price - Settlement price / Conversion ratio",
+    "RV = Settlement price + Strike price / Conversion ratio",
+    "RV = Strike price + Settlement price / Conversion ratio"
+   ],
+   "a": [
+    0
+   ],
+   "page": 5,
+   "ref": "Ch16, Sect 4.8"
+  },
+  {
+   "n": 36,
+   "q": "What represents the fraction of Net Asset Value that must not be lost?",
+   "o": [
+    "Floor",
+    "Window",
+    "Door",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 6,
+   "ref": "Ch13, Sect 1.6"
+  },
+  {
+   "n": 37,
+   "q": "What happens to the swap when the exposure limit of NAV to the swap counterparty is reached?",
+   "o": [
+    "It will be reidentified",
+    "It will be reset periodically",
+    "It will be re - exposed",
+    "It will be made available"
+   ],
+   "a": [
+    1
+   ],
+   "page": 6,
+   "ref": "Ch13, Sect 2.6"
+  },
+  {
+   "n": 38,
+   "q": "What is the business model if these CFDs are traded on an exchange just like listed stocks and orders are placed through brokers who have access to the exchange?",
+   "o": [
+    "Direct Market Access (DMA)",
+    "Market - Maker",
+    "Exchange - Traded CFDs",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 6,
+   "ref": "Ch17, Sect 1.4"
+  },
+  {
+   "n": 39,
+   "q": "What financial derivative product is based on an agreement between two parties to settle the difference in the price of a reference instrument between the inception transaction and closing transaction?",
+   "o": [
+    "Contracts for Differences",
+    "Knock - out products.",
+    "Swaps",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 6,
+   "ref": "Ch15, Sect 2"
+  },
+  {
+   "n": 40,
+   "q": "What is the category of the barrier option when the underlying asset has to move up and exceed the barrier price for the option to become active?",
+   "o": [
+    "Up - and - out",
+    "Down - and - out",
+    "Up - and - in",
+    "Down - and in"
+   ],
+   "a": [
+    2
+   ],
+   "page": 6,
+   "ref": "Ch16, Sect 3.3"
+  },
+  {
+   "n": 41,
+   "q": "What is the main risk in a merger arbitrage strategy?",
+   "o": [
+    "Mean reversion",
+    "Deal risk",
+    "Undervaluation",
+    "Zero - return"
+   ],
+   "a": [
+    1
+   ],
+   "page": 6,
+   "ref": "Ch17, Sect 4.2"
+  },
+  {
+   "n": 42,
+   "q": "The exposure for a short put or a short call position must be properly understood and be compatible with the ___ of the investor before buying the product.",
+   "o": [
+    "risk appetite",
+    "liquidity",
+    "interests",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 6,
+   "ref": "Ch14, Sect 1.3"
+  },
+  {
+   "n": 43,
+   "q": "What is the Ticker symbol for Eurodollar Futures?",
+   "o": [
+    "EY",
+    "ED",
+    "JG",
+    "SD"
+   ],
+   "a": [
+    1
+   ],
+   "page": 7
+  },
+  {
+   "n": 44,
+   "q": "What barrier option is ideal for speculating large market moves?",
+   "o": [
+    "Knock - in",
+    "Knock - out",
+    "Both A and B",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 7,
+   "ref": "Ch16, Sect 3.4"
+  },
+  {
+   "n": 45,
+   "q": "What is/are the advantage of trading in pairs?",
+   "o": [
+    "Market risk may be removed as long as the long and short positions neutralizes each other.",
+    "It is not necessary for each position to yield a profit as the result will be positive even if only one is profitable.",
+    "Both A and B",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 7,
+   "ref": "Ch17, Sect 4.2"
+  },
+  {
+   "n": 46,
+   "q": "What is referred to as the practice of adding (or subtracting) any gain (or loss) to the investor's account at the end of each trading day?",
+   "o": [
+    "Mark - to - Market",
+    "Maker - to - Market",
+    "Marker - to - Market",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 7,
+   "ref": "Ch17, Sect 2.2"
+  },
+  {
+   "n": 47,
+   "q": "Settlement of ES contracts takes place by way of delivery of the underlying securities on the ___ after the Last Trading Day.",
+   "o": [
+    "3rd business day",
+    "3rd day",
+    "2nd business day",
+    "day"
+   ],
+   "a": [
+    0
+   ],
+   "page": 7,
+   "ref": "Ch18, Sect 4.4"
+  },
+  {
+   "n": 48,
+   "q": "What is the formula to get the gearing ratio?",
+   "o": [
+    "Gearing ratio = Underlying Asset price / Price of CBBC x Conversion ratio",
+    "Gearing ratio = Price of CBBC / Underlying Asset price x Conversion ratio",
+    "Gearing ratio = Underlying Asset price / Price of CBBC - Conversion ratio",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 7,
+   "ref": "Ch16, Sect 4.3"
+  },
+  {
+   "n": 49,
+   "q": "What CFD business model is referred to when the buy and/or sell order goes through the CFD provider's platform and the investor gets access to the market directly in which the price paid is determined by the market of the underlying asset?",
+   "o": [
+    "Direct Market Access (DMA)",
+    "Market - Maker",
+    "Exchange - Traded CFDs",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 7,
+   "ref": "Ch17, Sect 1.4"
+  },
+  {
+   "n": 50,
+   "q": "How are ES contracts classified under the Securities and Futures ACT (SFA) in Singapore?",
+   "o": [
+    "Futures",
+    "Swaps",
+    "Stocks",
+    "Options"
+   ],
+   "a": [
+    0
+   ],
+   "page": 8,
+   "ref": "Ch18, Sect 1"
+  },
+  {
+   "n": 51,
+   "q": "There are CFDs on a wide range of currencies including the UK pound, US dollar, Canadian dollar, Japanese yen, ___ and ___.",
+   "o": [
+    "Euro and Swiss franc",
+    "Euro and Rupees",
+    "Euro and Won",
+    "Euro and Peso"
+   ],
+   "a": [
+    0
+   ],
+   "page": 8,
+   "ref": "Ch17, Sect 3.3"
+  },
+  {
+   "n": 52,
+   "q": "What type of investors seek to take advantage of market inefficiencies by making simultaneous trades that offset each other and capture risk - free profits?",
+   "o": [
+    "Hedgers",
+    "Speculative Investors",
+    "Arbitrageurs",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 8,
+   "ref": "Ch18, Sect 2"
+  },
+  {
+   "n": 53,
+   "q": "What feature of a CFD is referred to if the underlying asset or index is known at the outset and can be easily tracked?",
+   "o": [
+    "Flexibility",
+    "Transparency",
+    "Low cost",
+    "Leverage"
+   ],
+   "a": [
+    1
+   ],
+   "page": 8,
+   "ref": "Ch17, Sect 1.3"
+  },
+  {
+   "n": 54,
+   "q": "Which of the following is a key component of a structured fund?",
+   "o": [
+    "Underlying Asset",
+    "Tenor and Market Scenario",
+    "Pay - out structure",
+    "All of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 8,
+   "ref": "Ch13, Sect 1.4"
+  },
+  {
+   "n": 55,
+   "q": "What investors use ES contracts to manage their cash market exposure by holding underlying stock and selling ES contracts to lock in prices?",
+   "o": [
+    "Hedgers",
+    "Speculative Investors",
+    "Arbitrageurs",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 8,
+   "ref": "Ch18, Sect 2"
+  },
+  {
+   "n": 56,
+   "q": "Which of the following are variable features of Complex options?",
+   "o": [
+    "Timing of option exercise and payoff computation",
+    "Uncertainty as to time of expiration and underlying assets",
+    "Conditional events or trigger points and multi - currency features",
+    "All of the above"
+   ],
+   "a": [
+    3
+   ],
+   "page": 8,
+   "ref": "Ch16, Sect 1"
+  },
+  {
+   "n": 57,
+   "q": "When evaluating structured products, what should be avoided to prevent exposure to product risks?",
+   "o": [
+    "Cursory comparison with the income yields.",
+    "Potential appreciation of what appear to be similar traditional products.",
+    "Both A and B",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 9,
+   "ref": "Ch14, Sect 1.2"
+  },
+  {
+   "n": 58,
+   "q": "What trading activity is the closure of a position in an ES contract which reduces a customer's Maintenance margin requirements?",
+   "o": [
+    "Risk increasing trade",
+    "Risk neutral trade",
+    "risk reducing trade",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 9,
+   "ref": "Ch18, Sect 6.8"
+  },
+  {
+   "n": 59,
+   "q": "Which of the following are specific details of the transaction in an ES contract? (i) The specific quantity (ii) The specific security (iii) The specific price (iv) The specific future date",
+   "o": [
+    "I and ii",
+    "iii and iv",
+    "Both A and B",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 9,
+   "ref": "Ch18, Sect 1"
+  },
+  {
+   "n": 60,
+   "q": "What is the difference between Traditional Mutual funds and Structured Funds?",
+   "o": [
+    "A traditional mutual fund involves active allocation of the investments directly into the underlying asset without the use of derivatives.",
+    "Traditional mutual funds usually begin with a load of cash and does not need a fund management team.",
+    "Traditional mutual funds are more popular.",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 9,
+   "ref": "Ch13, Sect 1.2"
+  },
+  {
+   "n": 61,
+   "q": "What happens if the option terminates when the barrier event occurs?",
+   "o": [
+    "The payoff to the investor will be zero.",
+    "The payoff to the investor will depend on the terms of the option agreement.",
+    "The payoff to the investor will be a fraction of the initial premium paid.",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 9,
+   "ref": "Ch16, Sect 2"
+  },
+  {
+   "n": 62,
+   "q": "Which of the following is considered a disadvantage of barrier options?",
+   "o": [
+    "High risk of loss of investment if barrier conditions are broken.",
+    "They are over the counter products which means investor pays upfront for the option premium.",
+    "Both A and B",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 9,
+   "ref": "Ch16, Sect 3.5"
+  },
+  {
+   "n": 63,
+   "q": "Which of the following product is not susceptible to market risk?",
+   "o": [
+    "Equity Linked ETF",
+    "Equity Linked ETN",
+    "Equity Linked Structured Note",
+    "Equity Linked ILP"
+   ],
+   "a": [
+    3
+   ],
+   "page": 9,
+   "ref": "Ch14 Sect 2"
+  },
+  {
+   "n": 64,
+   "q": "What is the term used when the investor pays a fractional sum in cash since they do not have to pay the full underlying value?",
+   "o": [
+    "Initial margin",
+    "initial public offering",
+    "Initial outlay",
+    "Initial cash deposit"
+   ],
+   "a": [
+    0
+   ],
+   "page": 10,
+   "ref": "Ch17 Sect 2.1"
+  },
+  {
+   "n": 65,
+   "q": "What does UCITS stands for?",
+   "o": [
+    "Undertakings for the Collection on Investment of Transferable Securities",
+    "Undertakings for the Collective Investing of Transferable Securities",
+    "Undertakings for the Collective Investment of Transferable Securities",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 10,
+   "ref": "Ch13 Sect 1.7"
+  },
+  {
+   "n": 66,
+   "q": "What happens in the event SGX decides that an underlying is no longer suitable for ES contracts?",
+   "o": [
+    "SGX will not list any new ES contract covering that underlying.",
+    "SGX have the discretion to prohibit members from opening, or allowing their customers to open, any new position in the ES contract covering that underlying.",
+    "SGX have the discretion to direct members to take action to offset, or require their customers to offset, any existing positions in the ES contract covering that underlying.",
+    "All of the above"
+   ],
+   "a": [
+    3
+   ],
+   "page": 10,
+   "ref": "Ch18 Sect 4.1"
+  },
+  {
+   "n": 67,
+   "q": "How many type/s of orders for equity CFDs are there in Singapore?",
+   "o": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "a": [
+    0
+   ],
+   "page": 10,
+   "ref": "Ch17 Sect 2.5"
+  },
+  {
+   "n": 68,
+   "q": "What allowable trading activity is the establishment or closure of a position in an ES contract which increases a customer's Maintenance margin requirements?",
+   "o": [
+    "Risk increasing trade",
+    "Risk neutral trade",
+    "risk reducing trade",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 10,
+   "ref": "Ch18 Sect 6.8"
+  },
+  {
+   "n": 69,
+   "q": "What is the process of dividing investments into different kinds of assets such as equities, fixed income, money market, commodities and rel estate?",
+   "o": [
+    "Investment allocation",
+    "Asset allocation",
+    "Property allocation",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 10,
+   "ref": "Ch13 Sect 1.7"
+  },
+  {
+   "n": 70,
+   "q": "Which of the following statement is TRUE?",
+   "o": [
+    "Assets Under Management is the market value of assets that an asset company manages on behalf of its investors.",
+    "Assets Under Management is not regarded as a measure of success in the asset management industry.",
+    "Assets Under Management can decline due to capital appreciation from the fund.",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 10,
+   "ref": "Ch13 Sect 1.7"
+  },
+  {
+   "n": 71,
+   "q": "What is the difference between Structured funds and Trackers?",
+   "o": [
+    "It is expensive to buy and sell trackers than any shares of any single index.",
+    "With trackers, you invest in an index and also in individual companies.",
+    "Trackers does not provide opportunities for hedging.",
+    "Trackers are used to replicate the performance of their benchmark. Structured funds can be used to realize various anticipated market views."
+   ],
+   "a": [
+    3
+   ],
+   "page": 11,
+   "ref": "Ch13 Sect 1.3"
+  },
+  {
+   "n": 72,
+   "q": "Which of the following statement is TRUE?",
+   "o": [
+    "An investor can trade CFDs on thousands of individuals shares listed on the major global exchanges.",
+    "An investor can trade CFDs taking long or short positions in a cost effective manner.",
+    "An investor can trade CFDs with absolute price transparency as the underlying asset is known and observable.",
+    "None of the above."
+   ],
+   "a": [
+    3
+   ],
+   "page": 11,
+   "ref": "Ch17 Sect 3.1"
+  },
+  {
+   "n": 73,
+   "q": "When the stock goes ex - dividend, its price is theoretically supposed to fall by the dividend amount, what happens to the stock price if the sentiment is positive or the stock is rising due to positive momentum?",
+   "o": [
+    "It does not fall by the full amount of the dividend.",
+    "It may get back to its pre - dividend level quickly.",
+    "Both A and B",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 11,
+   "ref": "Ch17 Sect 4.1"
+  },
+  {
+   "n": 74,
+   "q": "If the investor is unable to meet the margin call, the CFD provider will proceed with ___.",
+   "o": [
+    "Transfer",
+    "Liquidation",
+    "Restoration",
+    "Hedging"
+   ],
+   "a": [
+    1
+   ],
+   "page": 11,
+   "ref": "Ch17 Sect 2.3"
+  },
+  {
+   "n": 75,
+   "q": "What takes place when an investor taking a long position in an ES contract has the intention to purchase the underlying shares?",
+   "o": [
+    "The investor is not required to hold the position to maturity.",
+    "The investor may choose to liquidate the position through an offsetting trade in the same ES contract.",
+    "Both A and B",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 11,
+   "ref": "Ch18 Sect 1"
+  },
+  {
+   "n": 76,
+   "q": "In the event that the aggregate exposure of the ETFs to the swap counterparty exceeds ___ , the swap counterparty will be rquired to deliver additional collateral risk exposure remains under the UCITS limit.",
+   "o": [
+    "10 Percent",
+    "15 Percent",
+    "20 Percent",
+    "5 Percent"
+   ],
+   "a": [
+    0
+   ],
+   "page": 11,
+   "ref": "Ch13 Sect 2.6"
+  },
+  {
+   "n": 77,
+   "q": "A contract is known as a single stock futures, if the underlying asset is ___.",
+   "o": [
+    "An index",
+    "An equity security",
+    "A currency",
+    "A commodity"
+   ],
+   "a": [
+    1
+   ],
+   "page": 11,
+   "ref": "Ch15 Sect 3"
+  },
+  {
+   "n": 78,
+   "q": "A barrier option is a type of exotic option in which the payoff depends on the ___ with respect to the underlying asset.",
+   "o": [
+    "barrier level",
+    "initial public offering",
+    "early termination",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 12,
+   "ref": "Ch16 Sect 2"
+  },
+  {
+   "n": 79,
+   "q": "Reverse convertibles and discount certificates are considered ___.",
+   "o": [
+    "high yield products",
+    "performance capped products",
+    "yield enhancement products",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 12,
+   "ref": "Ch14 Sect 3.1"
+  },
+  {
+   "n": 80,
+   "q": "What Swaps are designed to shift credit risk between counterparties?",
+   "o": [
+    "Credit Default Swaps",
+    "Credit Swaps",
+    "Interest Swaps",
+    "Currency Swaps"
+   ],
+   "a": [
+    0
+   ],
+   "page": 12,
+   "ref": "Ch13 Sect 1.1"
+  },
+  {
+   "n": 81,
+   "q": "Which of the following statement is TRUE on the usage of derivatives contracts within a structured fund?",
+   "o": [
+    "Structured funds may invest directly into the underlying asset.",
+    "Structured funds do not gain exposure to the underlying asset directly.",
+    "Structured funds may invest indirectly into the underlying asset.",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 12,
+   "ref": "Ch13 Sect 1.5"
+  },
+  {
+   "n": 82,
+   "q": "How does the cost of hedging drives the spread between the bid/offer of an ETF?",
+   "o": [
+    "It does not use a replication method.",
+    "It reflects how efficiently a market - maker can access the underlying market.",
+    "It creates sufficient shares to meet settlement requirements.",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 12,
+   "ref": "Ch13 Sect 2.7"
+  },
+  {
+   "n": 83,
+   "q": "CFDs were developed in ___ in the early ___ where they were first traded over the counter in the equity swap market.",
+   "o": [
+    "London - 1990",
+    "China - 1992",
+    "Japan - 1993",
+    "Singapore - 1989"
+   ],
+   "a": [
+    0
+   ],
+   "page": 12,
+   "ref": "Ch17 Sect 1.1"
+  },
+  {
+   "n": 84,
+   "q": "Which of the following statement is CORRECT?",
+   "o": [
+    "SGX has set minimum initial margins to be maintenance margins that is, it has prescribed an IM:MM ratio of 1.",
+    "Members are permitted to set higher margin requirements, including a higher IM:MM ratio than that prescribed by SGX.",
+    "Both A and B",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 12,
+   "ref": "Ch18 Sect 4.2"
+  },
+  {
+   "n": 85,
+   "q": "What barrier option category is when the underlying asset moves down and beyond the barrier level for the option to terminate?",
+   "o": [
+    "Up - and - out",
+    "Down - and - out",
+    "Up - and - in",
+    "Down - and in"
+   ],
+   "a": [
+    1
+   ],
+   "page": 13,
+   "ref": "Ch16 Sect 3.3"
+  },
+  {
+   "n": 86,
+   "q": "It is called a Bull contract when the investor takes a ___ position on the underlying asset.",
+   "o": [
+    "Positive",
+    "Negative",
+    "Neutral",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 13,
+   "ref": "Ch16 Sect 4"
+  },
+  {
+   "n": 87,
+   "q": "Which of the following is an advantage of Barrier Options?",
+   "o": [
+    "They are cheaper and require a lower investment amount as compared to standard options.",
+    "Higher returns on capital investment for the investor if barrier conditions are satisfied.",
+    "Greater selection of option products available for investors with diverse market views.",
+    "All of the above"
+   ],
+   "a": [
+    3
+   ],
+   "page": 13,
+   "ref": "Ch16 Sect 3.4"
+  },
+  {
+   "n": 88,
+   "q": "What is the barrier option if the call price is higher than or equal to the strike price?",
+   "o": [
+    "Call barrier option",
+    "Put barrier option",
+    "Double barrier option",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 13,
+   "ref": "Ch16 Sect 3.1"
+  },
+  {
+   "n": 89,
+   "q": "How many days does each ES series have before being rolled over?",
+   "o": [
+    "31",
+    "25",
+    "25",
+    "30"
+   ],
+   "a": [
+    2
+   ],
+   "page": 13,
+   "ref": "Ch18 Sect 4.3"
+  },
+  {
+   "n": 90,
+   "q": "What is used to determine the structured fund's exposure to risky assets?",
+   "o": [
+    "Multiplier",
+    "Cushion",
+    "Leverage",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 13,
+   "ref": "Ch13 Sect 1.6"
+  },
+  {
+   "n": 91,
+   "q": "What is this feature of an ETF that ensures premium/discounts in the secondary market can be corrected through the activities of market participants who are able to subscribe ETF shares in the market.",
+   "o": [
+    "Close - ended feature",
+    "Open - ended feature",
+    "Closed - end feature",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 13,
+   "ref": "Ch13 Sect 2.7"
+  },
+  {
+   "n": 92,
+   "q": "What index represents the most liquid Euro - denominated government bonds with maturities from 5 to 7 years issued by Eurozone governments.",
+   "o": [
+    "Markit iBOXX",
+    "EURO STOXX 50 Index",
+    "Dow Jones - UBS Commodity Excess Return Index",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 14,
+   "ref": "Ch19 Sect 3.1"
+  },
+  {
+   "n": 93,
+   "q": "CBBCs are issued by third party investment banks, what risk is involved in the event the issuer defaults or encounters any difficulties?",
+   "o": [
+    "Limited life",
+    "Counterparty risk",
+    "Mandatory call",
+    "Potential loss of capital"
+   ],
+   "a": [
+    1
+   ],
+   "page": 14,
+   "ref": "Ch16 Sect 5"
+  },
+  {
+   "n": 94,
+   "q": "What is the category of the CBBC when the call price is different from the strike price?",
+   "o": [
+    "N - CBBC",
+    "R - CBBC",
+    "M - CBBC",
+    "P - CBBC"
+   ],
+   "a": [
+    1
+   ],
+   "page": 14,
+   "ref": "Ch16 Sect 4.5"
+  },
+  {
+   "n": 95,
+   "q": "Which of the following product is not available to Retail investors?",
+   "o": [
+    "Equity Linked ETF",
+    "Equity Linked ETN",
+    "Equity Linked ILP",
+    "Equity Linked Structured Note"
+   ],
+   "a": [
+    3
+   ],
+   "page": 14,
+   "ref": "Ch14 Sect 2"
+  },
+  {
+   "n": 96,
+   "q": "Which of the following are terms included on a CFD contract: - (i) Underlying asset (ii) Price of the underlying asset (iii) Number of units of the underlying asset specified (iv) Expiry period (v) Settlement currency",
+   "o": [
+    "I, ii, iii",
+    "I, iii, iv, v",
+    "None of the above",
+    "All of the above"
+   ],
+   "a": [
+    3
+   ],
+   "page": 14,
+   "ref": "Ch17 Sect 1.2"
+  },
+  {
+   "n": 97,
+   "q": "Which country is CFDs not available?",
+   "o": [
+    "Belgium",
+    "Germany",
+    "Ireland",
+    "USA"
+   ],
+   "a": [
+    3
+   ],
+   "page": 14,
+   "ref": "Ch17 Sect 1.1"
+  },
+  {
+   "n": 98,
+   "q": "Investors with long positions in Stock CFDs will ___.",
+   "o": [
+    "have early cancellations.",
+    "receive a dividend credit",
+    "have the amount debited from their account.",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 15,
+   "ref": "Ch17 Sect 2.8"
+  },
+  {
+   "n": 99,
+   "q": "What is used to measure the percentage change in the value of a financial instrument?",
+   "o": [
+    "Lambda",
+    "BPS or basis points",
+    "Omega",
+    "Rho"
+   ],
+   "a": [
+    1
+   ],
+   "page": 15,
+   "ref": "Ch13 Sect 1.5"
+  },
+  {
+   "n": 100,
+   "q": "When is the First Trading Day?",
+   "o": [
+    "every 25th of the month",
+    "on the 25th of the last quarter month.",
+    "25th of the month immediately preceding the contract month.",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 15,
+   "ref": "Ch18 Sect 4"
+  },
+  {
+   "n": 101,
+   "q": "What risk is referred to if the price of the underlying asset bounces back?",
+   "o": [
+    "Gearing effects",
+    "Limited life",
+    "Potential loss of capital",
+    "Mandatory call"
+   ],
+   "a": [
+    3
+   ],
+   "page": 15,
+   "ref": "Ch16 Sect 5"
+  },
+  {
+   "n": 102,
+   "q": "It's called a Bear contract when the investor takes a ___ position on the underlying asset.",
+   "o": [
+    "Positive",
+    "Negative",
+    "Neutral",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 15,
+   "ref": "Ch16 Sect 4"
+  },
+  {
+   "n": 103,
+   "q": "How is the residual value of a Bull contract determined if a mandatory call event occurs?",
+   "o": [
+    "RV = Settlement price - Strike price / Conversion ratio",
+    "RV = Strike price - Settlement price / Conversion ratio",
+    "RV = Settlement price + Strike price / Conversion ratio",
+    "RV = Strike price + Settlement price / Conversion ratio"
+   ],
+   "a": [
+    0
+   ],
+   "page": 15,
+   "ref": "Ch16 Sect 4.7"
+  },
+  {
+   "n": 104,
+   "q": "What allowable trading activity is the establishment of a position in an ES contract which does not impact a customer's Maintenance margin requirements?",
+   "o": [
+    "Risk increasing trade",
+    "Risk neutral trade",
+    "risk reducing trade",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 15,
+   "ref": "Ch18 Sect 6.8"
+  },
+  {
+   "n": 105,
+   "q": "What is the contract size for a Full - sized 10 year Japanese Government Bond Futures?",
+   "o": [
+    "JPY 100,000,000 notional 10 - year JGB with 6 Percent coupon",
+    "JPY 200,000,000 notional 10 - year JGB with 6 Percent coupon",
+    "JPY 100,000,000 notional 10 - year JGB with 5 Percent coupon",
+    "JPY 100,000,000 notional 10 - year JGB with 10 Percent coupon"
+   ],
+   "a": [
+    0
+   ],
+   "page": 15
+  },
+  {
+   "n": 106,
+   "q": "What is the category of the barrier option when the underlying asset moves down and beyond the barrier level for the option to become active?",
+   "o": [
+    "Up - and - out",
+    "Down - and - out",
+    "Up - and - in",
+    "Down - and in"
+   ],
+   "a": [
+    3
+   ],
+   "page": 16,
+   "ref": "Ch16 Sect 3.3"
+  },
+  {
+   "n": 107,
+   "q": "What is the category of the CBBC when the call price is equal from the stike price?",
+   "o": [
+    "N - CBBC",
+    "R - CBBC",
+    "M - CBBC",
+    "P - CBBC"
+   ],
+   "a": [
+    0
+   ],
+   "page": 16,
+   "ref": "Ch16 Sect 4.5"
+  },
+  {
+   "n": 108,
+   "q": "What is the barrier option if the call price is lower than or equal to the strike price?",
+   "o": [
+    "Call barrier option",
+    "Put barrier option",
+    "Double barrier option",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 16,
+   "ref": "Ch16 Sect 3.1"
+  },
+  {
+   "n": 109,
+   "q": "What order is used by traders to cut a losing position at a price worse than the current prevailing price or protect an existing profit once a pre - determined price is traded?",
+   "o": [
+    "Stop - Loss Order",
+    "Stop Entry",
+    "Sell order",
+    "Buy order"
+   ],
+   "a": [
+    0
+   ],
+   "page": 16,
+   "ref": "Ch17 Sect 2.5"
+  },
+  {
+   "n": 110,
+   "q": "Who prescribes the margin requirements for ES contracts in Singapore?",
+   "o": [
+    "CDP",
+    "SGX",
+    "SFA",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 16,
+   "ref": "Ch18 Sect 4"
+  },
+  {
+   "n": 111,
+   "q": "What orders will automatically be generated when specific market conditions are met?",
+   "o": [
+    "Market to Limit orders",
+    "Market orders",
+    "Contingent orders",
+    "Market condition orders"
+   ],
+   "a": [
+    2
+   ],
+   "page": 16,
+   "ref": "Ch17 Sect 2.5"
+  },
+  {
+   "n": 112,
+   "q": "Which of the underlying asset drivers are key variables that would affect the outcome of an Equity Linked Structured Fund and an Equity Linked Structured Note ?",
+   "o": [
+    "Underlying asset price and market conditions.",
+    "Interest rates, price level of asset and volatility.",
+    "Insurance policy and cash value.",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 16,
+   "ref": "Ch14 Sect 2"
+  },
+  {
+   "n": 113,
+   "q": "Which of the following statement is TRUE?",
+   "o": [
+    "CBBCs can be used by investors to hedge market risk.",
+    "An investor may hold assets with a short - term view.",
+    "An investor may want to preserve his investment from market volatility in the long term.",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 17,
+   "ref": "Ch16 Sect 4.4"
+  },
+  {
+   "n": 114,
+   "q": "What investment consideration has some protection for an investor against market downside with 100 Percent of initial investment capital paid out upon early redemption or at maturity?",
+   "o": [
+    "Capital preservation",
+    "Market participation",
+    "Diversified exposure",
+    "Medium term investment"
+   ],
+   "a": [
+    0
+   ],
+   "page": 17,
+   "ref": "Ch19 Sect 3.1"
+  },
+  {
+   "n": 115,
+   "q": "What is referred to as the moneys and market value of assets in a customer's account subject to such hair - cut as specified by SGX.",
+   "o": [
+    "Customer Asset Value",
+    "Net Asset Value",
+    "Assessed Value",
+    "Hair - cut Value"
+   ],
+   "a": [
+    0
+   ],
+   "page": 17,
+   "ref": "Ch18 Sect 6.7"
+  },
+  {
+   "n": 116,
+   "q": "What is the term for traders who look for the most appealing yield differential where they borrow in one country and invest in another country?",
+   "o": [
+    "Carry Traders",
+    "Multi - Yield traders",
+    "Global Traders",
+    "Regional Traders"
+   ],
+   "a": [
+    0
+   ],
+   "page": 17,
+   "ref": "Ch17 Sect 4.2"
+  },
+  {
+   "n": 117,
+   "q": "What CFD business model is referred to when the CFD provider makes a market in CFDs and quotes its own bid - ask price on the underlying asset?",
+   "o": [
+    "Direct Market Access (DMA)",
+    "Market - Maker",
+    "Exchange - Traded CFDs",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 17,
+   "ref": "Ch17 Sect 1.4"
+  },
+  {
+   "n": 118,
+   "q": "What is the Ticker symbol for 3 - month Singapore Dollar Interest Rate Futures?",
+   "o": [
+    "SD",
+    "SG",
+    "SB",
+    "SC"
+   ],
+   "a": [
+    0
+   ],
+   "page": 17
+  },
+  {
+   "n": 119,
+   "q": "The closer the strike price to the spot price of a CBBC's underlying asset, the ___ will be the gearing ratio of the CBBC.",
+   "o": [
+    "Higher",
+    "Lower",
+    "Closer",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 17,
+   "ref": "Ch16 Sect 4.3"
+  },
+  {
+   "n": 120,
+   "q": "What are the two major types of structured funds when financial techniques are involved?",
+   "o": [
+    "Those which are based on the value of the underlying asset and those which are based on maturity dates.",
+    "Those which are based on parameters and those which are based on market rates",
+    "Those which are based on indices and those which are based on instruments.",
+    "Those which are based on derivatives and those which are based on techniques derived from portfolio insurance."
+   ],
+   "a": [
+    3
+   ],
+   "page": 18,
+   "ref": "Ch13 Sect 1.6"
+  },
+  {
+   "n": 121,
+   "q": "What barrier option is ideal for speculating small moves in a sideways market?",
+   "o": [
+    "Knock - in",
+    "Knock - out",
+    "Both A and B",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 18,
+   "ref": "Ch16 Sect 3.4"
+  },
+  {
+   "n": 122,
+   "q": "What is the portion of the structured fund",
+   "o": [
+    "Leverage",
+    "Multiplier",
+    "Cushion",
+    "None of the above"
+   ],
+   "a": [
+    2
+   ],
+   "page": 18,
+   "ref": "Ch13 Sect 1.6"
+  },
+  {
+   "n": 123,
+   "q": "If the market for the underlying asset suffers from poor liquidity, the issuer's ___ will rise and this in turn affects the price and trading liquidity of the CBBC.",
+   "o": [
+    "hedging cost",
+    "price",
+    "position",
+    "asset"
+   ],
+   "a": [
+    0
+   ],
+   "page": 18,
+   "ref": "Ch16 Sect 4.6"
+  },
+  {
+   "n": 124,
+   "q": "What happens in the event of a corporate action such as bonus issues, rights issues, share splits and reverse share splits if the CBBC is based on a stock related asset class?",
+   "o": [
+    "An adjustment is made",
+    "No action is needed",
+    "There will be pre - termination",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 18,
+   "ref": "Ch16 Sect 4.9"
+  },
+  {
+   "n": 125,
+   "q": "What product is available to Retail investors wherein some funds with derivatives are being offered as units trusts?",
+   "o": [
+    "Equity Linked Structured Fund",
+    "Equity Linked Structured Note",
+    "Equity Linked ETF",
+    "Equity Linked ILP"
+   ],
+   "a": [
+    0
+   ],
+   "page": 18,
+   "ref": "Ch14 Sect 2"
+  },
+  {
+   "n": 126,
+   "q": "What is the gearing if the share price is $2.40, the warrant price is $0.40 and the exercise price is $0.80?",
+   "o": [
+    "3x",
+    "5x",
+    "2x",
+    "6x"
+   ],
+   "a": [
+    3
+   ],
+   "page": 18,
+   "ref": "Ch16 Sect 4.3"
+  },
+  {
+   "n": 127,
+   "q": "How often will SGX conduct periodic reviews to select securities with sufficient liquidity to qualify as underlying for ES contracts?",
+   "o": [
+    "6 months",
+    "5 months",
+    "4 months",
+    "3 months"
+   ],
+   "a": [
+    0
+   ],
+   "page": 19,
+   "ref": "Ch18 Sect 4.1"
+  },
+  {
+   "n": 128,
+   "q": "What type of investors trade ES contracts for capital gains with the benefit of leverage as well as extended period of settlement?",
+   "o": [
+    "Hedgers",
+    "Speculative Investors",
+    "Arbitrageurs",
+    "None of the above"
+   ],
+   "a": [
+    1
+   ],
+   "page": 19,
+   "ref": "Ch18 Sect 2"
+  },
+  {
+   "n": 129,
+   "q": "What trading strategy is designed to ensure that fixed minimum return is achieved either at all times or at a set date in the future?",
+   "o": [
+    "Constant Proportion Portfolio Insurance",
+    "NAV Structuring",
+    "Constant Portfolio Proportion Insurance",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "page": 19,
+   "ref": "Ch13 Sect 1.7"
+  },
+  {
+   "n": 130,
+   "q": "What market factor may affect the pricing of a Callable Bull/Bear Contract?",
+   "o": [
+    "Liquidity of underlying asset",
+    "Demand and supply factors",
+    "Issuer factors",
+    "All of the above"
+   ],
+   "a": [
+    3
+   ],
+   "page": 19,
+   "ref": "Ch16 Sect 4.6"
+  }
+ ]
+}
