@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RES 1B Chapter 5</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1b1f24;--mut:#6b7280;--line:#e3e6ea;--acc:#2563eb;
+--ok:#16a34a;--okbg:#eaf7ef;--no:#dc2626;--nobg:#fdeeee}
+@media (prefers-color-scheme:dark){:root{--bg:#14171a;--card:#1c2024;--ink:#e8eaed;--mut:#9aa3ad;
+--line:#2c3238;--okbg:#14301f;--nobg:#331717}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:24px 18px 80px}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--mut);font-size:14px;margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:10px}
+.setbtn{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;text-align:left;cursor:pointer;font:inherit;color:inherit}
+.setbtn:hover{border-color:var(--acc)}
+.setbtn b{display:block;font-size:15px}
+.setbtn span{color:var(--mut);font-size:13px}
+.rand{background:var(--acc);border-color:var(--acc);color:#fff}.rand span{color:#dbe6ff}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);
+margin:0 -18px 20px;padding:12px 18px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.bar h2{font-size:16px;margin:0;flex:1}
+.pill{font-size:13px;color:var(--mut);white-space:nowrap}.pill b{color:var(--ink)}
+button.lnk{background:none;border:0;color:var(--acc);font:inherit;cursor:pointer;padding:0}
+.q{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:14px}
+.qn{color:var(--mut);font-size:13px;margin-bottom:6px}
+.qt{font-weight:600;margin-bottom:12px;white-space:pre-wrap}
+.opt{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:8px;
+padding:9px 12px;margin-bottom:7px;cursor:pointer;background:var(--card)}
+.opt:hover{border-color:#9aa3ad}
+.opt.sel{border-color:var(--acc);box-shadow:inset 0 0 0 1px var(--acc)}
+.opt .k{font-weight:600;color:var(--mut);min-width:16px}
+.opt.correct{background:var(--okbg);border-color:var(--ok)}
+.opt.wrong{background:var(--nobg);border-color:var(--no)}
+.opt.correct .k{color:var(--ok)}.opt.wrong .k{color:var(--no)}
+.done .opt{cursor:default}
+.note{font-size:13px;color:var(--mut);margin-top:8px}
+.expl{margin-top:12px;padding:12px 14px;border-left:3px solid var(--acc);background:rgba(37,99,235,.05);
+border-radius:0 8px 8px 0;font-size:14px;line-height:1.6;white-space:pre-wrap}
+.expl .ref{display:block;color:var(--mut);font-size:12px;margin-bottom:6px;font-weight:600}
+.res{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;text-align:center}
+.res .score{font-size:34px;font-weight:700}
+.foot{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap}
+.btn{background:var(--acc);color:#fff;border:0;border-radius:8px;padding:10px 16px;font:inherit;cursor:pointer}
+.btn.sec{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+</style></head><body><div class="wrap" id="app"></div>
+<script>
+const DATA = [{"n":1,"q":"Sophia and Michael are considering opening a joint investment account at Sterling Securities. They have different investment experiences and risk tolerances, with Sophia being more conservative and Michael more aggressive. They approach Karen, their securities dealing representative, for advice on how to structure their joint account to meet their individual investment needs.\n\nHow should Karen advise Sophia and Michael regarding their joint account?","o":["Suggest splitting the account into two separate accounts to cater to their individual investment needs.","Recommend a compromise investment strategy that averages their risk tolerances.","Advise them to open a joint account but with clear documentation on how decisions will be made.","Encourage them to adopt Michael's aggressive investment strategy to maximize potential returns."],"a":[0,2],"e":"(A) and (C) are correct because suggesting separate accounts allows for tailored investment strategies that match each individual's risk tolerance, and advising on a joint account with clear decision-making documentation ensures both parties' interests and concerns are addressed. (B) and (D) are incorrect as they could lead to dissatisfaction or potential disputes by not fully respecting each individual's investment preferences and risk tolerances.","multi":true},{"n":2,"q":"Sarah, a compliance officer at Elite Investments, is reviewing the firm's risk management policies and internal controls. She aims to ensure that the firm's operations are in line with regulatory requirements and that significant risks arising from their operations are prudently managed.\n\nWhat key practices should Sarah focus on to enhance the firm's risk management and internal controls?","o":["Implement comprehensive policies for prudent management of significant operational risks.","Rely solely on external audits to identify and mitigate risks.","Assume that existing policies are sufficient and require no updates or reviews.","Establish a strong ethical corporate culture through a comprehensive code of conduct."],"a":[0,3],"e":"(A) and (D) are correct because implementing comprehensive risk management policies and establishing a strong ethical corporate culture through a code of conduct are crucial practices for managing operational risks and ensuring compliance with regulatory requirements. (B) and (C) are incorrect as relying solely on external audits and assuming existing policies require no updates do not proactively address risk management and internal control enhancement.","multi":true},{"n":3,"q":"Maria, a securities dealing representative at NextGen Brokers, is executing a large order for a client in a highly volatile stock. Maria aims to achieve the best execution for her client, considering the current market conditions.\n\nWhat factors should Maria consider to ensure she provides the best execution for her client's order?","o":["The speed and likelihood of execution given the stock's volatility.","The potential for price improvement and the overall cost of the transaction.","The size of the order and its impact on the market.","The client's specific instructions for executing the order at the highest possible price."],"a":[0,1,2],"e":"(A), (B), and (C) are correct because considering the speed and likelihood of execution, potential for price improvement, and the size of the order are all critical factors in achieving the best execution, especially in volatile market conditions. (D) is incorrect as executing the order at the highest possible price may not align with the principles of best execution, which includes a holistic consideration of various factors.","multi":true},{"n":4,"q":"James, a securities dealing representative at Global Investments, is conducting a risk profiling for Connor, a potential client. Connor is interested in aggressive investment strategies but has limited experience in trading and investing. James needs to ensure that any products recommended are suitable for Connor.\n\nWhat information is crucial for James to gather during the risk profiling process?","o":["Connor's educational qualifications and work experiences.","Connor's financial objectives and whether he seeks capital investment, preservation, or appreciation.","Connor's experience in trading and investing and the type of products he intends to invest in.","Connor's favorite hobbies, as they might indirectly indicate his risk tolerance."],"a":[0,1,2],"e":"(A), (B), and (C) are correct because gathering information about Connor's background, financial objectives, and investment experience is essential for determining the suitability of aggressive investment strategies. (D) is incorrect as personal preferences like favorite hobbies are irrelevant to financial risk profiling.","multi":true},{"n":5,"q":"During the on-boarding process for a new client, Sarah, a securities dealing representative at Apex Financial, is determining whether to perform simplified customer due diligence (CDD) or enhanced customer due diligence (EDD). The client is a high-net-worth individual with no political affiliations but plans to invest in high-risk business activities.\n\nWhat should Sarah consider when deciding between simplified CDD and EDD for her new client?","o":["The client's high-net-worth status and lack of political affiliations.","The high-risk business activities the client plans to invest in.","The potential for the client to be classified as a politically exposed person (PEP) in the future.","The client's clear investment objectives and risk appetite."],"a":[1,2],"e":"(B) and (C) are correct because the high-risk business activities necessitate EDD, and the potential future classification as a PEP could affect the risk assessment. (A) and (D) are incorrect as high-net-worth status and clear investment objectives do not negate the need for EDD in the presence of high-risk factors.","multi":true},{"n":6,"q":"Linda, a portfolio manager at Global Asset Management, is reviewing a request for a margin trading account from a new client. The client has a high-risk tolerance but limited trading experience. Linda is aware of the risks associated with extending credit for margin trading, especially in volatile markets.\n\nWhat considerations should Linda make to manage credit risk effectively in this situation?","o":["Automatically approve the margin account based on the client's high-risk tolerance.","Assess the client's financial capacity, trading experience, and understanding of margin trading risks.","Set a high credit limit to encourage the client to trade more actively.","Monitor the account closely, ensuring the client's positions remain within acceptable margin levels."],"a":[1,3],"e":"(B) and (D) are correct because assessing the client's financial capacity and trading experience before approving a margin account and closely monitoring the account to ensure compliance with margin requirements are prudent practices for managing credit risk. (A) and (C) are incorrect as they do not adequately address the risks associated with margin trading, especially for a client with limited experience.","multi":true},{"n":7,"q":"John, a portfolio manager at Secure Capital Management, is considering extending credit to a new client for margin trading. He understands the importance of assessing the client's financial capacity and the risks associated with credit extension.\n\nWhat factors should John consider to effectively manage credit risk when extending credit for margin trading?","o":["Extend credit based solely on the client's assurance of repayment.","Assess the client's financial position, repayment ability, and credit record.","Automatically extend the maximum credit line to all new clients to attract more business.","Monitor the value of collateral and the client's portfolio to ensure it remains within agreed margin levels."],"a":[1,3],"e":"(B) and (D) are correct because assessing the client's financial position and monitoring the value of collateral are crucial steps in managing credit risk effectively when extending credit for margin trading. (A) and (C) are incorrect as they do not involve a thorough risk assessment and could lead to significant financial losses for both the firm and the client.","multi":true},{"n":8,"q":"Emma, a securities dealing representative at Dynamic Wealth Management, is preparing to recommend a new capital markets product to her clients. She knows that it's crucial to match the product's risk with her clients' individual risk profiles. One of her clients, Mr. Lee, is particularly conservative and is primarily interested in capital preservation. However, Emma believes the new product, despite being slightly riskier, could offer Mr. Lee better returns than his current investments.\n\nWhat should Emma do to ensure her recommendations align with regulatory requirements and Mr. Lee's best interests?","o":["Recommend the product to Mr. Lee, emphasizing the potential for higher returns.","Conduct a thorough reassessment of Mr. Lee's risk profile and financial objectives before making any recommendations.","Avoid recommending the product to Mr. Lee, sticking strictly to low-risk investments.","Provide Mr. Lee with detailed information about the product, including potential risks and rewards, and seek his informed consent before proceeding."],"a":[1,3],"e":"(B) and (D) are correct because conducting a thorough reassessment of Mr. Lee's risk profile ensures that any recommendation made is suitable, and providing detailed information about the product allows Mr. Lee to make an informed decision based on a clear understanding of the potential risks and rewards. (A) and (C) are incorrect as they either disregard Mr. Lee's conservative risk profile or potentially miss an opportunity for Mr. Lee to consider a product that might align with his financial objectives after a thorough discussion.","multi":true},{"n":9,"q":"Emily, a portfolio manager at Elite Wealth Management, is assessing a client's request for a substantial increase in their credit line for margin trading. Emily is aware of the increased credit risk associated with margin trading, especially for clients with aggressive investment strategies.\n\nWhat factors should Emily consider to manage credit risk effectively when assessing the client's request for an increased credit line?","o":["Grant the increase based on the client's past investment success.","Evaluate the client's current financial situation, investment experience, and ability to meet potential margin calls.","Set an arbitrarily high credit limit to encourage more trading activity.","Regularly monitor the client's positions and margin levels to ensure they remain within the agreed limits."],"a":[1,3],"e":"(B) and (D) are correct because evaluating the client's financial situation and investment experience before approving an increase in the credit line and regularly monitoring the client's positions to ensure compliance with margin requirements are prudent practices for managing credit risk. (A) and (C) are incorrect as they do not adequately address the risks associated with margin trading and could lead to significant financial losses for both the firm and the client.","multi":true},{"n":10,"q":"Michael, a securities dealing representative at Premier Investment Services, is setting up an account for a personal investment holding company owned by a new client. The client intends to use the company structure for estate planning purposes and to invest in a diversified portfolio.\n\nWhat steps should Michael take to ensure the account setup aligns with the client's objectives and complies with regulatory requirements?","o":["Assume the company's structure is straightforward and requires no further investigation.","Obtain and review the company's incorporation documents and investment mandate.","Set up the account with a generic investment profile suitable for most companies.","Consult with the firm's legal department to understand the implications of the company's structure on account management."],"a":[1,3],"e":"(B) and (D) are correct because obtaining and reviewing the company's incorporation documents and investment mandate ensures that the account setup aligns with the client's objectives, and consulting with the firm's legal department helps comply with regulatory requirements considering the company's structure. (A) and (C) are incorrect as they do not adequately address the need for due diligence and customization based on the company's specific objectives and structure.","multi":true},{"n":11,"q":"Caroline, a securities dealing representative at Trust Financial, is in the process of setting up a trust account for a client who wishes to manage wealth for future generations. The trust deed outlines specific investment guidelines and restrictions. Caroline knows that understanding and adhering to these guidelines is crucial for the proper management of the trust account.\n\nWhat steps should Caroline take to ensure the trust account is managed according to the trust deed?","o":["Assume the trust deed's guidelines are similar to those of other trust accounts she has managed.","Obtain and thoroughly review the trust deed to understand the specific investment guidelines and restrictions.","Set up the account with a generic investment strategy that she believes fits most trusts.","Consult with the firm's legal department to ensure her understanding of the trust deed aligns with legal requirements."],"a":[1,3],"e":"(B) and (D) are correct because obtaining and thoroughly reviewing the trust deed and consulting with the firm's legal department ensure that Caroline fully understands and adheres to the specific investment guidelines and restrictions outlined in the trust deed. This approach ensures the trust account is managed in accordance with the settlor's wishes and legal requirements. (A) and (C) are incorrect as they do not ensure the trust account's management aligns with the specific guidelines and restrictions outlined in the trust deed.","multi":true},{"n":12,"q":"During a market downturn, Marcus, a securities dealing representative at Prime Financial Advisors, faces numerous inquiries from worried clients about their investment portfolios. Marcus understands the importance of maintaining professionalism and clear communication during these times.\n\nWhat practices should Marcus follow to ensure effective and professional communication with his clients?","o":["Provide generic reassurances to all clients without addressing specific concerns.","Communicate proactively with clients, offering clear and honest assessments of their portfolios.","Avoid discussing potential losses to prevent further panic among clients.","Schedule individual meetings with clients to discuss their concerns and potential adjustments to their portfolios."],"a":[1,3],"e":"(B) and (D) are correct because proactively communicating with clients and offering honest assessments, along with scheduling individual meetings, demonstrate professionalism and a commitment to addressing clients' concerns effectively. (A) and (C) are incorrect as they either offer insufficient support during a critical time or avoid necessary discussions about the market's impact on clients' investments.","multi":true},{"n":13,"q":"Daniel, a securities dealing representative at HighMark Investments, is keen on building strong, trust-based relationships with his clients. He understands that trust is foundational to successful client relationships and is looking for ways to demonstrate his commitment to his clients' best interests.\n\nWhat actions should Daniel take to build and maintain trust with his clients?","o":["Only communicate with clients when there are significant changes in their investment portfolios.","Keep updated on market trends and regulatory changes to provide informed and timely advice.","Recommend products that offer the highest commissions to maximize his earnings.","Ensure transparent communication about the potential risks and rewards of recommended investments."],"a":[1,3],"e":"(B) and (D) are correct because staying informed about market trends and regulatory changes and ensuring transparent communication about the risks and rewards of investments demonstrate Daniel's commitment to his clients' best interests, which is essential for building trust. (A) and (C) are incorrect as limited communication and prioritizing personal earnings over clients' best interests can erode trust.","multi":true},{"n":14,"q":"Linda, a securities dealing representative at Premier Wealth Management, is on-boarding a new client, a corporation with net assets exceeding S$10 million. Linda needs to categorize this client correctly according to the investor categories defined under the SFA and FAA.\n\nBased on the provided information, how may Linda categorize her new client?","o":["As a Retail Investor because the corporation is new to Linda's firm.","As an Accredited Investor due to the corporation's net assets exceeding S$10 million.","As an Institutional Investor because the corporation's primary business is not investment-related.","As an Expert Investor, assuming the corporation's business involves capital markets products."],"a":[1],"e":"(B) is correct because a corporation with net assets exceeding S$10 million qualifies as an Accredited Investor under the definitions provided in the SFA and FAA. (A), (C), and (D) are incorrect as they do not align with the specific criteria for categorizing investors based on net assets."},{"n":15,"q":"During a volatile trading day, Sarah, a securities dealing representative at FastTrack Securities, receives a large order from a client to buy a stock that has been experiencing rapid price changes. Sarah aims to achieve the best execution for her client, considering the current market conditions.\n\nWhat factors should Sarah consider to ensure she provides the best execution for her client's order?","o":["Execute the order at the beginning of the trading day to avoid intraday volatility.","Consider the speed of execution and the likelihood of completing the order at a favorable price.","Place the entire order at once to minimize the impact on the market price.","Ignore the client's specific instructions to achieve a faster execution."],"a":[1],"e":"(B) is correct because considering the speed of execution and the likelihood of completing the order at a favorable price are critical factors in achieving the best execution, especially in volatile market conditions. (A), (C), and (D) are incorrect as they either do not consider the best timing for execution, potentially exacerbate market impact, or disregard the client's specific instructions."},{"n":16,"q":"Michael, a securities dealing representative at TrustLine Securities, is setting up a trust account for a new client. The client wants to ensure that their assets are managed according to specific instructions outlined in their trust deed. Michael understands the importance of accurately capturing the powers of the trustee and the objectives of the trust.\n\nWhat steps should Michael take to ensure the trust account is set up correctly?","o":["Assume the trust deed's instructions are similar to those of other trust accounts he has managed.","Obtain and review a copy of the trust deed to understand the trustee's powers and the trust's objectives.","Set up the account based on verbal instructions from the client without reviewing the trust deed.","Limit the account's investment options to low-risk assets to avoid potential disputes."],"a":[1],"e":"(B) is correct because obtaining and reviewing a copy of the trust deed to understand the trustee's powers and the trust's objectives ensures that the trust account is set up in accordance with the client's specific instructions and legal requirements. (A), (C), and (D) are incorrect as they either make assumptions without verifying the trust deed, fail to capture the trust's specific instructions, or unnecessarily limit investment options without considering the trust's objectives."},{"n":17,"q":"Linda, a securities dealing representative at TrustLine Advisors, is conducting a periodic review of her clients' accounts. She notices that several clients have experienced significant changes in their financial situations since their last review. Linda understands the importance of keeping client information up-to-date for effective investment advising.\n\nWhat actions should Linda take to ensure her clients' accounts reflect their current financial situations?","o":["Wait for clients to report changes in their financial situations during their next scheduled meeting.","Proactively contact each client to review and update their financial information and investment objectives.","Assume that minor financial changes do not affect the overall investment strategy and proceed without updates.","Update the clients' risk profiles based on general economic trends without individual consultations."],"a":[1],"e":"(B) is correct because proactively contacting clients to review and update their financial information and investment objectives ensures that investment advice remains suitable and aligns with their current financial situations. (A), (C), and (D) are incorrect as they either delay necessary updates, underestimate the impact of financial changes, or fail to provide personalized advice based on actual client information."},{"n":18,"q":"During a routine compliance check, Kevin, a securities dealing representative at Secure Capital, discovers that the documentation for several clients' risk profiles and investment objectives has not been updated in over two years. Kevin knows the importance of maintaining up-to-date records for compliance and client satisfaction.\n\nWhat actions should Kevin take to ensure compliance with documentation and record-keeping requirements?","o":["Ignore the outdated documentation assuming no significant changes have occurred in the clients' situations.","Immediately contact the clients to update their information and document any changes in their risk profiles and investment objectives.","Wait for the clients to initiate contact before updating their records.","Only update the records of clients who have actively complained about their investment performance."],"a":[1],"e":"(B) is correct because proactively contacting clients to update their information and documenting any changes ensures compliance with documentation and record-keeping requirements, aligning with best practices for client relationship management. (A), (C), and (D) are incorrect as they neglect the importance of maintaining current and accurate client records."},{"n":19,"q":"Tom, a securities dealing representative at Quantum Financial, is advising a client who is interested in diversifying their investment portfolio. The client has a moderate risk tolerance and is looking for steady long-term growth. Tom is considering various asset classes and geographies to recommend.\n\nWhat should Tom ensure when presenting his investment and trading strategy to the client?","o":["Recommend only high-risk assets to maximize potential returns.","Clearly communicate the rationale for each recommended asset class and geography, including risks and expected returns.","Focus solely on domestic investments to avoid the complexities of international markets.","Avoid discussing the potential risks associated with each recommended investment to maintain client confidence."],"a":[1],"e":"(B) is correct because providing a clear rationale for each recommended asset class and geography, including an explanation of risks and expected returns, ensures that the client can make informed decisions that align with their risk tolerance and financial goals. (A), (C), and (D) are incorrect as they either ignore the client's moderate risk tolerance, limit diversification potential, or fail to provide a comprehensive view of the investments."},{"n":20,"q":"Emily, a securities dealing representative at Dynamic Financial Solutions, is working on strengthening her relationship with her clients. She understands that trust is key to building strong client relationships and is considering various ways to demonstrate her competence, diligence, and respect for her clients' wishes.\n\nWhat actions should Emily take to build trust with her clients?","o":["Only communicate with clients when there are significant gains in their portfolios.","Keep updated on rules and regulations to provide informed advice and follow up with documentation.","Recommend products with the highest commissions to maximize her earnings.","Avoid discussing any losses or potential risks to keep the client's confidence high."],"a":[1],"e":"(B) is correct because staying informed about rules and regulations, providing sound advice, and following up with proper documentation demonstrate competence, diligence, and respect, which are essential for building trust with clients. (A), (C), and (D) are incorrect as they either limit communication, prioritize personal gain over client interests, or fail to provide a comprehensive and honest overview of the investments."},{"n":21,"q":"Alex, a securities dealing representative at Global Wealth Partners, is onboarding a new client who is a high-ranking official in a foreign government. Alex understands the importance of categorizing clients correctly to comply with anti-money laundering (AML) and countering the financing of terrorism (CFT) regulations.\n\nWhat steps should Alex take to ensure compliance with AML and CFT regulations in categorizing this new client?","o":["Perform simplified customer due diligence (CDD) assuming that high-ranking officials pose a low risk.","Automatically categorize the client as a retail investor to simplify the onboarding process.","Conduct enhanced customer due diligence (EDD) due to the client's politically exposed person (PEP) status.","Avoid asking sensitive questions to maintain a good relationship with the client."],"a":[2],"e":"(C) is correct because conducting enhanced customer due diligence (EDD) is necessary for clients who are politically exposed persons (PEPs), their family members, and close associates, to comply with AML and CFT regulations. (A), (B), and (D) are incorrect as they do not adequately address the specific requirements for categorizing and conducting due diligence on PEPs."}];
+const TITLE = "RES 1B Chapter 5";
+const SIZE = 21;
+const MODE = "instant";          // "instant" | "submit"
+const SHUFFLE = false;
+const L = ['a','b','c','d','e','f'];
+const app = document.getElementById('app');
+let state = null;
+
+function esc(s){return String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+function shuffled(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function home(){
+  state=null;
+  const sets=[];
+  for(let i=0;i<DATA.length;i+=SIZE) sets.push([i,Math.min(i+SIZE,DATA.length)]);
+  app.innerHTML = `<h1>${esc(TITLE)}</h1>
+  <p class="sub">${DATA.length} questions &middot; ${sets.length} practice sets of up to ${SIZE}.</p>
+  <div class="grid">
+    <button class="setbtn rand" data-r="1"><b>Random ${Math.min(SIZE,DATA.length)}</b><span>Drawn from all ${DATA.length}</span></button>
+    ${sets.map((s,i)=>`<button class="setbtn" data-i="${i}"><b>Set ${i+1}</b><span>Q${DATA[s[0]].n}&ndash;Q${DATA[s[1]-1].n} &middot; ${s[1]-s[0]} questions</span></button>`).join('')}
+  </div>`;
+  app.querySelectorAll('.setbtn').forEach(b=>b.onclick=()=>{
+    if(b.dataset.r){
+      const idx=shuffled(DATA.map((_,i)=>i)).slice(0,SIZE);
+      start(idx,'Random '+idx.length);
+    } else {
+      const s=sets[+b.dataset.i], idx=[];
+      for(let k=s[0];k<s[1];k++) idx.push(k);
+      start(SHUFFLE?shuffled(idx):idx,'Set '+(+b.dataset.i+1));
+    }
+  });
+}
+
+function start(idx,title){
+  state={idx,title,picked:new Array(idx.length).fill(null),multi:{},locked:{},
+         right:0,answered:0,graded:MODE!=='submit'};
+  render();
+}
+
+function render(){
+  const {idx,title}=state;
+  app.innerHTML = `<div class="bar"><h2>${esc(title)}</h2>
+    <span class="pill">Answered <b id="ans">0</b>/${idx.length}</span>
+    ${MODE==='submit'?'':'<span class="pill">Score <b id="scr">0</b></span>'}
+    <button class="lnk" id="back">&larr; All sets</button></div>
+    <div id="qs"></div>
+    ${MODE==='submit'?'<div class="foot"><button class="btn" id="grade" disabled>Submit answers</button></div>':''}
+    <div id="end"></div>`;
+  document.getElementById('back').onclick=home;
+  const box=document.getElementById('qs');
+  idx.forEach((qi,pos)=>{
+    const q=DATA[qi];
+    const el=document.createElement('div'); el.className='q'; el.id='q'+pos;
+    el.innerHTML = `<div class="qn">Question ${pos+1} &middot; source Q${q.n}</div>
+      <div class="qt">${esc(q.q)}</div>
+      ${q.multi?`<div class="note" style="margin:0 0 8px">Select all that apply &mdash; ${q.a.length} of ${q.o.length} are correct.</div>`:''}
+      ${q.o.map((t,i)=>`<div class="opt" data-i="${i}"><span class="k">${q.multi?'&#9744;':L[i]+'.'}</span><span>${esc(t)}</span></div>`).join('')}
+      ${(!q.multi&&q.a.length>1)?`<div class="note">The source marks ${q.a.map(i=>L[i]).join(' and ')} as correct &mdash; either is accepted.</div>`:''}
+      ${q.multi?`<div class="foot" style="justify-content:flex-start"><button class="btn sec" data-check="${pos}">Check answer</button></div>`:''}
+      ${q.a.length===0?`<div class="note">No answer recorded for this question in the source.</div>`:''}
+      ${(q.e||q.ref)?`<div class="expl" id="e${pos}" style="display:none">${q.ref?`<span class="ref">${esc(q.ref)}</span>`:''}${esc(q.e||'')}</div>`:''}`;
+    el.querySelectorAll('.opt').forEach(o=>o.onclick=()=>pick(el,pos,qi,+o.dataset.i));
+    const cb=el.querySelector('[data-check]'); if(cb) cb.onclick=()=>gradeMulti(pos);
+    box.appendChild(el);
+  });
+  if(MODE==='submit') document.getElementById('grade').onclick=gradeAll;
+  window.scrollTo(0,0);
+}
+
+function pick(el,pos,qi,choice){
+  const q=DATA[qi];
+  if(q.multi){
+    if(state.locked[pos]) return;
+    const sel=state.multi[pos]=state.multi[pos]||new Set();
+    sel.has(choice)?sel.delete(choice):sel.add(choice);
+    el.querySelectorAll('.opt').forEach(o=>o.classList.toggle('sel',sel.has(+o.dataset.i)));
+    return;
+  }
+  if(state.graded && state.picked[pos]!==null) return;
+  const first=state.picked[pos]===null;
+  state.picked[pos]=choice;
+  if(first) state.answered++;
+  document.getElementById('ans').textContent=state.answered;
+
+  if(MODE==='submit'){
+    el.querySelectorAll('.opt').forEach(o=>o.classList.toggle('sel',+o.dataset.i===choice));
+    const g=document.getElementById('grade');
+    if(g) g.disabled = state.answered<state.idx.length;
+    return;
+  }
+  if(q.a.includes(choice)) state.right++;
+  el.classList.add('done');
+  el.querySelectorAll('.opt').forEach(o=>{
+    const i=+o.dataset.i;
+    if(q.a.includes(i)) o.classList.add('correct');
+    else if(i===choice) o.classList.add('wrong');
+  });
+  document.getElementById('scr').textContent=state.right;
+  const ex=document.getElementById('e'+pos); if(ex) ex.style.display='block';
+  if(state.answered===state.idx.length) finish();
+}
+
+function gradeMulti(pos){
+  const qi=state.idx[pos], q=DATA[qi], el=document.getElementById('q'+pos);
+  if(state.locked[pos]) return;
+  const sel=state.multi[pos]||new Set();
+  if(!sel.size) return;
+  state.locked[pos]=true; state.answered++;
+  // Select-all-that-apply is only right if the chosen set matches exactly;
+  // crediting a partial selection would teach the wrong thing.
+  const ok = sel.size===q.a.length && q.a.every(i=>sel.has(i));
+  if(ok) state.right++;
+  el.classList.add('done');
+  el.querySelectorAll('.opt').forEach(o=>{
+    const i=+o.dataset.i; o.classList.remove('sel');
+    if(q.a.includes(i)) o.classList.add('correct');
+    else if(sel.has(i)) o.classList.add('wrong');
+  });
+  const b=el.querySelector('[data-check]'); if(b) b.remove();
+  const ex=document.getElementById('e'+pos); if(ex) ex.style.display='block';
+  const a=document.getElementById('ans'); if(a) a.textContent=state.answered;
+  const s=document.getElementById('scr'); if(s) s.textContent=state.right;
+  if(state.answered===state.idx.length) finish();
+}
+
+function gradeAll(){
+  state.right=0;
+  state.idx.forEach((qi,pos)=>{
+    const q=DATA[qi], el=document.getElementById('q'+pos), choice=state.picked[pos];
+    if(q.a.includes(choice)) state.right++;
+    el.classList.add('done');
+    el.querySelectorAll('.opt').forEach(o=>{
+      const i=+o.dataset.i;
+      o.classList.remove('sel');
+      if(q.a.includes(i)) o.classList.add('correct');
+      else if(i===choice) o.classList.add('wrong');
+    });
+    const ex=document.getElementById('e'+pos); if(ex) ex.style.display='block';
+  });
+  const g=document.getElementById('grade'); if(g) g.remove();
+  finish();
+}
+
+function finish(){
+  const n=state.idx.length, r=state.right, pct=Math.round(r/n*100);
+  const wrong=state.idx.map((qi,pos)=>[qi,pos]).filter(([qi,pos])=>!DATA[qi].a.includes(state.picked[pos]));
+  const end=document.getElementById('end');
+  end.innerHTML=`<div class="res"><div class="score">${r} / ${n}</div>
+    <div class="sub">${pct}% correct${wrong.length?` &middot; missed Q${wrong.map(([qi])=>DATA[qi].n).join(', Q')}`:''}</div>
+    <div class="foot"><button class="btn" id="again">Retry this set</button>
+    ${wrong.length?'<button class="btn sec" id="onlywrong">Retry missed only</button>':''}
+    <button class="btn sec" id="home2">All sets</button></div></div>`;
+  document.getElementById('again').onclick=()=>start(state.idx,state.title);
+  const ow=document.getElementById('onlywrong');
+  if(ow) ow.onclick=()=>start(wrong.map(([qi])=>qi), state.title+' (missed)');
+  document.getElementById('home2').onclick=home;
+  end.scrollIntoView({behavior:'smooth'});
+}
+
+home();
+</script></body></html>

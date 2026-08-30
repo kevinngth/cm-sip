@@ -1,0 +1,1224 @@
+{
+ "title": "RES 1B Chapter 3",
+ "source": "RES1B Chapter 3.pdf",
+ "answer_source": "ticked options in the CMFAS Academy app, cross-checked against each question's explanation",
+ "questions": [
+  {
+   "n": 1,
+   "page": 1,
+   "q": "Which of the following forms of collateral are allowed for securities borrowing and lending?",
+   "o": [
+    "Residential real estate property.",
+    "Guarantee issued by banks licensed under the Banking Act.",
+    "Letter of credit.",
+    "Commercial real estate property."
+   ],
+   "a": [
+    1,
+    2
+   ],
+   "multi": true,
+   "e": "(SFR (LCB) - July 2021) Forms of collateral include cash, Government securities, marginable specified products, guarantees issued by banks licensed under the Banking Act, letters of credit, etc."
+  },
+  {
+   "n": 2,
+   "page": 2,
+   "q": "In the context of securities borrowing and lending, the term 'Collateral' DOES NOT include ____.",
+   "o": [
+    "cash",
+    "government securities",
+    "marginable securities",
+    "None of the above."
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "(SFR (LCB) - July 2021) Forms of collateral include cash, Government securities, marginable specified products, guarantees issued by banks licensed under the Banking Act, letters of credit, etc."
+  },
+  {
+   "n": 3,
+   "page": 3,
+   "q": "In relation to securities borrowing and lending, the market value of a security that is being actively traded on an overseas securities refers to ____.",
+   "o": [
+    "the last transacted price of the security on the preceding business day",
+    "the average of the last transacted prices over the past 3 business days",
+    "the average of the last transacted prices over the past 5 business days",
+    "None of the above"
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "(SFR (LCB) - July 2021) In relation to securities borrowing and lending, the market value of a security that is being actively traded on an overseas securities refers to the last transacted price of the security on the preceding business day."
+  },
+  {
+   "n": 4,
+   "page": 4,
+   "q": "In the context of a CMS licensee, the term advertisements includes those in the form of ____.",
+   "o": [
+    "display of posters",
+    "display of notices",
+    "photographs",
+    "All of the above."
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "(SFR (LCB) - July 2021) In the context of a CMS licensee, the term advertisements includes display of posters, notices and photographs."
+  },
+  {
+   "n": 5,
+   "page": 5,
+   "q": "In the context of securities borrowing and lending, the term marginable securities includes securities quoted on a recognised group A exchange and issued by a corporation. The shareholders funds of such corporation should not be less than ____ or its equivalent in a foreign currency.",
+   "o": [
+    "$100 million",
+    "$200 million",
+    "$250 million",
+    "$500 million"
+   ],
+   "a": [
+    1
+   ],
+   "multi": false,
+   "e": "(SFR (LCB) - July 2021) In the context of securities borrowing and lending, the term marginable securities includes securities quoted on a recognised group A exchange and issued by a corporation. The shareholders' funds of such corporation should not be less than $200 million or its equivalent in a foreign currency."
+  },
+  {
+   "n": 6,
+   "page": 6,
+   "q": "Which of the following is/are essential features to judge whether a transaction is a matching order or not?",
+   "o": [
+    "No change in beneficial ownership of the security.",
+    "Intent to create a false impression about trading activity.",
+    "The size of the transaction.",
+    "All of the above."
+   ],
+   "a": [
+    1
+   ],
+   "multi": false,
+   "e": "A matching order transaction may involve a change in beneficial ownership. The size of the transaction DOES NOT matter, but there is an intent (the main purpose) to create a false impression about active trading."
+  },
+  {
+   "n": 7,
+   "page": 7,
+   "q": "Circulation of false information about a security can be done through which of the following channels?",
+   "o": [
+    "Word of mouth.",
+    "Media sources.",
+    "Message boards.",
+    "Advisory newsletters."
+   ],
+   "a": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "multi": true,
+   "e": "Circulation of false information about a security can be done through any of the given channels."
+  },
+  {
+   "n": 8,
+   "page": 8,
+   "q": "James, who works as a trading representative, receives a series of sell and buy orders from a client for shares of X Limited. The client tells James that he just wants to enliven the lacklustre trading in the shares so that there is efficient price discovery. James executes the orders. There is no change in beneficial ownership because of these transactions and the price of the shares also does not change. James informs his trader friend about the order and asks him to keep an eye on the share price. Which of the following statements about this scenario is/are TRUE?",
+   "o": [
+    "James is guilty of spreading information about the illegal transactions to his friend because he executed the transactions on behalf of the client while knowing the purpose of the transactions.",
+    "James is not guilty of spreading information about the illegal transactions to his friend because he has himself not benefited from the transactions.",
+    "James is not guilty of spreading information about the illegal transactions to his friend because he only asked his friend to keep an eye on the share price and not transact in the shares.",
+    "James is not guilty of spreading information about illegal transactions because the share price did not change."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "Dissemination of information about illegal transactions by a person is prohibited. In this case, James's friend may unwittingly assist the market manipulation being done by James's client."
+  },
+  {
+   "n": 9,
+   "page": 9,
+   "q": "If a CMS licence holder lends securities of its customers, it is required to obtain a collateral from the borrower. This collateral should be for how much amount?",
+   "o": [
+    "Minimum 100% of the market value of the securities.",
+    "Up to 100% of the market value of the securities.",
+    "Up to 120% of the market value of the securities.",
+    "Minimum 90% of the purchase value of the securities."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "In the case of lending, the value of the collateral should not be less than 100% of the market value of the securities lent. Please refer to SFR (LCB) 45 (3). For borrowing, the collateral (where applicable) provided by the CMSL holder must be up to 100% of the market value of the securities borrowed."
+  },
+  {
+   "n": 10,
+   "page": 10,
+   "q": "Which of the following statements about matching orders trading is FALSE?",
+   "o": [
+    "It creates a false impression of active trading.",
+    "It may involve placing buy and sell orders by different persons for a security simultaneously.",
+    "It may involve placing buy and sell orders by different persons for a security with negligible intervening time gap.",
+    "None of the above."
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "None of the given statements about matching orders is false. All the statements describe the key determinants of matching orders."
+  },
+  {
+   "n": 11,
+   "page": 11,
+   "q": "If the Central Depository (Pte) Limited(CDP) purchases securities on behalf of short-sellers who do not possess securities for delivery on the settlement day, it is said to conduct a ____.",
+   "o": [
+    "close out",
+    "buying in",
+    "cross trade",
+    "settlement"
+   ],
+   "a": [
+    1
+   ],
+   "multi": false,
+   "e": "The Central Depository (Pte) Limited (CDP), purchases securities on behalf of sellers who don't possess securities for delivery on the settlement day (a term buying in is used to describe this activity)."
+  },
+  {
+   "n": 12,
+   "page": 12,
+   "q": "To be considered misleading, the information must be one which is likely to:",
+   "o": [
+    "Lure other investors to buy or sell the security.",
+    "Materially increase or decrease the price of the security.",
+    "Stabilize the price of the security.",
+    "All of the above."
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "The dissemination of information or statements that are false or misleading in a material particular that is likely to induce the subscription of securities by other persons, induce sale or purchase of securities by other persons, or raise, lower, maintain or stabilise the market price of securities, is strictly prohibited. Therefore, all the given statements are true."
+  },
+  {
+   "n": 13,
+   "page": 13,
+   "q": "An agreement by a CMS licence holder for securities borrowing or lending must contain which of the following terms?",
+   "o": [
+    "Whether the CMS licence holder acts as a principal or an agent.",
+    "The procedure for return of the securities.",
+    "Provision for at least a monthly mark-to-market of the collateral.",
+    "Governing laws and jurisdiction."
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "multi": true,
+   "e": "The terms include a provision for the DAILY mark to market valuation of the collateral to determine the procedure for calculating margin and treatment of shortfalls. The terms mentioned in the other options must be included."
+  },
+  {
+   "n": 14,
+   "page": 14,
+   "q": "Which of the following statements about short-selling is FALSE?",
+   "o": [
+    "It provides a more efficient price information.",
+    "It supports risk management.",
+    "Covered short-selling may disrupt the settlement process.",
+    "Short-selling may increase the market volatility."
+   ],
+   "a": [
+    2
+   ],
+   "multi": false,
+   "e": "UNCOVERED or NAKED short-selling may disrupt the settlement process. The other statements are true."
+  },
+  {
+   "n": 15,
+   "page": 15,
+   "q": "Peter places 10 orders to buy a total of10 shares of ABC limited through broker X. He then places 10 orders to sell 1 share each of ABC through another broker at nearly the same price. Has he committed market misconduct under the SFA?",
+   "o": [
+    "Yes, this is an example of wash trading if Peter intends to create an impression of active trading in the instrument.",
+    "Yes, this is an example of churning.",
+    "No, because Peter used different brokers for the sale and purchase.",
+    "No, because there can be a change in beneficial ownership from Peter to another person when the futures are sold."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "Wash Trades occur when a trader enters into transactions, either with another collaborator or using different accounts he controls. There is no real economic value to the trade. The trades are merely done to create the impression of volume."
+  },
+  {
+   "n": 16,
+   "page": 16,
+   "q": "If a CMS licence holder borrows securities from a customer, he MUST provide collateral if the customer is ____.",
+   "o": [
+    "an expert investor",
+    "an institutional investor",
+    "an accredited investor",
+    "a retail investor"
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "When a CMS licence holder BORROWS from an owner of specified products (who is not an accredited investor, expert investor or institutional investor), the CMS licence holder must ensure that it provides collateral of up to 100% of the market value of the products borrowed. Therefore, if the CMSL holder borrows from a retail customer (option D), it must provide a collateral."
+  },
+  {
+   "n": 17,
+   "page": 17,
+   "q": "Kevin is a representative of a CMS licence holder. Kevin receives an order to sell 1,000 shares of PQR Limited (CMP $30) from his client Albert. Albert asks Kevin to execute the order in one lot as Albert hopes to benefit from the expected downward movement in the share price as a result of the order. The average daily volume for the share is 1 million. Kevin executes the order and the share price moves down by $1 on the same day. Albert plans to buy the share after a few days as he expects the price to fall further. In the context of SFA Section 198, which of the following statements about this scenario is/are TRUE?",
+   "o": [
+    "Kevin is not guilty of market manipulation because he is executing a small order given by his client.",
+    "Albert is not guilty of securities market manipulation because he did not intend to induce others to trade in the share and transacted only once, in a small quantity.",
+    "Albert intended to benefit from the decline in prices as a result of his order. Therefore, he is guilty of securities market manipulation.",
+    "Albert's action cannot be termed as market misconduct because it seems to be a legitimate trading strategy."
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "multi": true,
+   "e": "Kevin is not guilty of market manipulation as he is executing a small order relative to the daily volume in the contract. Albert does not intend to induce others to buy or sell the share and has only executed one trade (not two or more required for it to be considered securities market manipulation). Therefore, Kevin and Albert have not manipulated the securities market."
+  },
+  {
+   "n": 18,
+   "page": 18,
+   "q": "What are the key principles to determine whether a transaction is a wash sales or not?",
+   "o": [
+    "Abnormally high volume of each transaction.",
+    "Abnormally low volume of each transaction.",
+    "No change in beneficial ownership of the security after the transaction.",
+    "Shares and money not changing hands."
+   ],
+   "a": [
+    2
+   ],
+   "multi": false,
+   "e": "For a transaction to be considered a wash sale, the key determinant is that there should be NO change in beneficial ownership."
+  },
+  {
+   "n": 19,
+   "page": 19,
+   "q": "Shares of ABC limited are trading at $100 per share. John, a broker, executes trades using his account and the accounts of a number of his clients to trade ABC at prices above $100. He wants the stock price to rise. The price reaches $105. However, the price of the stock falls below $100 the next day. In this scenario:",
+   "o": [
+    "John has not committed any market misconduct because the stock price fell the next day.",
+    "John will not have committed any market misconduct if the relevant clients were aware of the transactions.",
+    "If John intends to induce others to buy the shares of ABC, he has committed market misconduct.",
+    "John is not guilty of market manipulation because different beneficial owners are involved in the trades."
+   ],
+   "a": [
+    2
+   ],
+   "multi": false,
+   "e": "It is forbidden to deal in securities in a manner that will or may affect or maintain the price of the securities, where the intent is to induce other persons to subscribe for, buy or sell the securities. Any such act is deemed market manipulation and is prohibited."
+  },
+  {
+   "n": 20,
+   "page": 20,
+   "q": "Which of the following is NOT a type of false trading and market rigging?",
+   "o": [
+    "Maintaining the market price of a security through several transactions which do not involve change in the beneficial ownership.",
+    "Selling a stock with a view that the market price of a security may fall.",
+    "Buying a stock in large quantity for long-term, with change in beneficial ownership.",
+    "Buying a large percentage of the free float of a company to take over the company."
+   ],
+   "a": [
+    1,
+    2,
+    3
+   ],
+   "multi": true,
+   "e": "Maintaining the market price of a security through several transactions which do not involve change in the beneficial ownership is an example of false trading and market rigging (e.g., wash sales). The other options describe legitimate trading or business strategies."
+  },
+  {
+   "n": 21,
+   "page": 21,
+   "q": "Which of the following objectives are achieved by manipulators through matching orders trading?",
+   "o": [
+    "Artificial increase or reduction in the price of the security.",
+    "Closing out of their positions at the artificially created price.",
+    "Inducement of other investors to trade in the stock.",
+    "All of the above."
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "Manipulators may achieve any or all of the mentioned objectives."
+  },
+  {
+   "n": 22,
+   "page": 22,
+   "q": "What does matching orders trading involve?",
+   "o": [
+    "The buy and sell orders to be executed by the same party.",
+    "The buy and sell orders to be executed at exactly the prevailing market price of the security.",
+    "The buy and sell orders to be executed for substantially the same number of securities.",
+    "None of the above."
+   ],
+   "a": [
+    2
+   ],
+   "multi": false,
+   "e": "Matching orders trading involves the entering of an order for the purchase of securities through a broker with the knowledge that a sales order for the same amount or price has been entered or will be entered into at about the same time by ANOTHER party known to him through a different broker. The price on both sides is substantially the same."
+  },
+  {
+   "n": 23,
+   "page": 23,
+   "q": "Victor places an order to sell 1,000 shares of M Limited at SGD 1,050. The existing bid/offer is SGD 1,020/1,030. The shares of M are illiquid and the average daily volume is only 10,000. Victor placed the order to create an impression of selling pressure at SGD 1,050 so that the price does not rise too much. Victor intends to accumulate M's shares around the existing offer rate. In the context of section 198 of the SFA (Market manipulation in relation to securities and securities-based derivatives contracts), which of the following statements about this scenario is/are TRUE?",
+   "o": [
+    "Victor is not guilty of securities market manipulation because he has not transacted in the shares.",
+    "Victor is not guilty of securities market manipulation because he has taken a big risk by placing a large sell order which may get filled.",
+    "Victor will be considered guilty of securities market manipulation only if he is able to accumulate the shares at or below SGD 1,030.",
+    "Victor will be considered guilty of securities market manipulation only if he is able to make a profit by selling the shares at a higher price."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "Victor has not transacted in the shares of M Limited. Two or more transactions are required if a market misconduct is to be covered under section 198. Therefore, Victor is not guilty of securities market manipulation."
+  },
+  {
+   "n": 24,
+   "page": 24,
+   "q": "The market misconduct regulations governed by MAS and SGX have which of the following as their underlying objective?",
+   "o": [
+    "Ensuring fair, efficient and transparent markets by imposing strict standards of honesty and integrity, and putting the interest of the customer first.",
+    "Ensuring a sufficiently high level of penalty collection so that the Penalty Reserve Fund can cover clearing defaults with a 95% confidence level.",
+    "Ensuring that the financial institutions are financially sound.",
+    "Ensuring that individuals working in the industry have a certain minimum personal net-worth."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "The market misconduct regulations governed by MAS and SGX aim to ensure fair, efficient and transparent markets. A representative of a Member is expected to conduct himself/herself in a professional manner, employing strict standards of honesty and integrity, and placing his/her customer's interest first at all times."
+  },
+  {
+   "n": 25,
+   "page": 25,
+   "q": "Wash trades refer to trades:",
+   "o": [
+    "which help maintain the price of the security within a range.",
+    "which help in squaring off all existing positions in a security.",
+    "that are done just to create the impression of volume.",
+    "which help in increasing the stake in a company significantly."
+   ],
+   "a": [
+    2
+   ],
+   "multi": false,
+   "e": "A Wash Trade occurs when a trader enters into transactions, either with another collaborator or using different accounts he controls. There is no real economic value to the trade. The trades are merely done to create the impression of volume."
+  },
+  {
+   "n": 26,
+   "page": 26,
+   "q": "To prevent market manipulation, there are provisions in SFA which disallow any person from directly or indirectly effecting ____ transactions in securities of a corporation if the transactions have the effect of raising, maintaining or stabilising the price of securities of the corporation in the securities market.",
+   "o": [
+    "two or more",
+    "three or more",
+    "four or more",
+    "five or more"
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "There are provisions in SFA which disallow any person from directly or indirectly effecting two or more transactions in securities of a corporation if the transactions have the effect of raising, maintaining or stabilising the price of securities of the corporation in the securities market. There are similar provisions under SGX-ST rules against market manipulation."
+  },
+  {
+   "n": 27,
+   "page": 27,
+   "q": "Jane works in the proprietary trading department of ABC Bank Limited in Singapore. Jane exclusively deals in bond trading on behalf of ABC. Jane comes to know that John, the equity trader in the proprietary division, is actively engaging in propping up the share price of PQR Limited through algo trading. John owns 10,000 shares of PQR. Jane:",
+   "o": [
+    "Should inform her superiors about John's market misconduct.",
+    "Must not inform anyone about John's market misconduct because she will be guilty of disseminating information about illegal transactions.",
+    "Should ignore the matter because she is not concerned with equity trading.",
+    "Must ask John to stop the market manipulation."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "(B) is incorrect because dissemination of information about illegal transactions by a person is prohibited if the person or his associate has entered into or purported to enter into that transaction, or the person or his associate received, directly or indirectly, any consideration or benefit for the dissemination. In this context, Jane is not associated with John in relation to the illegal transactions. (C) is incorrect because Jane should report this matter. (D) is incorrect because she does not have the authority to give such instruction. Furthermore, it may cause a \"tip-off\" effect to John."
+  },
+  {
+   "n": 28,
+   "page": 28,
+   "q": "John is an appointed representative working with ABC Limited which is a licensed financial adviser. John comes to know through his friend Jane that PQR Limited has been severely impacted by the ongoing economic downturn and may file for bankruptcy. Jane knows that PQR is trying to restructure its debt and may file for bankruptcy if the lenders do not agree to such restructuring. Jane works in the marketing department of PQR and hears about such developments from her colleagues. John:",
+   "o": [
+    "Should inform his clients that PQR may file for bankruptcy and ask them to offload PQR's shares immediately.",
+    "May check with PQR Limited whether the information is true or not.",
+    "Should inform his colleagues in ABC Limited that PQR may file for bankruptcy.",
+    "May inform the senior management of ABC that PQR may file for bankruptcy."
+   ],
+   "a": [
+    1
+   ],
+   "multi": false,
+   "e": "John will be guilty of making reckless statements if he shares the unconfirmed information about PQR with his clients, colleagues, or senior management. He can ask PQR to confirm or deny the rumour."
+  },
+  {
+   "n": 29,
+   "page": 29,
+   "q": "Under which of the following circumstances a person may be considered guilty of spreading material misleading information about a security?",
+   "o": [
+    "He knew that the information is incorrect.",
+    "He should have known that the information is incorrect.",
+    "He did not care whether the information is correct or not.",
+    "He had been ever convicted for spreading false information."
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "e": "A person may be considered guilty of spreading material misleading information about a security in any of the given circumstances except (D), which cannot be a consideration as to whether the offence is being committed or not."
+  },
+  {
+   "n": 30,
+   "page": 30,
+   "q": "A trader places orders with a broker to buy 10,000 shares of a company and simultaneously places orders to sell 10,000 shares of the same company with another broker. This is an example of ____.",
+   "o": [
+    "wash sales",
+    "matching orders",
+    "an out-of-the-market arrangement",
+    "a genuine transaction"
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "A wash sale is a transaction effected through the market which involves no change in the beneficial ownership of any securities. Here, the buy and the sell orders have been placed by the SAME party and there is no change in beneficial ownership. A Matching Orders transaction involves the entering of an order for the purchase of securities through a broker with the knowledge that a sales order for the same amount or price has been entered or will be entered into at about the same time by ANOTHER PARTY known to him through a different broker. So, there will be a change in beneficial ownership. This is NOT an out-of-the market arrangement. It is NOT a genuine transaction because the likely objective is to create an impression of active trading."
+  },
+  {
+   "n": 31,
+   "page": 31,
+   "q": "A person sells 1 million shares of a company to a company which is controlled by him through the SGX. This is an example of:",
+   "o": [
+    "False appearance of active trading.",
+    "Trading without change in beneficial ownership.",
+    "Wash sales.",
+    "Matching orders."
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "e": "Since there is no change in beneficial ownership, this is an example of wash sales, which leads to a false appearance of active trading. Matching orders involves a change in beneficial ownership."
+  },
+  {
+   "n": 32,
+   "page": 32,
+   "q": "Luna, a representative at Starlight Securities ('Starlight'), entered a large sell order on behalf of a client without indicating to the Singapore Exchange (SGX) whether it was a normal sell order or a Short Sell Order. The client had informed Luna that they did not own the full quantity of the securities to be sold, implying part of the order was a short sell. Luna failed to split the order into two, with no marking as a Short Sell Order.\n\nAccording to the guidelines on marking sell orders, which aspects of Luna's actions are considered non-compliant?",
+   "o": [
+    "Failing to indicate to the SGX whether the sell order was a normal sell order or a Short Sell Order.",
+    "Not splitting the sell order into two, with one part marked as a Short Sell Order, despite knowing the client did not own the full quantity of securities.",
+    "Entering a large sell order without client consent.",
+    "Reporting the sell order as a normal sell order despite it partially being a short sell."
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "multi": true,
+   "e": "(A) and (B) are correct because the guidelines require that sell orders be accurately marked to indicate whether they are normal sell orders or Short Sell Orders, especially when the seller does not own the full quantity of securities to be sold, necessitating the order to be split and marked accordingly. (C) is incorrect as the scenario does not mention lack of client consent. (D) is correct because the scenario specifies that the order was not marked as a short sell order."
+  },
+  {
+   "n": 33,
+   "page": 33,
+   "q": "Alice, a director at XYZ Corporation, learns during a board meeting about an upcoming merger with another company that is expected to significantly increase XYZ's market value. This information has not been made public yet. Alice shares this information with her friend, Bob, who is not associated with XYZ Corporation, advising him to invest in XYZ's shares before the merger is announced.\n\nAccording to the provisions for a connected person under the SFA, which aspects of Alice's actions are considered an offence?",
+   "o": [
+    "Sharing insider information that was not generally available with Bob.",
+    "Assuming that because she is a director, she is entitled to share such information.",
+    "Not realizing that the information could have a material effect on the price of XYZ's securities once it becomes public.",
+    "Spreading false and misleading information."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "(A) is correct because the SFA stipulates that a connected person, like Alice, commits an offence by possessing and then sharing information that is not generally available and could materially affect the price of the securities. This is under the presumption that connected persons are aware of the nature of their information. (B) is incorrect as being a director does not entitle one to share insider information. (C) is incorrect because the scenario implies Alice was aware of the potential impact of the information. (D) is incorrect because Alice did not spread false or misleading information."
+  },
+  {
+   "n": 34,
+   "page": 34,
+   "q": "Person Z comes to know that the shares of XYZ limited are being manipulated upwards by a group of traders. Z contacts a member of the group and offers to spread the information about by the expected rise in XYZ's share price to build momentum. Z expects to receive money from the traders for spreading the information. Which aspects of Person Z's actions constitute an offence under the SFA?",
+   "o": [
+    "Directing persons to use deceptive methods to influence the price of securities.",
+    "Informing others about the expected outcome of the illegal transaction to benefit from the resultant market movements.",
+    "Expecting to receive a cut of the profits made from the price movements as a result of disseminating the information.",
+    "Simply observing and predicting market movements without any direct involvement in transactions."
+   ],
+   "a": [
+    1,
+    2
+   ],
+   "multi": true,
+   "e": "(B) and (C) are correct because Section 202 of the SFA makes it an offence to circulate or disseminate information about the price of securities being affected by an illegal transaction, especially if the person disseminating such information expects to receive any consideration or benefit from it. (A) is also an offence but the question focuses on the dissemination of information. (D) is incorrect as it describes a scenario where a person is not involved in any illegal activity but merely observing market conditions, which does not constitute an offence under the described section."
+  },
+  {
+   "n": 35,
+   "page": 35,
+   "q": "Alex, a portfolio manager at Global Investments ('Global'), realized that his net short position in a particular stock had crossed the threshold prescribed by the MAS. He promptly reported this to the MAS, providing detailed information about his identity, business activities, and the specifics of his short position. However, Alex neglected to report a subsequent increase in his short position, believing the initial report was sufficient.\n\nAccording to the guidelines on reporting of short positions, which aspects of Alex's actions are considered non-compliant?",
+   "o": [
+    "Promptly reporting to the MAS when his net short position crossed the prescribed threshold.",
+    "Providing detailed information about his identity, business activities, and short position in the initial report.",
+    "Neglecting to report a subsequent increase in his short position.",
+    "Believing that the initial report was sufficient and no further updates were required."
+   ],
+   "a": [
+    2,
+    3
+   ],
+   "multi": true,
+   "e": "(C) and (D) are correct because the guidelines require continuous reporting of any changes to the information previously reported, including any increase in a short position, to ensure that the MAS has up-to-date information on market participants' short positions. Neglecting to report subsequent changes and assuming that the initial report suffices are non-compliant actions. (A) and (B) are incorrect as they describe compliant actions that align with the guidelines for reporting short positions."
+  },
+  {
+   "n": 36,
+   "page": 36,
+   "q": "A trading representative who commits market misconduct offences under the SFA may face which types of actions?",
+   "o": [
+    "Criminal penalties.",
+    "Civil liabilities.",
+    "Suspension of license by MAS.",
+    "All of the above."
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "Any contravention of the provisions of the market conduct rules will result, if found guilty, in Criminal penalties, Civil penalties, Civil sanctions, financial and reputation loss, suspension, or loss of licence."
+  },
+  {
+   "n": 37,
+   "page": 37,
+   "q": "Criminal penalties for market misconduct under SFA include:",
+   "o": [
+    "Fine.",
+    "Recovery of loss suffered by the persons impacted by the offence.",
+    "Recovery of profit earned by the defendant.",
+    "All of the above."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "Criminal penalties for market misconduct under SFA include fine. Recovery of loss suffered by the claimants or profit earned by the defendants is part of civil liabilities claims process"
+  },
+  {
+   "n": 38,
+   "page": 38,
+   "q": "Regarding excepted categories of individuals and situations for insider trading, which of the following statements is/are FALSE?",
+   "o": [
+    "Knowledge due to own transactions of a natural is exempted.",
+    "Knowledge of a partner is typically regarded as knowledge of the partnership, unless Chinese walls apply.",
+    "Knowledge due to own transactions of a corporation is not exempted.",
+    "All of the above."
+   ],
+   "a": [
+    2
+   ],
+   "multi": false,
+   "e": "In the context of insider trading, knowledge due to own transactions of a corporation IS exempted. The other statements are true."
+  },
+  {
+   "n": 39,
+   "page": 39,
+   "q": "Which of the following are key characteristics of insider trading?",
+   "o": [
+    "Those having confidential information about the security make profits based on the information.",
+    "Those having confidential information about the security avoid losses based on the information.",
+    "Insider trading puts the other investors who do not have the insider information to disadvantage.",
+    "All of the above."
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "Insider trading involves trading on insider information (privileged and confidential information). Trading on such inside information serves to provide an advantage over other investors resulting in an unfair market. Therefore, all the given statements are true."
+  },
+  {
+   "n": 40,
+   "page": 40,
+   "q": "Which of the following statements about Securities Hawking are TRUE?",
+   "o": [
+    "Securities hawking refers to making an offer of securities in an unsolicited meeting.",
+    "Prohibition on securities hawking aims to curb activities such as boiler room practices and badgering.",
+    "Representatives may not offer subscription of securities during any unsolicited meetings with institutional investors.",
+    "Representatives may offer subscription of securities during any unsolicited meetings with retail investors."
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "multi": true,
+   "e": "Securities hawking refers to making an offer of securities in an unsolicited meeting. The securities hawking prohibition aims to prevent pressure selling of financial products to retail clients (e.g., boiler room practices, badgering). Representatives are not allowed to offer or invite any subscription or purchase of securities, during any unsolicited meetings with clients or other investors. This requirement DOES NOT apply to offers made to securities that do not need a prospectus, such as those to institutional investors, accredited investors."
+  },
+  {
+   "n": 41,
+   "page": 41,
+   "q": "In the context of insider trading, Parity of information legal theory argues that:",
+   "o": [
+    "What is known by market participants is not known by the defendant in advance.",
+    "If both parties have the same information, the parties would be on equal footing and can enter into the transaction with one another.",
+    "An insider should be treated like an outsider when he uses insider information.",
+    "The quality of information available with the market is more refined as it has been analysed."
+   ],
+   "a": [
+    1
+   ],
+   "multi": false,
+   "e": "The parity of Information theory states that if both parties have the same information, the parties would be on equal footing and can enter into the transaction with one another."
+  },
+  {
+   "n": 42,
+   "page": 42,
+   "q": "Types of market misconduct in relation to securities include:",
+   "o": [
+    "Creating a misleading impression of active trading in any security on a securities market.",
+    "Buying shares in abnormally high quantities.",
+    "Selling shares in abnormally high quantities.",
+    "Doing anything to create a false appearance with respect to the price of the security."
+   ],
+   "a": [
+    0,
+    3
+   ],
+   "multi": true,
+   "e": "The SFA spells out the prohibited market conduct as False Trading and Market Rigging Transactions, Securities Market Manipulation, False or Misleading Statements and Information, Fraudulently Inducing Persons to deal in Capital Markets Products, Employment of Manipulative and Deceptive Devices, Dissemination of Information about Illegal Transactions, and Insider Trading."
+  },
+  {
+   "n": 43,
+   "page": 43,
+   "q": "During a routine compliance check, it was discovered that a trader at Quantum Trading ('Quantum') engaged in uncovered short selling of a particular stock on the SGX-ST, believing its price would decline. The trader did not borrow the stock or make arrangements to fulfill the delivery obligation. The Central Depository (CDP) had to execute a buying-in procedure due to the trader's failure to deliver the securities, resulting in additional costs and penalties for Quantum.\n\nIn the context of the relevant rules on short selling in Singapore, which of the following statements is true?",
+   "o": [
+    "The SFA may impose a fine on the trader if he did not disclose the short sell order to the SGX-ST at the time of making the order.",
+    "The CDP may ban Quantum from trading on the SGX-ST because it engaged in short-selling.",
+    "The SGX-ST may fine Quantum for the act of short selling.",
+    "The MAS may censure Quantum because the CDP had to conduct the buying-in process."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "Under the SFA and the SGX-ST rules, a short-sale must be reported to the exchange before making the short-sell order. The act of short-selling itself is not punishable under the SFA or the SGX-ST. Therefore, only option A is correct."
+  },
+  {
+   "n": 44,
+   "page": 44,
+   "q": "Mina works as a facilities manager in a Singapore company. During a visit to her client's office for supervision of her staff, Mina overhears that the client's company is about to delist its shares at a hefty premium to the existing market price. Mina tells her husband about the delisting and he purchases the shares to make a profit. Which of the following statements about this scenario is/are TRUE?",
+   "o": [
+    "Mina is not an insider of the client organisation and, therefore, cannot be held guilty of insider trading.",
+    "Mina is guilty of insider trading because she shared inside information with her husband.",
+    "Mina cannot be held guilty of insider trading if she did not intend to benefit from the information about the delisting.",
+    "Mina's husband is guilty of insider trading because he purchased the shares after receiving the information about the delisting."
+   ],
+   "a": [
+    1,
+    3
+   ],
+   "multi": true,
+   "e": "Insider trading is the trading that takes place when persons who have privileged or confidential information about important events, such as earnings information from a company, use the special advantage of that knowledge to reap profits or avoid losses on the securities market. Persons with such confidential information must not enter into transactions in instruments that will be impacted by the information. They should also not communicate the information to other parties. Mina and her husband are, therefore, guilty of insider trading."
+  },
+  {
+   "n": 45,
+   "page": 45,
+   "q": "John works in the finance department of B Limited. John comes to know that B Limited has received a major order from the Singapore government which is likely to improve its financial position significantly. John immediately calls his broker and asks him to buy a large quantity of shares of B Limited traded on SGX-ST. In this context, which of the following statements is/are TRUE?",
+   "o": [
+    "John has committed insider trading if the information about the order is non-public at the time of his decision to purchase the shares of B Limited.",
+    "John has not committed insider trading offence if he declares that he was not aware that the receipt of the order was inside information.",
+    "John is not an insider because he does not work in the sales department of B.",
+    "John should not have traded in the shares while in possession of the information about the order if it was inside information"
+   ],
+   "a": [
+    0,
+    3
+   ],
+   "multi": true,
+   "e": "John is an insider and he has committed insider trading if the information about the order is non-public at the time of his decision to purchase the shares of B Limited."
+  },
+  {
+   "n": 46,
+   "page": 46,
+   "q": "John has committed an insider trading offence in Australia by dealing in the shares of ABC listed on the Australian Stock Exchange. Will the market misconduct and insider trading provisions in the SFA apply to the insider trading offence committed by John?",
+   "o": [
+    "Yes, because the SFA has extraterritorial reach.",
+    "No, if the shares of ABC are not listed or quoted in Singapore.",
+    "Yes, if the shares of ABC are also listed and quoted in Singapore.",
+    "No, because the actual offence was committed outside Singapore."
+   ],
+   "a": [
+    1,
+    2
+   ],
+   "multi": true,
+   "e": "The SFA, SFR and SGX-ST Rules apply to acts occurring in Singapore with respect to any securities or futures contracts, whether listed or quoted in or outside Singapore. That is, the rules have extraterritorial reach. If the act is deemed as misconduct in Singapore, it would also be deemed as misconduct even if the transactions take place outside Singapore. The rules apply to acts occurring outside Singapore with respect to shares listed or quoted on an exchange in Singapore."
+  },
+  {
+   "n": 47,
+   "page": 47,
+   "q": "Robert works at a brokerage house. He publishes a report on the future prospects of ABC Limited for circulation to his clients. The publication is sent by email to the clients free of charge. Robert analyses the financial prospects of the company and deliberately omits mentioning the fact that the company is planning to raise more funds through a bond issue next month. Robert wants his clients to invest in the shares of ABC. In this context, which of the following statements is/are TRUE?",
+   "o": [
+    "Robert is guilty of dishonest concealment of material facts because such concealment may induce people to deal in the company's securities.",
+    "The possibility of a new bond issue is not concrete financial information. Hence, Robert was not required to include the information in the report on the financial prospects of the company.",
+    "The report is sent free of charge to the clients. Therefore, it is not mandatory for Robert to include all material information, especially about expected fund raising.",
+    "Robert should have mentioned the expected bond issue in the report with a caveat that the issue may or may not take place"
+   ],
+   "a": [
+    0,
+    3
+   ],
+   "multi": true,
+   "e": "Robert should have mentioned the fund raising as it is a material fact that may impact the decision of investors. Therefore, Robert is guilty of dishonest concealment of material facts as he intended to induce investors to invest in ABC."
+  },
+  {
+   "n": 48,
+   "page": 48,
+   "q": "Regarding use of devices for market manipulation, which of the following statements is FALSE?",
+   "o": [
+    "It is an offence to engage in any act in the course of business which is likely to deceive any person.",
+    "It is an offence to employ an artifice to defraud investors.",
+    "It is an offence to omit stating material facts.",
+    "None of the above."
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "All the given statements about the use of devices for market manipulation are TRUE."
+  },
+  {
+   "n": 49,
+   "page": 49,
+   "q": "[cut off] the CEO of X Limited, a company listed on the SGX-ST. The resignation is expected because the financial performance of the company in the last few quarters has not been as per expectations. His colleagues do not possess insider information about the matter and are only speculating about various scenarios. George tells his boss that the CEO of X Limited will resign shortly, without disclosing where he got the information. They decide to short-sell the futures of X Limited on ABC's account to take advantage of the expected fall in the futures prices when the CEO resigns. Which of the following statements about this scenario is/are TRUE?",
+   "o": [
+    "George has not spread the information about the CEO's resignation. He has only informed his boss in order to make a trading strategy. Therefore, George is not guilty of dissemination of false or misleading statements and information.",
+    "George will not be considered guilty of market misconduct if the CEO of X Limited resigns within a reasonable period.",
+    "George will be considered guilty of market misconduct only if ABC makes a profit based on this information.",
+    "George is guilty of fraudulently inducing his company to deal in the futures contract by recklessly making a false statement to his boss."
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "George is guilty of Fraudulently Inducing Persons to Deal in Securities by recklessly making a false statement to his boss."
+  },
+  {
+   "n": 50,
+   "page": 50,
+   "q": "Ethan, an independent financial blogger with no direct ties to ABC Corporation, overhears a conversation in a café about ABC's unannounced breakthrough product that is expected to double the company's profits. Recognizing the significance of this information, Ethan decides to write a blog post hinting at ABC's upcoming announcement without revealing his source, encouraging his readers to invest in ABC's shares.\n\nAccording to the provisions for non-connected persons under the SFA, which aspects of Ethan's actions are considered an offence?",
+   "o": [
+    "Writing a blog post based on information he knew was not generally available.",
+    "Assuming that sharing the information was acceptable since he was not directly connected to ABC Corporation.",
+    "Knowing that the information, if generally available, might be price sensitive and have a material effect on the price of ABC's securities.",
+    "Ethan's belief that his actions were justified because he did not intend to use the inside information for personal gain."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "The action in option A is an offence under the insider trading provisions of the SFA."
+  },
+  {
+   "n": 51,
+   "page": 51,
+   "q": "Anthony works at Y Limited as a finance manager. He makes a presentation to the board of directors of Y Limited about the future prospects of the company. Anthony predicts a 40% growth in sales of the company and a 20% growth in net profit. He knows that the targets may not be achieved because of the existing downturn in the economy. After office hours, Anthony casually tells his friend about the sales and profit growth expectations of Y Limited. However, Anthony informs his friend that the figures in the presentation have not yet been endorsed by the board of directors and the forecast may not be true because of the economic conditions. Anthony's friend takes a long position in the shares of the company the next day. In this context, which of the following statements is/are TRUE?",
+   "o": [
+    "Anthony is guilty of passing insider information to his friend.",
+    "Anthony will be considered guilty of fraudulently inducing his friend to deal in securities if his friend makes a loss in his long position.",
+    "Anthony discussed the matter with his friend after office hours. Therefore, he is not guilty of any market misconduct.",
+    "Anthony has told his friend that the forecast has not been endorsed by the board and it may turn out to be incorrect. Therefore, Anthony is not guilty of fraudulently inducing his friend to deal in securities"
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "The information is not price-sensitive because it is just a forecast that has not been endorsed by the board. Anthony has informed his friend that the forecast has not been endorsed by the board and may turn out to be incorrect. Therefore, he is not guilty of fraudulently inducing his friend to deal in the securities of his company."
+  },
+  {
+   "n": 52,
+   "page": 52,
+   "q": "Under which of the following circumstances a person who spreads information that the price of a security is likely to be manipulated may NOT be guilty of an offence under the SFA?",
+   "o": [
+    "He intends to enter into a transaction in the security.",
+    "He expects to indirectly receive a payment for spreading the information.",
+    "He intends to accentuate the impact of the manipulation.",
+    "He informs the market regulator about such activity in respect of the security."
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "The person who spreads information that the price of a security is likely to be manipulated may NOT be guilty of an offence under the SFA if he informs the market regulator about such activity in respect of the security. He will be guilty in all the other given cases."
+  },
+  {
+   "n": 53,
+   "page": 53,
+   "q": "ABC Brokerage issues a research report that encourages investors to buy the shares of PQR claiming that the share price is likely to increase significantly in the short term. ABC has no material basis for the expectation and the content of the report is misleading. ABC has been paid by the management of PQR to promote its shares. In this scenario:",
+   "o": [
+    "ABC has attempted to fraudulently induce investors to trade in PQR's shares.",
+    "ABC cannot be held guilty of fraudulently inducing investors to trade in the shares of PQR if its prediction comes true.",
+    "ABC can put a suitable disclaimer in the report to avoid the charge of fraudulently inducing persons to trade in the shares of PQR.",
+    "ABC is guilty of fraudulently inducing persons to trade in shares of PQR only if ABC trades in the shares and makes a profit."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "Under SFA Section 200(1), it is an offence to induce or attempt to induce another person to deal in securities by making or publishing any statement, promise or forecast that he knows or ought reasonably to have known to be misleading, false or deceptive."
+  },
+  {
+   "n": 54,
+   "page": 54,
+   "q": "Julie, who works in a bank, came across a fax indicating that XYZ Company will be taking over ABC Company at $10 per share. Julie knew that if she were to buy ABC shares now at $5 and sell the shares after the announcement, she would make a tidy profit.\n\nShe informed her brother about the matter and asked him to trade, but her brother met with a traffic accident and was unable to trade. Have the insider trading provisions been contravened?",
+   "o": [
+    "Yes, because Julie had informed her brother and intended to trade based on the information and make a profit.",
+    "No, because she did not know whether her brother would buy the shares or not.",
+    "Yes, as she had obtained insider information unethically.",
+    "No, because her brother did not trade in the shares."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "Julie had informed her brother and intended to trade based on the information and make a profit. Therefore, the insider trading provisions were contravened. The manner of obtaining the insider information is not relevant."
+  },
+  {
+   "n": 55,
+   "page": 55,
+   "q": "A trading representative, Louis, heard from his friend working in the accounts department of KLG Ltd that KLG would be announcing a 180% increase in profits on 13 Oct. This information was received on 5 Oct. Louis expects KLG's share price to surge on 14 Oct in response to the announcement. Louis's customer Jane had placed an order with him on 13 Sep to buy 30,000 KLG's shares and Louis had executed the order immediately. Louis did not pass on the information he subsequently received to Jane or advise her on the purchase.\n\nDid Louis breach the SFA for insider trading?",
+   "o": [
+    "Yes, because Louis should have informed Jane about the results as soon as he received the information.",
+    "Yes, because Louis received insider knowledge of unannounced information.",
+    "No, because Louis did not possess insider information when he executed Jane's order.",
+    "No, because Jane does not know Louis's friend who works in KLG."
+   ],
+   "a": [
+    2
+   ],
+   "multi": false,
+   "e": "The trade was executed when Louis did not possess insider information. So, the insider trading provisions of SFA were not breached."
+  },
+  {
+   "n": 56,
+   "page": 56,
+   "q": "John is an investor. His financial adviser Jane recommends him to buy 100,000 shares of PQR Limited over the next one month. Later, Jane comes to know from an insider (Robert) in PQR that the company is about to declare stellar quarterly results very soon. John starts to buy the shares in lots of 5,000 after Jane gets the insider information. Jane encourages John to hold the shares for some time, but does not ask him to buy more shares, and she does not share the insider information with John. John continues to buy shares and PQR's share price goes up significantly after the results. John sells the shares and makes a substantial profit from his investment. In this scenario:",
+   "o": [
+    "Jane is not guilty of insider trading because she allowed John to trade in PQR's shares but never shared insider information with him.",
+    "John is guilty of insider trading if he is a connected person of PQR.",
+    "Jane is not guilty of insider trading because she did not recommend John to buy PQR's shares based on the insider information.",
+    "Robert is guilty of insider trading even if he did not trade in the shares of PQR based on the insider information."
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "Any person in possession of non-public price sensitive information is prohibited from procuring another person to deal in the relevant securities, or communicating the non-public price-sensitive information to another person if the person knew or ought reasonably to have known that the other person would or would likely deal in the relevant securities or procure another person to so deal. Here, procuring means inciting, inducing, or encouraging an act or omission by another person. Therefore, both Jane (encouraging John not to sell), and Robert (sharing insider information) are guilty of insider trading. John will not be guilty of insider trading even if he is a connected person because he did not trade whilst in possession of the insider information. John never got the insider information."
+  },
+  {
+   "n": 57,
+   "page": 57,
+   "q": "Which of the following should NOT be considered a case of insider trading?",
+   "o": [
+    "Your friend who is working in a publicly listed company tells you that the company is likely to be privatized soon. However, you make a judgment that privatisation may not be possible due to lack of shareholder support. You take a short position in the stock accordingly and make profits as your guess turns out to be true.",
+    "Your analysis of newspaper reports indicates that a publicly listed company may acquire a competitor. You take positions in the company's stocks accordingly and make profits as your judgment turns out to be true.",
+    "Your friend is a top-level manager in a publicly listed company. He tells you that a major deal being negotiated by the company is about to fall through. However, you buy the company's stocks thinking that the deal may actually be successful.",
+    "You are a substance abuse welfare volunteer who was confided to by the CFO of a publicly listed Company on some financial malpractice he felt forced to engage in. You short the shares of the company based on the info and make a profit as, ultimately, the information comes in the public domain."
+   ],
+   "a": [
+    1
+   ],
+   "multi": false,
+   "e": "Analysis of newspaper reports, and to trade based on the opinion formed based on these reports is not insider trading. Insider trading involves trading on insider information. In the other 3 options, the trades are based on insider information, and are examples of insider trading."
+  },
+  {
+   "n": 58,
+   "page": 58,
+   "q": "Which of the following are elements of inside information?",
+   "o": [
+    "It is generally not known to the public.",
+    "If made known to the public, it will have a material impact on the price and value of a security.",
+    "It is known among executives and major shareholders for strategic portfolio management.",
+    "It is the information that had been sent to news outlets by the company but the news outlets have yet to announce it."
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "multi": true,
+   "e": "Insider information is non-public and materially price-sensitive. (C) is incorrect because inside info should not be made known to any person who do not need to know. (D) is incorrect because that info sent to the news outlets might not be non-public or price-sensitive."
+  },
+  {
+   "n": 59,
+   "page": 59,
+   "q": "Your management has just informed you that two customers have been trading against each other repeatedly, thereby artificially increasing the price of a particular security. Their accounts have been frozen, and SGX has started investigations for bringing charges against the customers.\nIf your colleague asks you to inform other customers about this, should you follow his advice?",
+   "o": [
+    "No, because SGX has started investigations.",
+    "No, this may lead to an abnormal impact on the price of the security.",
+    "Yes, the name of the security can be disclosed, though the customer's name may not be disclosed.",
+    "Yes, this will further the cause of preserving fair, efficient and transparent markets."
+   ],
+   "a": [
+    1
+   ],
+   "multi": false,
+   "e": "Market manipulative devices have the effect of creating artificial market conditions. As such, any dissemination of information that such illegal transactions are taking place or are going to take place can have an equally deleterious effect. Therefore, market participants should not disseminate information about illegal transactions to ensure they do not unwittingly assist the market manipulators. It is an offence to be involved, directly or indirectly, in the circulation and/or dissemination of any information about illegal transactions. Therefore, other customers should not be informed about the market misconduct by the two customers or the investigations."
+  },
+  {
+   "n": 60,
+   "page": 60,
+   "q": "Which of the following will be considered inside information under the SFA?",
+   "o": [
+    "Expected government order to ban a listed pharmaceutical company's drug because of widespread protests against the drug",
+    "Declaration at the annual general meeting by the CEO of a listed company that he will resign from his post in 6 months",
+    "A major financial fraud in a listed company that comes to light during internal audit",
+    "Receipt of a major order by a listed company for its products, such order having been announced six months ago"
+   ],
+   "a": [
+    2
+   ],
+   "multi": false,
+   "e": "A major financial fraud coming to light in an internal audit is non-public, price-sensitive information. Therefore, it can be considered inside information."
+  },
+  {
+   "n": 61,
+   "page": 61,
+   "q": "If insider information is in the hands of a connected person, what presumptions can be automatically made?",
+   "o": [
+    "That the insider should have been aware of the impact of the information on the price of the securities.",
+    "That the insider intended to use the information to his benefit.",
+    "That the insider disseminated the information to his friends or relatives to help them take advantage.",
+    "That the insider reasonably ought to have known that the information was not generally available."
+   ],
+   "a": [
+    0,
+    3
+   ],
+   "multi": true,
+   "e": "In the case of a connected person, it has to be proven that the connected person was in possession of information which was not generally available. It is presumed until proven otherwise that the connected person knew that the information was not generally available and if the information was generally available, it might have a material effect on the price or value of the security."
+  },
+  {
+   "n": 62,
+   "page": 62,
+   "q": "Which of the following categories of individuals or situations may NOT be considered as insider trading?",
+   "o": [
+    "A CEO who notices an abnormal increase in trading volume of the shares of his company and buys or sells its shares to take advantage.",
+    "Redemption by trustees in respect of a registered collective investment scheme.",
+    "A director who transacts in the shares of his company based on a public report on the prospects of the company by a brokerage house.",
+    "Underwriters performing their roles."
+   ],
+   "a": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "multi": true,
+   "e": "In the give options, in the context of insider trading, the CEO is executing a legitimate trading strategy and the director is NOT acting on insider information. The trustees and underwriters mentioned are excepted categories of individuals and situations under the SFA."
+  },
+  {
+   "n": 63,
+   "page": 63,
+   "q": "Inducing investors to deal in a particular security is an offence under SFA. The ways to achieve such inducement may involve:",
+   "o": [
+    "Wilfully concealing material facts.",
+    "Making a reckless promise.",
+    "Electronically storing materially false information.",
+    "Publishing a forecast about expected rise in profits."
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "e": "It is an offence to induce or attempt to induce another person to deal in securities by making or publishing any statement, promise or forecast that he knows or ought reasonably to have known to be misleading, false or deceptive, any dishonest concealment of material facts, reckless making or publishing of any statement, promise or forecast that is misleading, false or deceptive, or recording or storing in, or by means of, any mechanical, electronic or other device information that is known to be false or misleading in a material particular."
+  },
+  {
+   "n": 64,
+   "page": 64,
+   "q": "Which of the following statements about insider trading is/are FALSE?",
+   "o": [
+    "A connected person is not deemed to possess material price sensitive insider information.",
+    "For a non-connected person, the onus of proof that he was in possession of material price-sensitive information lies with the prosecution.",
+    "Nature of information is less important compared to the source of information.",
+    "It must be proven that the person having insider information intended to use it."
+   ],
+   "a": [
+    2,
+    3
+   ],
+   "multi": true,
+   "e": "Nature of information is more important as it decides whether the information is insider information or not. There is NO need to prove that the person having insider information intended to use it. It must be PROVEN that the connected person possesses insider information. If he does, it can be presumed that he knew that the information was not public and was price sensitive."
+  },
+  {
+   "n": 65,
+   "page": 65,
+   "q": "Which of the following may be regarded as market manipulation under the SFA?",
+   "o": [
+    "A group of investors pool their funds and engage in transactions with the intent to raise a share's price so as to induce others to buy/sell that share.",
+    "A company launching a buy-back of its own shares after the share price has hit historical low.",
+    "A series of transactions executed with the intent to launder proceeds from criminal activities.",
+    "A person buying 1000 share after hearing an inside info."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "In broad terms, market manipulation involves intentional interference with the free forces of supply and demand to deceive or defraud investors, or for some other ulterior purpose."
+  },
+  {
+   "n": 66,
+   "page": 66,
+   "q": "Anna's purchase of 1000 XYZ shares is due today but she wished to hold the shares for a longer period as she anticipates the share price to increase soon. To prevent Anna's purchase from being force sold, Alfred, the licensed rep, arranged for his wife to buy over the 1000 XYZ shares from Anna with the intention for Anna to buy back the shares from his wife. Is Alfred's arrangement appropriate?",
+   "o": [
+    "Yes, as there is no change in beneficial ownership.",
+    "Yes, as Alfred is acting in his client's interest.",
+    "No, as the share price may not go up as anticipated.",
+    "No, as Alfred has arranged a fictitious transaction to evade payment."
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "Such fictitious buy order will inflate the trade volume. If this were to be allowed, the trade volume and price would become distorted."
+  },
+  {
+   "n": 67,
+   "page": 67,
+   "q": "Jack entered an order to buy 20,000 XYZ shares at $1.23 at 12.00pm for his wife, Ann. At 12.30pm, he received an order from a customer, Philip, to buy 30,000 XYZ shares at $1.23. As Ann's order was not matched, Jack withdrew Ann's order and entered Philip's order. Is Jack allowed to re-enter Ann's order after he had entered Philip's order?",
+   "o": [
+    "Yes, as Ann's order price was the same as Philip's.",
+    "Yes, as Ann placed her order before Philip.",
+    "No, as Ann is related to Jack.",
+    "No, as Jack had already withdrew Ann's order."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "Market Misconduct - Jack did not abuse his position to give anyone advantage. In fact, he willingly cancelled his wife's order which came in earlier. Both orders are at the same price, thus the earlier order would be filled. If he were to queue at $1.23 again for his wife, he would not contravene any rule. For such questions, always think about whether the action is fair to other market participants."
+  },
+  {
+   "n": 68,
+   "page": 68,
+   "q": "Which of the following is NOT a technique employed to circulate FALSE information about share prices?",
+   "o": [
+    "Passing 'hot tips' through word of mouth.",
+    "Spreading rumours about a security on online forums.",
+    "Disseminating false information about a security via media sources.",
+    "Executing fictitious transactions that result in no change in beneficial ownership."
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "Dissemination of false info can be in the form of newsletters, research papers, electronic means, or the media or word of mouth."
+  },
+  {
+   "n": 69,
+   "page": 69,
+   "q": "Market misconduct under the SFA is a criminal offence. A defendant may be:",
+   "o": [
+    "fined.",
+    "jailed.",
+    "fined or jailed.",
+    "fined, jailed, or both."
+   ],
+   "a": [
+    3
+   ],
+   "multi": false,
+   "e": "Fines and imprisonment are the important forms of punishment for market misconduct. The severity of the fines and imprisonment terms reflect how serious MAS is in deterring market misconduct and ensuring personal liability for any persons breaching the laws on market conduct."
+  },
+  {
+   "n": 70,
+   "page": 70,
+   "q": "The CFO of a company sold shares after learning of the poor business performance in a management meeting. Which of the following offence is the CFO likely to have committed?",
+   "o": [
+    "Market Rigging",
+    "FALSE Trading",
+    "Insider Trading",
+    "Wash Trading"
+   ],
+   "a": [
+    2
+   ],
+   "multi": false,
+   "e": "Insider trading involves trading on privileged and confidential info that is price sensitive (inside info). The CFO is, therefore, guilty of insider trading (he traded based on insider information)."
+  },
+  {
+   "n": 71,
+   "page": 71,
+   "q": "Julie, who works in a bank, came across a fax indicating that XYZ Company will be taking over ABC Company at $10 per share. Julie knew that if she were to buy ABC shares now at $5 and sell the shares after the announcement, she would make a tidy profit.\n\nShe informs her brother about the matter and asked him to trade, but her brother met with a traffic accident and was unable to trade. Have the insider trading provisions been contravened?",
+   "o": [
+    "Yes, because Julie had informed her brother and had intention to trade.",
+    "No, because she did not know whether her brother would buy the shares or not.",
+    "Yes, as she had obtained inside info unethically.",
+    "None of the above."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "Persons with inside information on a corporation or its securities must not enter into transactions in such securities. They must also NOT communicate the information to other parties. Therefore, Julie is guilty of the insider trading offence under Section 218(3) of the SFA because she communicated inside information to her brother."
+  },
+  {
+   "n": 72,
+   "page": 72,
+   "q": "A trading representative, Louis, heard from his friend working in the accounts department of KLG Ltd that KLG would be announcing a 180% increase in profits on 13 Oct. Louis expects KLG's share price to surge on 14 Oct in response to the announcement. Louis's customer, Jane placed an order with him on 13 Sep to buy 30,000 KLG's shares although Louis did not pass on the information to Jane or advise her on the purchase.\n\nDid Louis breach the SFA for insider trading?",
+   "o": [
+    "Yes, because Louis could have declined to execute the trade due to conflict of interest.",
+    "Yes, because Louis has insider knowledge of unannounced information.",
+    "No, because Jane purchased KLG shares without any knowledge of the insider information.",
+    "No, because Jane does not know Louis's friend who works in KLG."
+   ],
+   "a": [
+    2
+   ],
+   "multi": false,
+   "e": "Insider trading involves trading ON privileged and confidential info (non-public, price sensitive info). Therefore, the person should be in possession of insider information while trading for it to be a case of insider trading. Therefore, Jane is not guilty of insider trading because she purchased KLG shares without any knowledge of the insider information."
+  },
+  {
+   "n": 73,
+   "page": 73,
+   "q": "Mr. X passes a non-public, price-sensitive information derived from work to his friend who trades based on the information, but unexpectedly incurs financial losses from the trade. Has insider trading been committed?",
+   "o": [
+    "Yes, because a trade has been made based on the information.",
+    "Yes, because the sensitive information was non-public and yet it was shared with a friend.",
+    "No, because no financial gains materialized from the information.",
+    "None of the above."
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "multi": true,
+   "e": "Insider trading is to trade on privileged and confidential info. Persons with inside info on a corporation or its securities must not enter into transactions in such securities. They must also not communicate the info to other parties."
+  },
+  {
+   "n": 74,
+   "page": 74,
+   "q": "Kenny has just received an inheritance. After approaching his friend Roger, a trading representative, for advice, he was told that he should open a trading account and start investing in shares through Roger. Roger assures Kenny that he will not lose money as he will only invest in blue chips. In this scenario, which of the following statements is TRUE?",
+   "o": [
+    "Both Kenny and Roger have breached the SFA.",
+    "Roger has breached the SFA.",
+    "If Kenny makes a loss, Roger would be in breach of the SFA.",
+    "If Kenny makes a loss, Kenny would be in breach of the SFA."
+   ],
+   "a": [
+    1
+   ],
+   "multi": false,
+   "e": "CMS licence holders or their representatives should not knowingly, with intent, make or publish any statement, forecast or promise that are false or misleading to induce others to deal in securities. Roger made a statement that he knows or ought reasonably to have known was false. This is because people may lose money even if they invest only in blue chips."
+  }
+ ]
+}

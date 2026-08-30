@@ -1,0 +1,365 @@
+{
+ "title": "RES 1B Chapter 1",
+ "source": "RES1B Chapter 1.pdf",
+ "answer_source": "ticked options in the CMFAS Academy app, cross-checked against each question's explanation",
+ "questions": [
+  {
+   "n": 1,
+   "page": 1,
+   "q": "Which of the following accurately describes the terms \"Listing\" and \"Quotation\" in the context of SGX-ST?",
+   "o": [
+    "\"Listing\" means being listed on the official boards of SGX-ST.",
+    "\"Quotation\" refers to companies that may be dealt with over-the-counter.",
+    "A \"Quotation\" is a formal offer to buy shares at a specified price.",
+    "\"Listing\" requires companies to have a physical presence in Singapore."
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "multi": true,
+   "e": "(A) and (B) are correct because \"Listing\" indeed means being listed on the official boards of SGX-ST, and \"Quotation\" refers to companies that may be dealt with over-the-counter, not requiring formal listing."
+  },
+  {
+   "n": 2,
+   "page": 2,
+   "q": "In the context of a Catalist listing on SGX-ST, which of the following statements are TRUE regarding the role of sponsors?",
+   "o": [
+    "Full Sponsors are responsible for the admission of listing applicants for listing on Catalist.",
+    "Continuing Sponsors advise Catalist companies on compliance with their continuing obligations.",
+    "A company seeking listing on Catalist must have a minimum operating revenue for the past three years.",
+    "Sponsors are required to directly manage the day-to-day operations of the listed company."
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "multi": true,
+   "e": "(A) and (B) are correct because Full Sponsors are responsible for the admission of listing applicants on Catalist, and Continuing Sponsors are tasked with advising Catalist companies on their continuing obligations."
+  },
+  {
+   "n": 3,
+   "page": 3,
+   "q": "Which of the following statements accurately reflect the obligations of listed issuers regarding the disclosure of material information on SGX-ST?",
+   "o": [
+    "Listed issuers must announce all material information through the SGXNet system.",
+    "Material information includes details about subsidiaries and associated companies.",
+    "Listed issuers are allowed to delay disclosure to avoid affecting their share price negatively.",
+    "Material information disclosure is optional for companies listed on Catalist."
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "multi": true,
+   "e": "(A) and (B) are correct because listed issuers are required to announce all material information through the SGXNet system, and such information includes details about subsidiaries and associated companies that could affect the company's share price."
+  },
+  {
+   "n": 4,
+   "page": 4,
+   "q": "In the context of an Initial Public Offering (IPO) on SGX-ST, which of the following statements accurately reflect the process?",
+   "o": [
+    "A company must lodge a prospectus with MAS prepared in accordance with relevant regulations.",
+    "An introduction involves no shares offered to the investing public, suitable for companies not requiring funds at the point of listing.",
+    "The IPO process requires companies to have a physical presence in Singapore.",
+    "All companies must issue new shares during the IPO process."
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "multi": true,
+   "e": "(A) and (B) are correct because lodging a prospectus with MAS is a requirement for an IPO, and an introduction involves no shares being offered to the public, suitable for companies not requiring funds at the point of listing."
+  },
+  {
+   "n": 5,
+   "page": 5,
+   "q": "Regarding SGX-ST's actions on breaches of Mainboard or Catalist Rules, which of the following measures can SGX-ST take?",
+   "o": [
+    "Issuing a private warning to an issuer or its directors.",
+    "Offering a composition sum to an issuer.",
+    "Automatically delisting a company after a single minor breach.",
+    "Requiring all company directors to resign after a breach is detected."
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "multi": true,
+   "e": "(A) and (B) are correct because SGX-ST can issue a private warning to an issuer or its directors and offer a composition sum to an issuer as part of its enforcement actions."
+  },
+  {
+   "n": 6,
+   "page": 6,
+   "q": "Which of the following are features of listing debt securities on SGX-ST?",
+   "o": [
+    "Entities can list various types of debt securities, including fixed and floating-rate bonds.",
+    "Listing of debt securities is subject to the same continuing obligations as equity listings.",
+    "A trustee and trust deed are typically required for the listing of debt securities.",
+    "Debt securities listings are exclusively for government-issued bonds."
+   ],
+   "a": [
+    0,
+    2
+   ],
+   "multi": true,
+   "e": "(A) and (C) are correct because entities can list various types of debt securities on SGX-ST, including fixed and floating-rate bonds, and a trustee and trust deed are typically required for the listing of debt securities."
+  },
+  {
+   "n": 7,
+   "page": 7,
+   "q": "Regarding the continuing listing obligations for companies listed on SGX-ST's Mainboard and Catalist, which of the following are requirements?",
+   "o": [
+    "Companies must disclose all material information that might affect their share price.",
+    "Listed issuers are required to hold all general meetings in Singapore, unless prohibited by laws and regulations in the jurisdiction of incorporation.",
+    "Companies must issue periodic financial reports regardless of their size.",
+    "Companies must have a minimum of 50% of their shares held by the public at all times."
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "multi": true,
+   "e": "(A) and (C) are correct because listed companies are required to disclose all material information that might affect their share price, and periodic reporting is a part of the continuing obligations. Option (B) is correct because listed issuers are required to hold all general meetings in Singapore, unless prohibited by laws and regulations in the jurisdiction of incorporation. Option (D) is incorrect because there is no requirement for companies to have a minimum of 50% of their shares held by the public at all times."
+  },
+  {
+   "n": 8,
+   "page": 8,
+   "q": "For a company seeking a primary listing on SGX-ST's Mainboard, which of the following are among the initial listing requirements?",
+   "o": [
+    "The company must have a market capitalization of not less than S$150 million if it is profitable in the latest financial year.",
+    "The company must demonstrate a minimum operating revenue for the past five years.",
+    "The entity must be in a healthy financial position, with positive cash flow from operating activities.",
+    "The company must exclusively deal in the technology sector to qualify for listing."
+   ],
+   "a": [
+    0,
+    2
+   ],
+   "multi": true,
+   "e": "(A) and (C) are correct because one of the quantitative requirements for listing on the Mainboard includes having a market capitalization of not less than S$150 million if profitable in the latest financial year, and the entity must be in a healthy financial position with positive cash flow from operating activities."
+  },
+  {
+   "n": 9,
+   "page": 9,
+   "q": "When a company decides to go public in Singapore, what roles does the issue manager play in the listing process on SGX-ST?",
+   "o": [
+    "Gathering required information and liaising with SGX-ST on matters relating to the application.",
+    "Directly offering the newly issued shares to the public.",
+    "Ensuring that the company's business model is aligned with SGX-ST's strategic goals.",
+    "Acting as the primary legal advisor to the company on corporate law matters."
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "(A) is correct because the issue manager gathers required information and liaises with SGX-ST, playing a central role in the listing process."
+  },
+  {
+   "n": 10,
+   "page": 10,
+   "q": "In the context of shareholders' rights to vote at meetings for companies listed on SGX-ST, which of the following statements are TRUE?",
+   "o": [
+    "Shareholders must attend meetings in person to vote.",
+    "Shareholders who are unable to attend can appoint a proxy to vote on their behalf.",
+    "All resolutions at general meetings shall be voted by show of hands.",
+    "Resolutions at general meetings shall be voted by poll."
+   ],
+   "a": [
+    1,
+    3
+   ],
+   "multi": true,
+   "e": "(B) and (D) are correct because shareholders who are unable to attend meetings can appoint a proxy to vote on their behalf, and all resolutions at general meetings are required to be voted by poll, ensuring a more accurate and formal voting process."
+  },
+  {
+   "n": 11,
+   "page": 11,
+   "q": "What are the responsibilities of a sponsor in relation to a company listed on SGX-ST's Catalist?",
+   "o": [
+    "The sponsor must ensure the company complies with all MAS regulations.",
+    "The sponsor must act professionally, transparently, and efficiently in its dealings with the company.",
+    "The sponsor is responsible for the direct marketing of the company's shares.",
+    "A company on Catalist must engage a Continuing Sponsor on an ongoing basis for as long as they are listed on Catalist."
+   ],
+   "a": [
+    1,
+    3
+   ],
+   "multi": true,
+   "e": "(B) and (D) are correct because sponsors are expected to act professionally, transparently, and a company on Catalist must engage a Continuing Sponsor on an ongoing basis for as long as they are listed on Catalist."
+  },
+  {
+   "n": 12,
+   "page": 12,
+   "q": "During the IPO process for a company seeking to list on the Main Board of SGX-ST, which of the following stages are part of the timeline?",
+   "o": [
+    "Conducting a roadshow for potential investors immediately after submitting Section (A).",
+    "Review of Section (A) by SGX-ST to highlight key matters relating to the issuer.",
+    "Public exposure of the prospectus on MAS OPERA for a minimum of 7 calendar days after lodgement.",
+    "Registration and launch phase taking place 1 to 2 weeks after the public exposure period."
+   ],
+   "a": [
+    1,
+    2,
+    3
+   ],
+   "multi": true,
+   "e": "(B), (C) and (D) are correct because the review of Section (A) by SGX-ST is an early stage in the IPO process, public exposure of the prospectus on OPERA for 7 calendar days after lodgement is a requirement, and the registration and launch phase typically occurs 1 to 2 weeks after the public exposure period on MAS OPERA."
+  },
+  {
+   "n": 13,
+   "page": 13,
+   "q": "For a company aiming to list on the SGX Mainboard, which of the following are part of the Mainboard admission criteria?",
+   "o": [
+    "The company must have a physical office in Singapore",
+    "The company must have a market capitalization of not less than S$300 million based on the issue price",
+    "The company must have operating revenue in the latest completed financial year and a market capitalization of not less than S$300 million based on the issue price and postinvitation issued share capital.",
+    "Directors and substantial shareholders must settle all debts owing to the group before listing"
+   ],
+   "a": [
+    2,
+    3
+   ],
+   "multi": true,
+   "e": "(C) and (D) are correct because one of the quantitative requirements for Mainboard listing includes having operating revenue in the latest completed financial year and a requirement that all debts owing to the group by its directors and substantial shareholders must be settled prior to listing."
+  },
+  {
+   "n": 14,
+   "page": 14,
+   "q": "In the context of Special Purpose Acquisition Companies (SPACs) listing on SGX-ST, which of the following statements accurately describe SPACs?",
+   "o": [
+    "SPACs are listed investment vehicles with no prior operating history.",
+    "SPACs must complete a business combination within a specified timeframe after listing.",
+    "SPACs are primarily focused on investing in real estate projects in Singapore.",
+    "SPACs allow for direct public trading of a company's assets before an IPO."
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "multi": true,
+   "e": "SPACs are listed investment vehicles with no prior operating history"
+  },
+  {
+   "n": 15,
+   "page": 15,
+   "q": "Which of the following are primary functions of the Monetary Authority of Singapore (MAS) in the context of regulating the capital markets industry?",
+   "o": [
+    "Conducting integrated supervision of financial services and financial stability surveillance.",
+    "Managing the official foreign reserves of Singapore.",
+    "Directly managing retail banking operations within Singapore.",
+    "Issuing corporate bonds to fund infrastructure projects in Singapore."
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "multi": true,
+   "e": "(A) and (B) are correct because MAS is responsible for the integrated supervision of financial services and financial stability surveillance, as well as managing Singapore's official foreign reserves."
+  },
+  {
+   "n": 16,
+   "page": 16,
+   "q": "Regarding the types of banks and their operations under the Banking Act 1970 in Singapore, which of the following statements are TRUE?",
+   "o": [
+    "Wholesale Banks are allowed to take deposits in any currency but are restricted in taking Singapore dollar deposits.",
+    "Merchant Banks are not found in the retail space and cannot accept Singapore deposits from the public.",
+    "Full Banks are restricted in offering deposit products to their clients.",
+    "Qualifying Full Banks can only serve institutional clients and not the mass retail market."
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "multi": true,
+   "e": "(A) and (B) are correct because Wholesale Banks have restrictions on Singapore dollar deposits and Merchant Banks cannot accept Singapore deposits from the public and are not in the retail space."
+  },
+  {
+   "n": 17,
+   "page": 17,
+   "q": "Which of the following best describes the function of the primary market in Singapore's capital markets?",
+   "o": [
+    "It is where investors manage or transfer their risk to other parties.",
+    "It provides opportunities for businesses to raise capital through the issuance of securities.",
+    "It operates exclusively for trading derivatives products.",
+    "It serves as a platform for secondary trading activities."
+   ],
+   "a": [
+    1
+   ],
+   "multi": false,
+   "e": "(B) is correct because the primary market's function is to provide opportunities for businesses to raise capital through the issuance of securities."
+  },
+  {
+   "n": 18,
+   "page": 18,
+   "q": "Tanisha is considering trading capital market products and is evaluating the differences between OTC markets and regulated exchanges. Which of the following statements are TRUE regarding these trading venues?",
+   "o": [
+    "OTC markets offer a centralized location for price discovery.",
+    "Regulated exchanges require traders to be a Trading Member or a customer of one.",
+    "OTC markets are known for their direct calling feature to determine interest.",
+    "Regulated exchanges do not facilitate direct communication between buyers and sellers."
+   ],
+   "a": [
+    1,
+    2,
+    3
+   ],
+   "multi": true,
+   "e": "(B), (C) and (D) are correct because to trade on an exchange, the buyer or seller needs to either be a Trading Member of the exchange, or a customer of a Trading Member of the exchang, OTC markets are characterized by direct communication between participants, and regulated exchanges provide a centralized platform without direct buyer-seller communication."
+  },
+  {
+   "n": 19,
+   "page": 19,
+   "q": "In the regulatory framework for capital markets in Singapore, SGX adopts several guiding principles for its regulation. Which of the following principles are included?",
+   "o": [
+    "Prioritizing the development of new financial products over market stability.",
+    "Ensuring all market participants have equal access to insider information.",
+    "Comprehensive Risk Management focusing on the safe and efficient operation of clearing houses.",
+    "Risk-Based Targeting of Regulatory Activities to allocate resources effectively."
+   ],
+   "a": [
+    2,
+    3
+   ],
+   "multi": true,
+   "e": "(C) and (D) are correct because SGX focuses on Comprehensive Risk Management and adopts a Risk-Based Targeting approach for its regulatory activities, ensuring resources are allocated according to risk profiles."
+  },
+  {
+   "n": 20,
+   "page": 20,
+   "q": "Which of the following entities typically acts as a financial intermediary by matching selling interest with buying interest in the secondary market?",
+   "o": [
+    "Brokers",
+    "Central banks",
+    "Mutual funds",
+    "Retail investors"
+   ],
+   "a": [
+    0
+   ],
+   "multi": false,
+   "e": "(A) Brokers function as middle agents in the secondary market, matching selling and buying interests, which is consistent with the role described."
+  },
+  {
+   "n": 21,
+   "page": 21,
+   "q": "In the context of Capital Markets Services (CMS) Licence Holders in Singapore, which of the following services require a CMS licence?",
+   "o": [
+    "Providing custodial services for capital markets products.",
+    "Offering general banking services such as savings accounts.",
+    "Broker / dealer companies.",
+    "Corporate finance advisory services including acting as issue managers for listings."
+   ],
+   "a": [
+    0,
+    2,
+    3
+   ],
+   "multi": true,
+   "e": "(A), (C) and (D) are correct because providing custodial services for capital markets products, broker/dealer companis, and corporate finance advisory services, including acting as issue managers for listings, require a CMS licence."
+  }
+ ]
+}

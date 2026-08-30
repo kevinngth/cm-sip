@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RES 1B Chapter 6</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1b1f24;--mut:#6b7280;--line:#e3e6ea;--acc:#2563eb;
+--ok:#16a34a;--okbg:#eaf7ef;--no:#dc2626;--nobg:#fdeeee}
+@media (prefers-color-scheme:dark){:root{--bg:#14171a;--card:#1c2024;--ink:#e8eaed;--mut:#9aa3ad;
+--line:#2c3238;--okbg:#14301f;--nobg:#331717}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:24px 18px 80px}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--mut);font-size:14px;margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:10px}
+.setbtn{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;text-align:left;cursor:pointer;font:inherit;color:inherit}
+.setbtn:hover{border-color:var(--acc)}
+.setbtn b{display:block;font-size:15px}
+.setbtn span{color:var(--mut);font-size:13px}
+.rand{background:var(--acc);border-color:var(--acc);color:#fff}.rand span{color:#dbe6ff}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);
+margin:0 -18px 20px;padding:12px 18px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.bar h2{font-size:16px;margin:0;flex:1}
+.pill{font-size:13px;color:var(--mut);white-space:nowrap}.pill b{color:var(--ink)}
+button.lnk{background:none;border:0;color:var(--acc);font:inherit;cursor:pointer;padding:0}
+.q{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:14px}
+.qn{color:var(--mut);font-size:13px;margin-bottom:6px}
+.qt{font-weight:600;margin-bottom:12px;white-space:pre-wrap}
+.opt{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:8px;
+padding:9px 12px;margin-bottom:7px;cursor:pointer;background:var(--card)}
+.opt:hover{border-color:#9aa3ad}
+.opt.sel{border-color:var(--acc);box-shadow:inset 0 0 0 1px var(--acc)}
+.opt .k{font-weight:600;color:var(--mut);min-width:16px}
+.opt.correct{background:var(--okbg);border-color:var(--ok)}
+.opt.wrong{background:var(--nobg);border-color:var(--no)}
+.opt.correct .k{color:var(--ok)}.opt.wrong .k{color:var(--no)}
+.done .opt{cursor:default}
+.note{font-size:13px;color:var(--mut);margin-top:8px}
+.expl{margin-top:12px;padding:12px 14px;border-left:3px solid var(--acc);background:rgba(37,99,235,.05);
+border-radius:0 8px 8px 0;font-size:14px;line-height:1.6;white-space:pre-wrap}
+.expl .ref{display:block;color:var(--mut);font-size:12px;margin-bottom:6px;font-weight:600}
+.res{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;text-align:center}
+.res .score{font-size:34px;font-weight:700}
+.foot{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap}
+.btn{background:var(--acc);color:#fff;border:0;border-radius:8px;padding:10px 16px;font:inherit;cursor:pointer}
+.btn.sec{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+</style></head><body><div class="wrap" id="app"></div>
+<script>
+const DATA = [{"n":1,"q":"A CPF investment account is required for investments made under:","o":["CPFIS-Ordinary Account.","CPFIS-Special Account.","Both CPFIS-Ordinary Account and CPFIS-Special Account.","Enhanced Investment Scheme (EIS)."],"a":[0],"e":"A CPF Investment account is required for investments made under the CPFIS-OA but not required for CPFIS-SA."},{"n":2,"q":"A member needs to fulfil which of the following conditions for participating in the Central Provident Fund Investment Scheme (CPFIS)?","o":["He should have prior experience of investing in stock markets.","He needs to be at least 21 years old.","He should not be an undischarged bankrupt.","He must have a minimum educational level of at least 2 GCE-O Level credit passes."],"a":[2],"e":"A CPF member who is at least 18 years of age, NOT an undischarged bankrupt, and has more than $20,000 in his/her Ordinary Account (for Investment under CPFIS-OA) and/or more than $40,000 in his/her Special Account (for investment under CPFIS-SA) is allowed to participate in the CPFIS."},{"n":3,"q":"A member can sell his investments which are listed on the SGX after the purchase date if the purchase trade has been accepted by the agent bank as a CPFIS-OA trade. Agent banks may accept the trade if:","o":["The stock broker has keyed the purchase trade on the day the purchase contract is made.","The trade was successful.","The member has sufficient investible funds and limits for stock and/or gold investments in his CPF Investment and/or Ordinary Account to settle the purchase.","The CPF Board approves the sale."],"a":[0,1,2],"e":"A member can sell his investments which are listed on the SGX, 1 trading day after the purchase date if the purchase trade has been accepted by the agent bank as a CPFIS-OA trade. Agent banks may accept the trade if the stock broker has keyed the purchase trade on the day the purchase contract is made, the trade was successful, and the member has sufficient investible funds (and limits for stock and/or gold investments) in his CPF Investment and/or Ordinary Account to settle the purchase. There is no need to obtain CPF Board's approval for each sale.","multi":true},{"n":4,"q":"Subject to which of the following conditions can CPF members sell their investments made from a CPFIS-OA account?","o":["Investments can be sold minimum one trading day after the purchase date.","The relevant stock broker should have been paid the relevant brokerage.","The agent banks dues should have been cleared.","Members should have sufficient investible funds in their personal bank account to settle the purchase."],"a":[0],"e":"A member can sell his/her investments which are listed on the Singapore Exchange one trading day after the purchase date if the purchase trade has been accepted by the agent bank as a CPFIS-OA trade."},{"n":5,"q":"Charges for CPFIS savings are payable by the member:","o":["From his personal bank account.","From profits in his CPF investment account.","From his CPF savings.","In cash, as and when demanded."],"a":[2],"e":"A member incurs charges for his/her CPFIS investment. The charges can be paid out of his/her CPF savings. Charges may be levied by product or service providers or by the agent bank for providing the CPF Investment Account and facilitating the settlement and accounting of transactions."},{"n":6,"q":"Regarding CPFIS-OA, role of the agent banks includes which of the following activities?","o":["Keeping track of the investment holdings of a member.","Keeping track of the transactions of a member.","Liaising with the CPF board.","Liaising with the product providers to settle the transactions of a member."],"a":[0,1,2,3],"e":"Agent banks must perform the roles given in all the given options.","multi":true},{"n":7,"q":"Which of the following instruments DOES NOT require the review of the CPF board for inclusion under the CPFIS?","o":["Gold products offered by CPF agent banks.","Annuities.","Unit trusts.","Real Estate Investment Trusts shares."],"a":[0],"e":"All instruments (EXCEPT Gold products offered by CPF Agent Banks, Singapore Government Bonds and Singapore Government Treasury Bills) under the CPFIS are only included upon the product providers' applications and CPF Board's review. These instruments must meet the inclusion criteria."},{"n":8,"q":"Which of the following statements regarding transfer of moneys from CPF investment account to CPF ordinary account by members is/are TRUE?","o":["The transfer can be made using the ATM of the agent banks.","The transfer can be made using phone banking of the agent banks.","Transfer can be made over the counter at the banks.","All of the above."],"a":[3],"e":"All the given statements about transfer of moneys from CPF investment account to CPF ordinary account by member are true."},{"n":9,"q":"Which of the following statements regarding CPFIS-OA and CPFIS-SA is/are FALSE?","o":["Only moneys in excess of $40,000 in the Ordinary Account can be invested.","Only moneys in excess of $20,000 in the Special Account can be invested.","The first $100,000 in the combined CPF accounts earns extra 1.5% interest.","All of the above."],"a":[3],"e":"All the given statements are false. The first $60,000 in a CPF member's combined CPF accounts earns extra interest (capped at $20,000 from the Ordinary Account). To enable CPF members to optimise the extra interest on the first combined $60,000, only monies in excess of $20,000 in the Ordinary Account and $40,000 in the Special Account can be invested via the CPF Investment Scheme. However, a member can continue to service his regular premium insurance policies (but NOT recurring single premium insurance policies or regular savings plans for unit trusts) and agent bank fees with CPF savings, even if the Ordinary Account balance falls below $20,000."},{"n":10,"q":"Which of the following statements regarding service providers for buying/selling investments under the CPFIS schemes is FALSE?","o":["Statutory Board Bonds can be purchased from brokers.","Bonds guaranteed by Singapore Government cannot be purchased from brokers.","Gold products, other than ETFs, can be bought only through a UOB Agent Bank.","UOB investment account is necessary for purchasing gold products other than ETFs."],"a":[1],"e":"Bonds guaranteed by Singapore Government CAN be purchased from brokers. The other statements are true."},{"n":11,"q":"Which of the following statements about CPFIS agent banks is/are FALSE?","o":["CPFIS agent banks are appointed by the MAS.","CPFIS agent banks are appointed based on their profitability.","Presently, there are 4 approved CPFIS agent banks.","Oversea-Chinese Banking Corporation Ltd is a CPFIS agent bank."],"a":[0,1,2],"e":"CPFIS agent banks are appointed by the CPF BOARD and are one of the 3 local banks (Oversea-Chinese Banking Corporation Ltd (OCBC), United Overseas Bank Ltd (UOB) and DBS Bank Ltd (DBS)). The agent banks are appointed by the CPF Board for their extensive branch network and facilities to support the investment and settlement of equities & bonds listed on the Singapore Exchange.","multi":true},{"n":12,"q":"Which of the following statements about CPFIS investments and cash balance of an undischarged bankrupt is FALSE?","o":["CPFIS investments and cash balances in the CPF Investment Account are protected from claims by creditors and/or the Official Assignee as long as these remain within the CPF Investment Scheme.","The cash balance is protected from claims of the official assignee if they remain in the CPFIS investment scheme.","The cash balance is protected from claims of the creditors even after it is withdrawn.","None of the above."],"a":[2],"e":"CPFIS investments and cash balances in the CPF Investment Account are protected from claims by creditors and/or the Official Assignee AS LONG AS these remain within the CPF Investment Scheme. The other statements are true."},{"n":13,"q":"Which of the following statements about the status of investments and cash balance in CPFIS and investment account after the death of the member is FALSE?","o":["The cash balance will form part of his estate.","CPF investments are covered under CPF nomination.","The investments will form part of his estate.","None of the above."],"a":[1],"e":"CPFIS Investments are NOT covered under CPF Nomination. The other statements are true."},{"n":14,"q":"The Central Provident Fund Investment Scheme (CPFIS) currently comprises of:","o":["Basic Investment Scheme (BIS).","CPFIS-Ordinary Account.","CPFIS-Special Account.","Enhanced Investment Scheme (EIS)."],"a":[1,2],"e":"Currently, the CPFIS has 2 parts CPFIS-Ordinary Account (CPFIS-OA), and CPFIS-Special Account (CPFIS-SA).","multi":true},{"n":15,"q":"Which of the following statements about dividends and profits earned from investments made in the CPFIS-OA scheme is/are TRUE?","o":["Dividends can be withdrawn.","Profits cannot be withdrawn.","The dividends cannot be used for other CPF schemes.","All of the above."],"a":[1],"e":"Dividends, profits earned from investments under CPFIS-OA and/or CPFIS-SA are NOT withdrawable as the purpose of investing is to grow members' CPF savings for retirement. However, the dividends or profits CAN be used for other CPF schemes, subject to the terms and conditions of those schemes. However, losses do not need to be made good."},{"n":16,"q":"Which of the following statements about conditions for inclusion of instruments under CPFIS is FALSE?","o":["Fixed deposits must be offered by CPFIS-included Fixed Deposit Banks.","Annuities must be offered by Insurance companies included under CPFIS.","The Singapore Government bonds must be traded in SGD.","ETFs must be listed on foreign stock exchanges."],"a":[3],"e":"ETFs must be listed on the SGX and meet other conditions. The other statements are true."},{"n":17,"q":"For a corporate bond to be included under the CPFIS, it must have MINIMUM which of the following ratings?","o":["A by Standard and Poor's.","B by Standard and Poor's.","BB by Standard and Poor's.","C by Standard and Poor's."],"a":[0],"e":"For a corporate bond to be included under the CPFIS, it must have MINIMUM rating of A by Standard and Poor's."},{"n":18,"q":"Which of the following is a requirement for a foreign bank in Singapore to be allowed to offer fixed deposits under the CPFIS?","o":["It must have an extensive branch network around the world.","It must have minimum capital of $1 billion.","It must be accorded the Qualifying Full Bank privileges.","It must have reported consolidated net profits over the past 3 years."],"a":[2],"e":"For a foreign bank in Singapore to be allowed to offer fixed deposits under the CPFIS, it must be accorded the Qualifying Full Bank privileges."},{"n":19,"q":"For a locally incorporated bank to offer fixed deposits under the CPFIS, among other things, it should have minimum capital funds of ____.","o":["SGD 1,500 million","SGD 100 million","SGD 1,000 million","SGD 750 million"],"a":[0],"e":"For a locally incorporated bank to offer fixed deposits under the CPFIS, among other things, it should have minimum capital funds of S$1.5 billion."},{"n":20,"q":"For being included as an investment product under CPFIS, a unit trust must be evaluated by an Investment Consultant appointed by the CPF Board. The unit trust must be evaluated to be among the top ____ percentile of global peer group.","o":["10th","15th","25th","30th"],"a":[2],"e":"For being included as an investment product under CPFIS, a unit trust must be evaluated by CPF Board's appointed Investment Consultant to be among the top 25th percentile of global peer group"},{"n":21,"q":"For being included as an investment product under CPFIS, the sales charge of a unit trust must not exceed:","o":["0.01","0.02","0.03","There should be no sales charge"],"a":[3],"e":"For being included as an investment product under CPFIS, there should be no sales charge on the unit trust."},{"n":22,"q":"When can a CPF investment account be closed by an agent bank?","o":["Upon instructions from the member, provided he fulfils the required conditions.","Upon instructions from the CPF board.","Automatically, after the member reaches the specified age.","Anytime at the sole discretion of the agent bank."],"a":[1],"e":"For CPFIS-OA, the Board informs the agent bank to close the member's CPF Investment Account."},{"n":23,"q":"Which of the following statements about conditions for inclusion of instruments under the CPFIS is FALSE?","o":["For endowment policies, the maturity date should be after the 62nd birthday of the member.","Exchange Traded Funds denominated in SGD are allowed.","Investments in unit trusts can be made only if they are managed by Fund Management companies included under CPFIS.","None of the above."],"a":[0],"e":"For endowment policies, maturity date MUST NOT BE LATER than the member's 62nd birthday. The other statements are true."},{"n":24,"q":"Which of the following statements about types of investments allowed under CPFIS-SA is/are TRUE?","o":["Only ILPs in the highest 3 tiers of the Risk Classification System Table of the CPF Board are allowed.","Only unit trusts in the highest 3 tiers of the Risk Classification System Table of the CPF Board are allowed.","Only ILPs in the lowest 3 tiers of the Risk Classification System Table of the CPF Board are allowed.","None of the above."],"a":[2],"e":"Generally, only ILPs, unit trusts and ETFs in the LOWEST 3 tiers of the Risk Classification System Table of the CPF Board are allowed for investment under CPFIS-SA."},{"n":25,"q":"Which of the following is NOT a type of investment allowed under the CPFIS-SA?","o":["Annuities.","Endowment Insurance Policies.","Gold ETFs.","None of the above."],"a":[2],"e":"Gold ETFs are NOT allowed under CPFIS-SA."},{"n":26,"q":"Which of the following types of investments are allowed under the CPFIS-Ordinary Account scheme?","o":["Statutory Board Bonds.","Exchange Traded funds.","Investment-Linked Insurance Products.","Gold products offered by any bank"],"a":[0,1,2],"e":"Gold products offered BY UOB are allowed for investment under CPFIS-OA. The instruments given in the other options are allowed.","multi":true},{"n":27,"q":"If a member is unable to set aside the required minimum amount, the sale proceeds of his investments will be credited to:","o":["a suspense account maintained by the CPF Board.","an escrow account operated by the CPF Board.","his CPF Investment Account for CPFIS-SA.","his CPF Investment Account for CPFIS-OA."],"a":[3],"e":"If a member is unable to set aside the FRS or the BRS with sufficient property charge/pledge in the RA, his investments will not be transferred to him. Upon liquidating the investments, the sale proceeds will be credited to his CPF Investment Account for CPFIS-OA or Special Account for CPFIS-SA."},{"n":28,"q":"Which of the following types of investments are allowed under the CPFIS-Special Account scheme?","o":["Fixed deposits.","All unit trusts.","All Exchange Traded funds.","Statutory Board Bonds from the primary market."],"a":[0],"e":"Investments in unit trusts, ETFs and statutory Board Bonds from the primary market can be made under CPFIS-OA. Under CPFIS-SA, investments in fixed deposits, SELECTED unit trusts and ETFs, and SECONDARY market Statutory Board Bonds can be made. Basically, under CPFIS-SA, only ILPs, unit trusts and ETFs in the lowest 3 tiers of CPF Board's Risk Classification System Table (i.e., lower risk, low to medium risk and medium to high risk) are allowed for investment."},{"n":29,"q":"Which of the following statements regarding investments under CPFIS is/are TRUE?","o":["They can be pledged.","They cannot be assigned.","They can be used as collaterals for educational loans.","All of the above."],"a":[1],"e":"Investments under CPFIS CANNOT be assigned, pledged or used as collateral."},{"n":30,"q":"Which of the following statements about nominations in the CPFIS insurance policies is TRUE?","o":["Only irrevocable nominations are allowed.","Only revocable nominations are allowed.","Both revocable and irrevocable nominations are allowed.","Nominations are not allowed."],"a":[1],"e":"Irrevocable (trust) nominations are NOT allowed for CPFIS insurance policies. Only revocable nominations are allowed."},{"n":31,"q":"How many CPF investment accounts can a CPF member have?","o":["One.","Two.","Four.","Three."],"a":[0],"e":"Members can only maintain one CPF Investment Account at any one time."},{"n":32,"q":"Which of the following investments/instruments is/are NOT allowed under the CPFIS?","o":["Life insurance policy for the wife of the CPF member.","New regular premium policies.","Shares of a company incorporated in China.","All of the above."],"a":[3],"e":"None of the given investments/instruments are allowed under CPFIS. Life insured must be the member HIMSELF/HERSELF (not the spouse). Only single premium or recurring single premium policies are allowed (new regular premium policies are NOT allowed from 1 January 2001). Also, any shares for investment must be offered by companies incorporated in Singapore."},{"n":33,"q":"Even if the Ordinary Account balance of a CPF account falls below $20,000:","o":["Savings plans from unit trusts can continue to be serviced.","Recurring single premium insurance policies can be serviced.","Regular premium insurance policies can continue to be serviced.","Agent bank fees can continue to be serviced."],"a":[2],"e":"Only monies in excess of $20,000/- in the ordinary account and $40,000 in the special account can be invested. However, a member can continue to service his/her regular premium insurance policies (but NOT recurring single premium insurance policies or regular savings plans for unit trusts)."},{"n":34,"q":"Which of the following statements about a CPF member's CPF accounts is TRUE?","o":["The first S$50,000 in a member's combined CPF account earns extra interest capped at S$10,000.","Only monies in excess of S$40,000 in the Ordinary Account can be invested via the CPFIS.","Only monies in excess of S$50,000 in the Special Account can be invested via the CPFIS.","A member cannot services his regular savings plans for unit trusts if the Ordinary Account balance falls below S$20,000."],"a":[3],"e":"Only option (D) is correct. The first $60,000 in a CPF member's combined CPF accounts earns extra interest (capped at $20,000 from the Ordinary Account). To enable CPF members to optimise the extra interest on the first combined $60,000, only monies in excess of $20,000 in the Ordinary Account and $40,000 in the Special Account can be invested via the CPF Investment Scheme. However, a member can continue to service his regular premium insurance policies (but NOT recurring single premium insurance policies or regular savings plans for unit trusts) and agent bank fees with CPF savings, even if the Ordinary Account balance falls below $20,000."},{"n":35,"q":"Which of the following investments is allowed under the CPFIS-SA?","o":["Corporate bonds.","Real Estate Investment Trusts.","Gold products offered by UOB.","Bonds guaranteed by the Singapore government."],"a":[3],"e":"Out of the given options, only Bonds Guaranteed by Singapore Government are allowed for investment under CPFIS-SA. Investments in corporate bonds, REITs, and gold products offered by UOB are allowed under CPFIS-OA."},{"n":36,"q":"Under which of the following conditions does the agent bank automatically transfer the cash balance held in the CPF Investment Account of the member to his CPFIS-OA at the end of the month?","o":["If the investment account has been inactive for three consecutive months.","If the investment account has been inactive for two consecutive months.","If the investment account has been inactive for four consecutive months.","If the investment account has been inactive for six consecutive months."],"a":[1],"e":"The agent bank automatically transfers the cash balance held in the CPF Investment Account of the member to his CPFIS-OA at the end of the month if the investment account has been inactive for two consecutive months."},{"n":37,"q":"If a CPF member dies, the executor must produce the Grant of Probate to claim the investments from the ____.","o":["CPF board","nominees of the deceased member","agent bank or product providers","Court"],"a":[2],"e":"The estate administrator/executor must produce the Letters of Administration/ Grant of Probate to claim the investments from the agent bank or product providers."},{"n":38,"q":"Which of the following is/are conditions for inclusion of corporate bonds under the CPFIS-OA?","o":["The bonds should be subject to trading restrictions in the secondary market.","The bonds must be offered by companies incorporated in Singapore.","The bonds should be offered only to institutional investors.","The bonds must be rated minimum A2 by Moody's."],"a":[1,3],"e":"To be allowed for investment under CPFIS-OA, corporate bonds must be offered by companies incorporated in Singapore, the shares should be listed on the SGX MainBoard, the bonds should not be offered to institutional investors or accredited investors and certain other persons only under Section 274 or 275 of the SFA, the bonds should not be subject to trading restrictions in the secondary market, the bonds should be rated at least A2 by Moody's, A by Standard and Poor's or A by Fitch, prospectus, which comply with the Securities and Futures Act requirements for the bonds, should be issued. For bonds which are exempted from the prospectus requirement, an information memorandum setting out the terms of the issue, the risks of investing in the bonds and other relevant information must be issued and made available to CPF members.","multi":true},{"n":39,"q":"With which of the following entities can a CPF investment account be opened?","o":["Any CMS licence holder.","A securities broker, provided he deals in all the required types of securities.","CPFIS agent banks.","All of the above."],"a":[2],"e":"To open an investment account under CPF Investment Scheme Ordinary Account (CPFIS-OA), a member can approach any one of the CPFIS agent banks (DBS, OCBC, or UOB)."},{"n":40,"q":"Which of the following documents are required by a member for opening an investment account under CPFIS-OA with an agent bank?","o":["Income tax returns.","Identity card.","CPF statement.","Pay slip."],"a":[1,2],"e":"To open an investment account under CPF Investment Scheme Ordinary Account (CPFIS-OA), a member needs to bring along his or her identity card and any of his CPF statement for the agent bank to verify his/her CPF account number.","multi":true},{"n":41,"q":"For CPFIS-OA, which of the following statements is TRUE?","o":["45% of investible savings can be invested in shares, property funds or corporate bonds.","35% of investible savings can be invested in shares, property funds and corporate bonds.","15% of investible savings can be invested in Gold.","25% of investible savings can be invested in Gold."],"a":[1],"e":"Under CPFIS-OA, up to 35% of investable savings can be invested in shares, property funds and corporate bonds. Up to 10% of investable savings can be invested in Gold."},{"n":42,"q":"Under the CPFIS, members are allowed to buy or sell unit trusts through which of the following service providers?","o":["Fund Management Companies.","Investment Administrators.","Brokers.","Agent banks."],"a":[0,1],"e":"Under the CPFIS, members are allowed to buy or sell unit trusts through Fund Management Companies and Investment Administrators.","multi":true},{"n":43,"q":"Under the CPFIS, Singapore Government Treasury Bills can be purchased through which of the following service providers?","o":["Brokers.","Deposit banks.","Bond dealers.","All of the above."],"a":[2],"e":"Under the CPFIS, Singapore Government Treasury Bills can be purchased through bond dealers."},{"n":44,"q":"Which of the following statements regarding undischarged bankrupts who have used CPF moneys for making investments is/are FALSE?","o":["They can continue to hold their investments.","They can make new investments.","They can liquidate their investments.","All of the above."],"a":[1],"e":"Undischarged bankrupts who had previously used their CPF monies to invest can hold or liquidate their investments. The sale proceeds upon liquidation are credited back into their CPF Investment Account or Special Account. They are, however, NOT allowed to use their CPF monies again for new investments."},{"n":45,"q":"A member can apply to the CPF board for withdrawing his ordinary or special account investments, and the cash balance in his investment account. What are the conditions to be met before such application can be made by the member?","o":["The member should be minimum 56 years old.","He should have sufficient funds in the accounts to pay fees and charges to the agent bank.","He should have sufficient funds in the account for the CPF Minimum Sum.","The member should set aside the FRS or the BRS with sufficient property charged /pledge in the (RA)."],"a":[3],"e":"Upon reaching the age of 55 years old, a member can apply to the CPF Board to withdraw his CPFIS-OA and CPFIS-SA investments as well as the cash balance in his Investment Account, as long as he has set aside the Full Retirement Sum (FRS) or the Basic Retirement Sum (BRS) with sufficient property charged /pledge in the Retirement Account (RA)."},{"n":46,"q":"An undischarged bankrupt can withdraw funds from his CPFIS investments, and the cash balance after fulfilling certain conditions. The conditions include:","o":["Reaching 55 years age.","Setting aside the CPF Minimum Sum & Medisave Required amount.","Meeting the demands from Official Assignee.","Setting aside a specified amount as security for unbilled charges."],"a":[0,1],"e":"Upon reaching the age of 55 years, an undischarged bankrupt needs to set aside the CPF Minimum Sum and Medisave Minimum Sum before his/her CPFIS investments and cash balance in CPF Investment Account can be withdrawn.","multi":true},{"n":47,"q":"Which of the following statements about the status of CPFIS investments and cash balance after demise of a member is/are FALSE?","o":["The investments are protected from claims of the creditors.","The cash balance may be used to satisfy claims of the creditors as per the Probate and Administration Act.","The cash balance ceases to be protected from claims of the creditors.","All of the above."],"a":[0],"e":"Upon the death of the member, the CPFIS investments and cash in his/her Investment Account would CEASE to be protected and might be used to satisfy the deceased member's creditor's claim in accordance with the Probate and Administration Act. The other statements are true."},{"n":48,"q":"A CPF investment account is ____ when investing under CPFIS-OA ____ CPFIS-SA.","o":["needed, and is also needed when investing under","needed, but is not needed when investing under","not needed, but is needed when investing under","not needed, or"],"a":[1],"e":"A CPF Investment account is required for investments made under the CPFIS-OA but not required for CPFIS-SA."},{"n":49,"q":"Transfer of cash balance in the CPF investment account to the CPF-OA cannot be performed _____.","o":["at the Agent bank's ATM","at the Agent bank's phone banking facilities","over the counter at the Agent bank","at CPF's customer service counter"],"a":[3],"e":"A CPF member may transfer monies from his/her CPF Investment Account to his/her CPF Ordinary Account at any time using his/her agent bank's facilities (e.g., ATMs/ Phone/ Internet banking facilities). The member may also make the transfer over the counter at the BANK."},{"n":50,"q":"A member must first obtain a CPFIS statement from ____ before giving an order to purchase shares using his CPF funds.","o":["the CPF website","his nominated bank","his financial adviser or stockbroker","his employer"],"a":[0],"e":"A member will need to bring along his or her identity card and any of his CPF statement for the agent bank to verify his/her CPF account number. He or she can access his or her statement at www.cpf.gov.sg via mycpf Online Services by using his/her SingPass."},{"n":51,"q":"Undischarged bankrupts ___ use their CPF monies to make new investments. CPFIS investments ___ covered under CPF nomination.","o":["may, are","may, are not","may not, are","may not, are not"],"a":[3],"e":"Undischarged bankrupts may not use their CPF monies to make new investments. CPFIS investments are not covered under CPF nomination."}];
+const TITLE = "RES 1B Chapter 6";
+const SIZE = 26;
+const MODE = "instant";          // "instant" | "submit"
+const SHUFFLE = false;
+const L = ['a','b','c','d','e','f'];
+const app = document.getElementById('app');
+let state = null;
+
+function esc(s){return String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+function shuffled(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function home(){
+  state=null;
+  const sets=[];
+  for(let i=0;i<DATA.length;i+=SIZE) sets.push([i,Math.min(i+SIZE,DATA.length)]);
+  app.innerHTML = `<h1>${esc(TITLE)}</h1>
+  <p class="sub">${DATA.length} questions &middot; ${sets.length} practice sets of up to ${SIZE}.</p>
+  <div class="grid">
+    <button class="setbtn rand" data-r="1"><b>Random ${Math.min(SIZE,DATA.length)}</b><span>Drawn from all ${DATA.length}</span></button>
+    ${sets.map((s,i)=>`<button class="setbtn" data-i="${i}"><b>Set ${i+1}</b><span>Q${DATA[s[0]].n}&ndash;Q${DATA[s[1]-1].n} &middot; ${s[1]-s[0]} questions</span></button>`).join('')}
+  </div>`;
+  app.querySelectorAll('.setbtn').forEach(b=>b.onclick=()=>{
+    if(b.dataset.r){
+      const idx=shuffled(DATA.map((_,i)=>i)).slice(0,SIZE);
+      start(idx,'Random '+idx.length);
+    } else {
+      const s=sets[+b.dataset.i], idx=[];
+      for(let k=s[0];k<s[1];k++) idx.push(k);
+      start(SHUFFLE?shuffled(idx):idx,'Set '+(+b.dataset.i+1));
+    }
+  });
+}
+
+function start(idx,title){
+  state={idx,title,picked:new Array(idx.length).fill(null),multi:{},locked:{},
+         right:0,answered:0,graded:MODE!=='submit'};
+  render();
+}
+
+function render(){
+  const {idx,title}=state;
+  app.innerHTML = `<div class="bar"><h2>${esc(title)}</h2>
+    <span class="pill">Answered <b id="ans">0</b>/${idx.length}</span>
+    ${MODE==='submit'?'':'<span class="pill">Score <b id="scr">0</b></span>'}
+    <button class="lnk" id="back">&larr; All sets</button></div>
+    <div id="qs"></div>
+    ${MODE==='submit'?'<div class="foot"><button class="btn" id="grade" disabled>Submit answers</button></div>':''}
+    <div id="end"></div>`;
+  document.getElementById('back').onclick=home;
+  const box=document.getElementById('qs');
+  idx.forEach((qi,pos)=>{
+    const q=DATA[qi];
+    const el=document.createElement('div'); el.className='q'; el.id='q'+pos;
+    el.innerHTML = `<div class="qn">Question ${pos+1} &middot; source Q${q.n}</div>
+      <div class="qt">${esc(q.q)}</div>
+      ${q.multi?`<div class="note" style="margin:0 0 8px">Select all that apply &mdash; ${q.a.length} of ${q.o.length} are correct.</div>`:''}
+      ${q.o.map((t,i)=>`<div class="opt" data-i="${i}"><span class="k">${q.multi?'&#9744;':L[i]+'.'}</span><span>${esc(t)}</span></div>`).join('')}
+      ${(!q.multi&&q.a.length>1)?`<div class="note">The source marks ${q.a.map(i=>L[i]).join(' and ')} as correct &mdash; either is accepted.</div>`:''}
+      ${q.multi?`<div class="foot" style="justify-content:flex-start"><button class="btn sec" data-check="${pos}">Check answer</button></div>`:''}
+      ${q.a.length===0?`<div class="note">No answer recorded for this question in the source.</div>`:''}
+      ${(q.e||q.ref)?`<div class="expl" id="e${pos}" style="display:none">${q.ref?`<span class="ref">${esc(q.ref)}</span>`:''}${esc(q.e||'')}</div>`:''}`;
+    el.querySelectorAll('.opt').forEach(o=>o.onclick=()=>pick(el,pos,qi,+o.dataset.i));
+    const cb=el.querySelector('[data-check]'); if(cb) cb.onclick=()=>gradeMulti(pos);
+    box.appendChild(el);
+  });
+  if(MODE==='submit') document.getElementById('grade').onclick=gradeAll;
+  window.scrollTo(0,0);
+}
+
+function pick(el,pos,qi,choice){
+  const q=DATA[qi];
+  if(q.multi){
+    if(state.locked[pos]) return;
+    const sel=state.multi[pos]=state.multi[pos]||new Set();
+    sel.has(choice)?sel.delete(choice):sel.add(choice);
+    el.querySelectorAll('.opt').forEach(o=>o.classList.toggle('sel',sel.has(+o.dataset.i)));
+    return;
+  }
+  if(state.graded && state.picked[pos]!==null) return;
+  const first=state.picked[pos]===null;
+  state.picked[pos]=choice;
+  if(first) state.answered++;
+  document.getElementById('ans').textContent=state.answered;
+
+  if(MODE==='submit'){
+    el.querySelectorAll('.opt').forEach(o=>o.classList.toggle('sel',+o.dataset.i===choice));
+    const g=document.getElementById('grade');
+    if(g) g.disabled = state.answered<state.idx.length;
+    return;
+  }
+  if(q.a.includes(choice)) state.right++;
+  el.classList.add('done');
+  el.querySelectorAll('.opt').forEach(o=>{
+    const i=+o.dataset.i;
+    if(q.a.includes(i)) o.classList.add('correct');
+    else if(i===choice) o.classList.add('wrong');
+  });
+  document.getElementById('scr').textContent=state.right;
+  const ex=document.getElementById('e'+pos); if(ex) ex.style.display='block';
+  if(state.answered===state.idx.length) finish();
+}
+
+function gradeMulti(pos){
+  const qi=state.idx[pos], q=DATA[qi], el=document.getElementById('q'+pos);
+  if(state.locked[pos]) return;
+  const sel=state.multi[pos]||new Set();
+  if(!sel.size) return;
+  state.locked[pos]=true; state.answered++;
+  // Select-all-that-apply is only right if the chosen set matches exactly;
+  // crediting a partial selection would teach the wrong thing.
+  const ok = sel.size===q.a.length && q.a.every(i=>sel.has(i));
+  if(ok) state.right++;
+  el.classList.add('done');
+  el.querySelectorAll('.opt').forEach(o=>{
+    const i=+o.dataset.i; o.classList.remove('sel');
+    if(q.a.includes(i)) o.classList.add('correct');
+    else if(sel.has(i)) o.classList.add('wrong');
+  });
+  const b=el.querySelector('[data-check]'); if(b) b.remove();
+  const ex=document.getElementById('e'+pos); if(ex) ex.style.display='block';
+  const a=document.getElementById('ans'); if(a) a.textContent=state.answered;
+  const s=document.getElementById('scr'); if(s) s.textContent=state.right;
+  if(state.answered===state.idx.length) finish();
+}
+
+function gradeAll(){
+  state.right=0;
+  state.idx.forEach((qi,pos)=>{
+    const q=DATA[qi], el=document.getElementById('q'+pos), choice=state.picked[pos];
+    if(q.a.includes(choice)) state.right++;
+    el.classList.add('done');
+    el.querySelectorAll('.opt').forEach(o=>{
+      const i=+o.dataset.i;
+      o.classList.remove('sel');
+      if(q.a.includes(i)) o.classList.add('correct');
+      else if(i===choice) o.classList.add('wrong');
+    });
+    const ex=document.getElementById('e'+pos); if(ex) ex.style.display='block';
+  });
+  const g=document.getElementById('grade'); if(g) g.remove();
+  finish();
+}
+
+function finish(){
+  const n=state.idx.length, r=state.right, pct=Math.round(r/n*100);
+  const wrong=state.idx.map((qi,pos)=>[qi,pos]).filter(([qi,pos])=>!DATA[qi].a.includes(state.picked[pos]));
+  const end=document.getElementById('end');
+  end.innerHTML=`<div class="res"><div class="score">${r} / ${n}</div>
+    <div class="sub">${pct}% correct${wrong.length?` &middot; missed Q${wrong.map(([qi])=>DATA[qi].n).join(', Q')}`:''}</div>
+    <div class="foot"><button class="btn" id="again">Retry this set</button>
+    ${wrong.length?'<button class="btn sec" id="onlywrong">Retry missed only</button>':''}
+    <button class="btn sec" id="home2">All sets</button></div></div>`;
+  document.getElementById('again').onclick=()=>start(state.idx,state.title);
+  const ow=document.getElementById('onlywrong');
+  if(ow) ow.onclick=()=>start(wrong.map(([qi])=>qi), state.title+' (missed)');
+  document.getElementById('home2').onclick=home;
+  end.scrollIntoView({behavior:'smooth'});
+}
+
+home();
+</script></body></html>

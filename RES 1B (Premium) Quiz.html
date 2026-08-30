@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RES 1B (Premium)</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1b1f24;--mut:#6b7280;--line:#e3e6ea;--acc:#2563eb;
+--ok:#16a34a;--okbg:#eaf7ef;--no:#dc2626;--nobg:#fdeeee}
+@media (prefers-color-scheme:dark){:root{--bg:#14171a;--card:#1c2024;--ink:#e8eaed;--mut:#9aa3ad;
+--line:#2c3238;--okbg:#14301f;--nobg:#331717}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:24px 18px 80px}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--mut);font-size:14px;margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:10px}
+.setbtn{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;text-align:left;cursor:pointer;font:inherit;color:inherit}
+.setbtn:hover{border-color:var(--acc)}
+.setbtn b{display:block;font-size:15px}
+.setbtn span{color:var(--mut);font-size:13px}
+.rand{background:var(--acc);border-color:var(--acc);color:#fff}.rand span{color:#dbe6ff}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);
+margin:0 -18px 20px;padding:12px 18px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.bar h2{font-size:16px;margin:0;flex:1}
+.pill{font-size:13px;color:var(--mut);white-space:nowrap}.pill b{color:var(--ink)}
+button.lnk{background:none;border:0;color:var(--acc);font:inherit;cursor:pointer;padding:0}
+.q{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:14px}
+.qn{color:var(--mut);font-size:13px;margin-bottom:6px}
+.qt{font-weight:600;margin-bottom:12px;white-space:pre-wrap}
+.opt{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:8px;
+padding:9px 12px;margin-bottom:7px;cursor:pointer;background:var(--card)}
+.opt:hover{border-color:#9aa3ad}
+.opt.sel{border-color:var(--acc);box-shadow:inset 0 0 0 1px var(--acc)}
+.opt .k{font-weight:600;color:var(--mut);min-width:16px}
+.opt.correct{background:var(--okbg);border-color:var(--ok)}
+.opt.wrong{background:var(--nobg);border-color:var(--no)}
+.opt.correct .k{color:var(--ok)}.opt.wrong .k{color:var(--no)}
+.done .opt{cursor:default}
+.note{font-size:13px;color:var(--mut);margin-top:8px}
+.expl{margin-top:12px;padding:12px 14px;border-left:3px solid var(--acc);background:rgba(37,99,235,.05);
+border-radius:0 8px 8px 0;font-size:14px;line-height:1.6;white-space:pre-wrap}
+.expl .ref{display:block;color:var(--mut);font-size:12px;margin-bottom:6px;font-weight:600}
+.res{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;text-align:center}
+.res .score{font-size:34px;font-weight:700}
+.foot{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap}
+.btn{background:var(--acc);color:#fff;border:0;border-radius:8px;padding:10px 16px;font:inherit;cursor:pointer}
+.btn.sec{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+</style></head><body><div class="wrap" id="app"></div>
+<script>
+const DATA = [{"n":1,"q":"Which of the following statements regarding the Licensee and the custodian responsible for maintaining custody accounts for customers' assets is TRUE?","o":["The custodian may claim rights over the customers' assets if the Licensee fails to pay its obligations.","The custodian must provide sufficient information to the Licensee for its compliance to record-keeping obligations under the SFA/SFR.","The custody account must be designated in both the Licensee's and the customer's names.","The custodian may perform internal transfers of customers' assets, as long as the assets remain accounted for."],"a":[1],"e":"A custodian must provide sufficient info to the holder in order that the holder may comply with its record-keeping obligations under the Act or Regulation or under any other law."},{"n":2,"q":"Which of the following does NOT fall under the definition of Customer's Assets under the SFR?","o":["Securities","Government securities","Certificates of deposits","None of the above"],"a":[3],"e":"Customer's assets, in relation to a CMS licence holder, means securities and assets (other than money), including Government securities and certificates of deposits, that are beneficially owned by a customer of the CMS licence holder."},{"n":3,"q":"May is a trading representative and she received an order from an institutional customer at 10am to buy 3 million shares in ABC Ltd at $5. There was not much supply for ABC Ltd.'s share at $5 but she managed to buy 2 million shares by 4pm that day. Suspecting a good reason for the institutional customer to buy so many of ABC Ltd.'s shares, she traded under her spouse's account to buy 10,000 ABC Ltd shares at $5. She told her husband the reason for the trade. In this scenario, which of the following statements is TRUE?","o":["May would be allowed to do that provided she obtained consent from her institutional customer.","May would be allowed to do that provided she obtained approval from MAS.","May was entitled to do what she did.","None of the above."],"a":[3],"e":"May is not allowed disclose customer info to her husband."},{"n":4,"q":"Money ____ is NOT considered 'money received on account'.","o":["received from the customer for the maintenance of a securities trading account","received for the account of the customer in respect of a sale of securities","which is to be used to reduce the amount owed by the customer to the Licensee","received from the customer where the Licensee provides securities financing to such customer"],"a":[2],"e":"Money received on account of a customer of the CMS licence holder does not include money which is to be used to reduce the amount owed by the customer to the holder."},{"n":5,"q":"Under the 'Books of holder of capital markets services licence' (SFR (LCB) 39), a Licensee must keep records of:","o":["The particulars of the customer's instructions related to the order","The date/time of receipt, amendment or cancellation of the order","The date/time the order, amendment or cancellation is transmitted","The date/time of execution of the order / amended order."],"a":[0,1,2,3],"e":"SFR (LCB) 39 stipulates that CMS licence holders must keep books and records in English containing details about customer orders.","multi":true},{"n":6,"q":"A Licensee may hold customers' moneys on trust for the customers. In which of the following forms of investments can the moneys be held?","o":["Government securities.","Any securities or instrument determined by the relevant Authority's guidelines.","Any debt instrument issued by the government of the country of the market/exchange where the Licensee normally transacts in.","Unrated bonds issued by private corporations"],"a":[0,1,2],"e":"Such moneys can be held in the form of government securities, any securities or instruments determined by the relevant Authority's guidelines, and any debt instrument issued by the government of the country of the market/exchange where the Licensee normally transacts in. Investments CANNOT be made in unrated bonds issued by private corporations.","multi":true},{"n":7,"q":"Which of the following is NOT an acceptable purpose for withdrawing money from a customer's trust account?","o":["Paying brokerage and other proper charges.","Settling a client's losses in contra trading.","Reimbursing the Licensee of any moneys it has advanced to the account, even if it leads to the account being under-margined","Making payment to a third party as directed by the customer"],"a":[2],"e":"The CMS licence holder may withdraw any money from a customer's trust account for reimbursing the CMS licence holder any moneys that it had advanced to the account and any interest and returns that it is entitled to by virtue of SFR(LCB) 23, as long as the withdrawal does not result in the account becoming under-margined or under-funded."},{"n":8,"q":"In relation to the 'Maintenance of Custody Account with Specified Custodians' (SFR (LCB) 27), the Licensee must maintain a custody account in which it deposits a customer's assets with:","o":["A bank licensed under the Banking Act","A merchant bank approved as a financial institution under the MAS Act","An offshore bank categorised as a financial institution by the IMF.","A depository agent as defined in the Companies Act for the custody of securities."],"a":[0,1,3],"e":"The CMS licence holder must maintain a custody account in which it deposits a customer's assets with a bank licensed under the Banking Act, a merchant bank approved as a financial institution under the MAS Act, a finance company licensed under the Finance Companies Act, a depository agent within the meaning of section 130A of the Companies Act for the custody of securities listed for quotation or quoted on SGX-ST or deposited with the Central Depository (Pte) Ltd, an approved trustee for a collective investment scheme within the meaning of section 289 of the SFA, or any person licensed under the SFA to provide custodial services for securities.","multi":true},{"n":9,"q":"An account with which of the following financial institutions can be maintained as a trust account for deposit of moneys received on trust?","o":["A bank licensed under the Banking Act","A merchant bank licensed under the Banking Act","A finance company licensed under the Finance Companies Act","An insurance company."],"a":[0,1,2],"e":"The CMS licence holder must maintain a trust account in which it deposits moneys received on account of its customers with a bank licensed under the Banking Act, a merchant bank licensed under the Banking Act, or a finance company licensed under the Finance Companies Act.","multi":true},{"n":10,"q":"Which of the following statements in relation to Money Received on Account of Customer (SFR(LCB)16) are CORRECT?","o":["'Business day' refers to the business day of the Licensee","The money must be deposited in a trust account or in another account directed by the customer within one week after receiving the money.","The customer's money must not be commingled with other funds.","The CMS licence holder may commingle monies from different customers into the same trust account."],"a":[0,2,3],"e":"The CMS licence holder must treat and deal with all money received on account of its customer as belonging to that customer. The money must be deposited in a trust account or in another account directed by the customer no later than the NEXT BUSINESS DAY after receiving the money. The other statements are true.","multi":true},{"n":11,"q":"Which of the following statements regarding 'Money Received on Account of Customer' (SFR(LCB)16) are FALSE?","o":["The Licensee must treat and deal with all moneys received on account of its customer as belonging to that customer.","The Licensee must deposit all moneys received on account of its customer to a trust account.","The Licensee may commingle moneys received on account of its customer with other similar funds.","The Licensee may use the money received on account of its customer as margin or guarantee to meet its own obligations."],"a":[2,3],"e":"The customer's money must not be commingled with other funds, or used as margin or guarantee for, or to secure any transaction of, or to extend the credit of, any person other than the customer. The Licensee must treat and deal with all moneys received on account of its customer as belonging to that customer. The Licensee must deposit all moneys received on account of its customer to a trust account.","multi":true},{"n":12,"q":"Which of the following is NOT a duty of a Licensee upon receipt of customer's assets?","o":["Ensuring those assets are not commingled with other assets.","Arranging for an independent surveyor to perform valuation on the assets.","Arranging for a custodian to maintain the custody account.","Depositing those assets into a custody account held on trust for the customer."],"a":[1],"e":"The Licensee need not arrange for an independent surveyor to perform valuation on the assets. The Licensee must perform the duties given in the other options."},{"n":13,"q":"The maintenance of books and records is to:","o":["Sufficiently explain the transactions and financial position","Enable TRUE and fair P&L accounts and balance-sheets to be prepared","Enable such books to be conveniently and properly audited.","All of the above."],"a":[3],"e":"Under the SFA, CMS licence holders are required to keep books of account and records of transactions which should sufficiently explain the transactions and financial position of the CMS licence holder's business, and enable true and fair profit and loss accounts and balance sheets to be prepared from time to time. The books should be kept for a period of at least 5 years, and in a manner which would enable them to be conveniently and properly audited."},{"n":14,"q":"When is a representative allowed to disclose a customer's order?","o":["If it is required for the effective execution of the customer's order.","When it is necessary for the operations and risk management of the CMS Licence holder.","When it is required under the law.","All of the above."],"a":[3],"e":"Under the SFR, CMS licence holders should not divulge info relating to a customer's order, unless the disclosure is necessary for the effective execution of the order, permitted under the rules of the relevant securities exchange, futures exchange, clearing house or recognised trading system provider, as the case may be, or required by the MAS."},{"n":15,"q":"The issuance of a contract note by a holder of a CMS License in respect of a sale of securities is:","o":["required under the SFA.","required by MAS.","a general practice although not required by any law, rules or regulations.","recommended by MAS but not a mandatory requirement."],"a":[0],"e":"Under the SFR(LCB) 42 - Contract Notes and SGX-ST Rule 12.6.1 -Contract Notes, a CMS licence holder must send its customer a contract note for the purchase or sale of securities or futures contracts by the next market day."},{"n":16,"q":"Which of the following may be regarded as market manipulation under the SFA?","o":["A group of investors pool their funds and engage in transactions with the intent to raise a share's price so as to induce others to buy/sell that share.","A company launching a buy-back of its own shares after the share price has hit historical low.","A series of transactions executed with the intent to launder proceeds from criminal activities.","A person buying 1000 share after hearing an inside info."],"a":[0],"e":"In broad terms, market manipulation involves intentional interference with the free forces of supply and demand to deceive or defraud investors, or for some other ulterior purpose."},{"n":17,"q":"Anna's purchase of 1000 XYZ shares is due today but she wished to hold the shares for a longer period as she anticipates the share price to increase soon. To prevent Anna's purchase from being force sold, Alfred, the licensed rep, arranged for his wife to buy over the 1000 XYZ shares from Anna with the intention for Anna to buy back the shares from his wife. Is Alfred's arrangement appropriate?","o":["Yes, as there is no change in beneficial ownership.","Yes, as Alfred is acting in his client's interest.","No, as the share price may not go up as anticipated.","No, as Alfred has arranged a fictitious transaction to evade payment."],"a":[3],"e":"Such fictitious buy order will inflate the trade volume. If this were to be allowed, the trade volume and price would become distorted."},{"n":18,"q":"Jack entered an order to buy 20,000 XYZ shares at $1.23 at 12.00pm for his wife, Ann. At 12.30pm, he received an order from a customer, Philip, to buy 30,000 XYZ shares at $1.23. As Ann's order was not matched, Jack withdrew Ann's order and entered Philip's order. Is Jack allowed to re-enter Ann's order after he had entered Philip's order?","o":["Yes, as Ann's order price was the same as Philip's.","Yes, as Ann placed her order before Philip.","No, as Ann is related to Jack.","No, as Jack had already withdrew Ann's order."],"a":[0],"e":"Market Misconduct - Jack did not abuse his position to give anyone advantage. In fact, he willingly cancelled his wife's order which came in earlier. Both orders are at the same price, thus the earlier order would be filled. If he were to queue at $1.23 again for his wife, he would not contravene any rule. For such questions, always think about whether the action is fair to other market participants."},{"n":19,"q":"Which of the following is NOT a technique employed to circulate FALSE information about share prices?","o":["Passing 'hot tips' through word of mouth.","Spreading rumours about a security on online forums.","Disseminating false information about a security via media sources.","Executing fictitious transactions that result in no change in beneficial ownership."],"a":[3],"e":"Dissemination of false info can be in the form of newsletters, research papers, electronic means, or the media or word of mouth."},{"n":20,"q":"Market misconduct under the SFA is a criminal offence. A defendant may be:","o":["fined.","jailed.","fined or jailed.","fined, jailed, or both."],"a":[3],"e":"Fines and imprisonment are the important forms of punishment for market misconduct. The severity of the fines and imprisonment terms reflect how serious MAS is in deterring market misconduct and ensuring personal liability for any persons breaching the laws on market conduct."},{"n":21,"q":"The CFO of a company sold shares after learning of the poor business performance in a management meeting. Which of the following offence is the CFO likely to have committed?","o":["Market Rigging","FALSE Trading","Insider Trading","Wash Trading"],"a":[2],"e":"Insider trading involves trading on privileged and confidential info that is price sensitive (inside info). The CFO is, therefore, guilty of insider trading (he traded based on insider information)."},{"n":22,"q":"Julie, who works in a bank, came across a fax indicating that XYZ Company will be taking over ABC Company at $10 per share. Julie knew that if she were to buy ABC shares now at $5 and sell the shares after the announcement, she would make a tidy profit.\n\nShe informs her brother about the matter and asked him to trade, but her brother met with a traffic accident and was unable to trade. Have the insider trading provisions been contravened?","o":["Yes, because Julie had informed her brother and had intention to trade.","No, because she did not know whether her brother would buy the shares or not.","Yes, as she had obtained inside info unethically.","None of the above."],"a":[0],"e":"Persons with inside information on a corporation or its securities must not enter into transactions in such securities. They must also NOT communicate the information to other parties. Therefore, Julie is guilty of the insider trading offence under Section 218(3) of the SFA because she communicated inside information to her brother."},{"n":23,"q":"A trading representative, Louis, heard from his friend working in the accounts department of KLG Ltd that KLG would be announcing a 180% increase in profits on 13 Oct. Louis expects KLG's share price to surge on 14 Oct in response to the announcement. Louis's customer, Jane placed an order with him on 13 Sep to buy 30,000 KLG's shares although Louis did not pass on the information to Jane or advise her on the purchase.\n\nDid Louis breach the SFA for insider trading?","o":["Yes, because Louis could have declined to execute the trade due to conflict of interest.","Yes, because Louis has insider knowledge of unannounced information.","No, because Jane purchased KLG shares without any knowledge of the insider information.","No, because Jane does not know Louis's friend who works in KLG."],"a":[2],"e":"Insider trading involves trading ON privileged and confidential info (non-public, price sensitive info). Therefore, the person should be in possession of insider information while trading for it to be a case of insider trading. Therefore, Jane is not guilty of insider trading because she purchased KLG shares without any knowledge of the insider information."},{"n":24,"q":"Mr. X passes a non-public, price-sensitive information derived from work to his friend who trades based on the information, but unexpectedly incurs financial losses from the trade. Has insider trading been committed?","o":["Yes, because a trade has been made based on the information.","Yes, because the sensitive information was non-public and yet it was shared with a friend.","No, because no financial gains materialized from the information.","None of the above."],"a":[0,1],"e":"Insider trading is to trade on privileged and confidential info. Persons with inside info on a corporation or its securities must not enter into transactions in such securities. They must also not communicate the info to other parties.","multi":true},{"n":25,"q":"Kenny has just received an inheritance. After approaching his friend Roger, a trading representative, for advice, he was told that he should open a trading account and start investing in shares through Roger. Roger assures Kenny that he will not lose money as he will only invest in blue chips. In this scenario, which of the following statements is TRUE?","o":["Both Kenny and Roger have breached the SFA.","Roger has breached the SFA.","If Kenny makes a loss, Roger would be in breach of the SFA.","If Kenny makes a loss, Kenny would be in breach of the SFA."],"a":[1],"e":"CMS licence holders or their representatives should not knowingly, with intent, make or publish any statement, forecast or promise that are false or misleading to induce others to deal in securities. Roger made a statement that he knows or ought reasonably to have known was false. This is because people may lose money even if they invest only in blue chips."},{"n":26,"q":"A CPF investment account is ____ when investing under CPFIS-OA ____ CPFIS-SA.","o":["needed, and is also needed when investing under","needed, but is not needed when investing under","not needed, but is needed when investing under","not needed, or"],"a":[1],"e":"A CPF Investment account is required for investments made under the CPFIS-OA but not required for CPFIS-SA."},{"n":27,"q":"Transfer of cash balance in the CPF investment account to the CPF-OA cannot be performed _____.","o":["at the Agent bank's ATM","at the Agent bank's phone banking facilities","over the counter at the Agent bank","at CPF's customer service counter"],"a":[3],"e":"A CPF member may transfer monies from his/her CPF Investment Account to his/her CPF Ordinary Account at any time using his/her agent bank's facilities (e.g., ATMs/ Phone/ Internet banking facilities). The member may also make the transfer over the counter at the BANK."},{"n":28,"q":"A member must first obtain a CPFIS statement from ____ before giving an order to purchase shares using his CPF funds.","o":["the CPF website","his nominated bank","his financial adviser or stockbroker","his employer"],"a":[0],"e":"A member will need to bring along his or her identity card and any of his CPF statement for the agent bank to verify his/her CPF account number. He or she can access his or her statement at www.cpf.gov.sg via mycpf Online Services by using his/her SingPass."},{"n":29,"q":"Undischarged bankrupts ___ use their CPF monies to make new investments. CPFIS investments ___ covered under CPF nomination.","o":["may, are","may, are not","may not, are","may not, are not"],"a":[3],"e":"Undischarged bankrupts may not use their CPF monies to make new investments. CPFIS investments are not covered under CPF nomination."},{"n":30,"q":"A CMS Licence holder may apply simplified Customer Due Diligence measures if:","o":["The customer is a Singapore government entity.","The customer is also a CMS Licence holder.","The customer comes from a country publicly known to be sanctioned by the UN.","The customer is a company listed on stock exchange and subject to regulatory disclosure requirements"],"a":[0,1,3],"e":"SCDD CANNOT be applied if the customer comes from a country publicly known to be sanctioned by the UN. SCDD can be applied in other cases.","multi":true},{"n":31,"q":"After transferring in illegal proceeds from an offshore account, the act of moving funds between accounts for no apparent reason demonstrates which stage of money laundering?","o":["Placement","Layering","Integration","Confusion"],"a":[1],"e":"The Layering stage refers to the separation of benefits of criminal conduct from their sources by creating layers of financial transactions designed to disguise the audit trail. Therefore, the act of moving ill-gotten money between accounts for no apparent reason can be part of layering to disguise the audit trail."},{"n":32,"q":"A CMI should perform enhanced Customer Due Diligence for:","o":["All customers","Business relations assessed to present a higher risk","Transactions assessed to present a higher risk","Politically Exposed Persons"],"a":[1,2,3],"e":"EDD is conducted on potentially high risk customers, and based on geographical risk and product/service /transaction or delivery channel risk. It is also conducted on local and foreign politically exposed persons.","multi":true},{"n":33,"q":"Which of the following are offences listed under the CDSA?","o":["Criminal breach of trust (CBT)","Counterfeiting","Robbery","Cheating"],"a":[0,1,2,3],"e":"Offences under the CDSA include money laundering activities and confiscation of benefits and criminal conduct including bribery, criminal breach of trust, counterfeiting, theft extortion, robbery, cheating as well as tax evasion.","multi":true},{"n":34,"q":"Which of the following are money laundering activities included under the CDSA?","o":["Knowingly assisting someone in retaining the benefits of drug trafficking.","Knowingly transferring criminal proceeds.","Knowingly acquiring property purchased from the benefits of drug trafficking for little or no consideration.","Purchasing a large quantity of gold in cash withdrawn from the buyer's savings bank account"],"a":[0,1,2],"e":"Purchasing a large quantity of gold in cash withdrawn from the buyer's savings bank account is NOT money because the money has been withdrawn from the savings bank account. Of course, if the money is ill-gotten money deposited in the account, then the gold purchase may be part of ML. The other options state offences under the CDSA.","multi":true},{"n":35,"q":"What minimum information must the holder of a CMS License obtain as evidence of a customer's identity and legal existence?","o":["Name, DOB and Nationality","Name, DOB, Nationality, Residential & Business Addresses","Name, DOB, Nationality and Marital Status","Name, DOB, Nationality and Occupation"],"a":[1],"e":"When gathering info, it is important to obtain client's personal details such as age, education, address/residency, identification, employment, family, health and any other info which can be used in order to form any opinion of the client if he is an individual. This info is important to assess his lifestyle and whether his wealth seems to be commensurate with his income from employment and family background. If it is a corporate body, then it is important to know the country of incorporation, the country of activity and the type of business the client is in."}];
+const TITLE = "RES 1B (Premium)";
+const SIZE = 18;
+const MODE = "instant";          // "instant" | "submit"
+const SHUFFLE = false;
+const L = ['a','b','c','d','e','f'];
+const app = document.getElementById('app');
+let state = null;
+
+function esc(s){return String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+function shuffled(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function home(){
+  state=null;
+  const sets=[];
+  for(let i=0;i<DATA.length;i+=SIZE) sets.push([i,Math.min(i+SIZE,DATA.length)]);
+  app.innerHTML = `<h1>${esc(TITLE)}</h1>
+  <p class="sub">${DATA.length} questions &middot; ${sets.length} practice sets of up to ${SIZE}.</p>
+  <div class="grid">
+    <button class="setbtn rand" data-r="1"><b>Random ${Math.min(SIZE,DATA.length)}</b><span>Drawn from all ${DATA.length}</span></button>
+    ${sets.map((s,i)=>`<button class="setbtn" data-i="${i}"><b>Set ${i+1}</b><span>Q${DATA[s[0]].n}&ndash;Q${DATA[s[1]-1].n} &middot; ${s[1]-s[0]} questions</span></button>`).join('')}
+  </div>`;
+  app.querySelectorAll('.setbtn').forEach(b=>b.onclick=()=>{
+    if(b.dataset.r){
+      const idx=shuffled(DATA.map((_,i)=>i)).slice(0,SIZE);
+      start(idx,'Random '+idx.length);
+    } else {
+      const s=sets[+b.dataset.i], idx=[];
+      for(let k=s[0];k<s[1];k++) idx.push(k);
+      start(SHUFFLE?shuffled(idx):idx,'Set '+(+b.dataset.i+1));
+    }
+  });
+}
+
+function start(idx,title){
+  state={idx,title,picked:new Array(idx.length).fill(null),multi:{},locked:{},
+         right:0,answered:0,graded:MODE!=='submit'};
+  render();
+}
+
+function render(){
+  const {idx,title}=state;
+  app.innerHTML = `<div class="bar"><h2>${esc(title)}</h2>
+    <span class="pill">Answered <b id="ans">0</b>/${idx.length}</span>
+    ${MODE==='submit'?'':'<span class="pill">Score <b id="scr">0</b></span>'}
+    <button class="lnk" id="back">&larr; All sets</button></div>
+    <div id="qs"></div>
+    ${MODE==='submit'?'<div class="foot"><button class="btn" id="grade" disabled>Submit answers</button></div>':''}
+    <div id="end"></div>`;
+  document.getElementById('back').onclick=home;
+  const box=document.getElementById('qs');
+  idx.forEach((qi,pos)=>{
+    const q=DATA[qi];
+    const el=document.createElement('div'); el.className='q'; el.id='q'+pos;
+    el.innerHTML = `<div class="qn">Question ${pos+1} &middot; source Q${q.n}</div>
+      <div class="qt">${esc(q.q)}</div>
+      ${q.multi?`<div class="note" style="margin:0 0 8px">Select all that apply &mdash; ${q.a.length} of ${q.o.length} are correct.</div>`:''}
+      ${q.o.map((t,i)=>`<div class="opt" data-i="${i}"><span class="k">${q.multi?'&#9744;':L[i]+'.'}</span><span>${esc(t)}</span></div>`).join('')}
+      ${(!q.multi&&q.a.length>1)?`<div class="note">The source marks ${q.a.map(i=>L[i]).join(' and ')} as correct &mdash; either is accepted.</div>`:''}
+      ${q.multi?`<div class="foot" style="justify-content:flex-start"><button class="btn sec" data-check="${pos}">Check answer</button></div>`:''}
+      ${q.a.length===0?`<div class="note">No answer recorded for this question in the source.</div>`:''}
+      ${(q.e||q.ref)?`<div class="expl" id="e${pos}" style="display:none">${q.ref?`<span class="ref">${esc(q.ref)}</span>`:''}${esc(q.e||'')}</div>`:''}`;
+    el.querySelectorAll('.opt').forEach(o=>o.onclick=()=>pick(el,pos,qi,+o.dataset.i));
+    const cb=el.querySelector('[data-check]'); if(cb) cb.onclick=()=>gradeMulti(pos);
+    box.appendChild(el);
+  });
+  if(MODE==='submit') document.getElementById('grade').onclick=gradeAll;
+  window.scrollTo(0,0);
+}
+
+function pick(el,pos,qi,choice){
+  const q=DATA[qi];
+  if(q.multi){
+    if(state.locked[pos]) return;
+    const sel=state.multi[pos]=state.multi[pos]||new Set();
+    sel.has(choice)?sel.delete(choice):sel.add(choice);
+    el.querySelectorAll('.opt').forEach(o=>o.classList.toggle('sel',sel.has(+o.dataset.i)));
+    return;
+  }
+  if(state.graded && state.picked[pos]!==null) return;
+  const first=state.picked[pos]===null;
+  state.picked[pos]=choice;
+  if(first) state.answered++;
+  document.getElementById('ans').textContent=state.answered;
+
+  if(MODE==='submit'){
+    el.querySelectorAll('.opt').forEach(o=>o.classList.toggle('sel',+o.dataset.i===choice));
+    const g=document.getElementById('grade');
+    if(g) g.disabled = state.answered<state.idx.length;
+    return;
+  }
+  if(q.a.includes(choice)) state.right++;
+  el.classList.add('done');
+  el.querySelectorAll('.opt').forEach(o=>{
+    const i=+o.dataset.i;
+    if(q.a.includes(i)) o.classList.add('correct');
+    else if(i===choice) o.classList.add('wrong');
+  });
+  document.getElementById('scr').textContent=state.right;
+  const ex=document.getElementById('e'+pos); if(ex) ex.style.display='block';
+  if(state.answered===state.idx.length) finish();
+}
+
+function gradeMulti(pos){
+  const qi=state.idx[pos], q=DATA[qi], el=document.getElementById('q'+pos);
+  if(state.locked[pos]) return;
+  const sel=state.multi[pos]||new Set();
+  if(!sel.size) return;
+  state.locked[pos]=true; state.answered++;
+  // Select-all-that-apply is only right if the chosen set matches exactly;
+  // crediting a partial selection would teach the wrong thing.
+  const ok = sel.size===q.a.length && q.a.every(i=>sel.has(i));
+  if(ok) state.right++;
+  el.classList.add('done');
+  el.querySelectorAll('.opt').forEach(o=>{
+    const i=+o.dataset.i; o.classList.remove('sel');
+    if(q.a.includes(i)) o.classList.add('correct');
+    else if(sel.has(i)) o.classList.add('wrong');
+  });
+  const b=el.querySelector('[data-check]'); if(b) b.remove();
+  const ex=document.getElementById('e'+pos); if(ex) ex.style.display='block';
+  const a=document.getElementById('ans'); if(a) a.textContent=state.answered;
+  const s=document.getElementById('scr'); if(s) s.textContent=state.right;
+  if(state.answered===state.idx.length) finish();
+}
+
+function gradeAll(){
+  state.right=0;
+  state.idx.forEach((qi,pos)=>{
+    const q=DATA[qi], el=document.getElementById('q'+pos), choice=state.picked[pos];
+    if(q.a.includes(choice)) state.right++;
+    el.classList.add('done');
+    el.querySelectorAll('.opt').forEach(o=>{
+      const i=+o.dataset.i;
+      o.classList.remove('sel');
+      if(q.a.includes(i)) o.classList.add('correct');
+      else if(i===choice) o.classList.add('wrong');
+    });
+    const ex=document.getElementById('e'+pos); if(ex) ex.style.display='block';
+  });
+  const g=document.getElementById('grade'); if(g) g.remove();
+  finish();
+}
+
+function finish(){
+  const n=state.idx.length, r=state.right, pct=Math.round(r/n*100);
+  const wrong=state.idx.map((qi,pos)=>[qi,pos]).filter(([qi,pos])=>!DATA[qi].a.includes(state.picked[pos]));
+  const end=document.getElementById('end');
+  end.innerHTML=`<div class="res"><div class="score">${r} / ${n}</div>
+    <div class="sub">${pct}% correct${wrong.length?` &middot; missed Q${wrong.map(([qi])=>DATA[qi].n).join(', Q')}`:''}</div>
+    <div class="foot"><button class="btn" id="again">Retry this set</button>
+    ${wrong.length?'<button class="btn sec" id="onlywrong">Retry missed only</button>':''}
+    <button class="btn sec" id="home2">All sets</button></div></div>`;
+  document.getElementById('again').onclick=()=>start(state.idx,state.title);
+  const ow=document.getElementById('onlywrong');
+  if(ow) ow.onclick=()=>start(wrong.map(([qi])=>qi), state.title+' (missed)');
+  document.getElementById('home2').onclick=home;
+  end.scrollIntoView({behavior:'smooth'});
+}
+
+home();
+</script></body></html>

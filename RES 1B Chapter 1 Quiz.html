@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RES 1B Chapter 1</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1b1f24;--mut:#6b7280;--line:#e3e6ea;--acc:#2563eb;
+--ok:#16a34a;--okbg:#eaf7ef;--no:#dc2626;--nobg:#fdeeee}
+@media (prefers-color-scheme:dark){:root{--bg:#14171a;--card:#1c2024;--ink:#e8eaed;--mut:#9aa3ad;
+--line:#2c3238;--okbg:#14301f;--nobg:#331717}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:24px 18px 80px}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--mut);font-size:14px;margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:10px}
+.setbtn{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;text-align:left;cursor:pointer;font:inherit;color:inherit}
+.setbtn:hover{border-color:var(--acc)}
+.setbtn b{display:block;font-size:15px}
+.setbtn span{color:var(--mut);font-size:13px}
+.rand{background:var(--acc);border-color:var(--acc);color:#fff}.rand span{color:#dbe6ff}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);
+margin:0 -18px 20px;padding:12px 18px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.bar h2{font-size:16px;margin:0;flex:1}
+.pill{font-size:13px;color:var(--mut);white-space:nowrap}.pill b{color:var(--ink)}
+button.lnk{background:none;border:0;color:var(--acc);font:inherit;cursor:pointer;padding:0}
+.q{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:14px}
+.qn{color:var(--mut);font-size:13px;margin-bottom:6px}
+.qt{font-weight:600;margin-bottom:12px;white-space:pre-wrap}
+.opt{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:8px;
+padding:9px 12px;margin-bottom:7px;cursor:pointer;background:var(--card)}
+.opt:hover{border-color:#9aa3ad}
+.opt.sel{border-color:var(--acc);box-shadow:inset 0 0 0 1px var(--acc)}
+.opt .k{font-weight:600;color:var(--mut);min-width:16px}
+.opt.correct{background:var(--okbg);border-color:var(--ok)}
+.opt.wrong{background:var(--nobg);border-color:var(--no)}
+.opt.correct .k{color:var(--ok)}.opt.wrong .k{color:var(--no)}
+.done .opt{cursor:default}
+.note{font-size:13px;color:var(--mut);margin-top:8px}
+.expl{margin-top:12px;padding:12px 14px;border-left:3px solid var(--acc);background:rgba(37,99,235,.05);
+border-radius:0 8px 8px 0;font-size:14px;line-height:1.6;white-space:pre-wrap}
+.expl .ref{display:block;color:var(--mut);font-size:12px;margin-bottom:6px;font-weight:600}
+.res{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;text-align:center}
+.res .score{font-size:34px;font-weight:700}
+.foot{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap}
+.btn{background:var(--acc);color:#fff;border:0;border-radius:8px;padding:10px 16px;font:inherit;cursor:pointer}
+.btn.sec{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+</style></head><body><div class="wrap" id="app"></div>
+<script>
+const DATA = [{"n":1,"q":"Which of the following accurately describes the terms \"Listing\" and \"Quotation\" in the context of SGX-ST?","o":["\"Listing\" means being listed on the official boards of SGX-ST.","\"Quotation\" refers to companies that may be dealt with over-the-counter.","A \"Quotation\" is a formal offer to buy shares at a specified price.","\"Listing\" requires companies to have a physical presence in Singapore."],"a":[0,1],"e":"(A) and (B) are correct because \"Listing\" indeed means being listed on the official boards of SGX-ST, and \"Quotation\" refers to companies that may be dealt with over-the-counter, not requiring formal listing.","multi":true},{"n":2,"q":"In the context of a Catalist listing on SGX-ST, which of the following statements are TRUE regarding the role of sponsors?","o":["Full Sponsors are responsible for the admission of listing applicants for listing on Catalist.","Continuing Sponsors advise Catalist companies on compliance with their continuing obligations.","A company seeking listing on Catalist must have a minimum operating revenue for the past three years.","Sponsors are required to directly manage the day-to-day operations of the listed company."],"a":[0,1],"e":"(A) and (B) are correct because Full Sponsors are responsible for the admission of listing applicants on Catalist, and Continuing Sponsors are tasked with advising Catalist companies on their continuing obligations.","multi":true},{"n":3,"q":"Which of the following statements accurately reflect the obligations of listed issuers regarding the disclosure of material information on SGX-ST?","o":["Listed issuers must announce all material information through the SGXNet system.","Material information includes details about subsidiaries and associated companies.","Listed issuers are allowed to delay disclosure to avoid affecting their share price negatively.","Material information disclosure is optional for companies listed on Catalist."],"a":[0,1],"e":"(A) and (B) are correct because listed issuers are required to announce all material information through the SGXNet system, and such information includes details about subsidiaries and associated companies that could affect the company's share price.","multi":true},{"n":4,"q":"In the context of an Initial Public Offering (IPO) on SGX-ST, which of the following statements accurately reflect the process?","o":["A company must lodge a prospectus with MAS prepared in accordance with relevant regulations.","An introduction involves no shares offered to the investing public, suitable for companies not requiring funds at the point of listing.","The IPO process requires companies to have a physical presence in Singapore.","All companies must issue new shares during the IPO process."],"a":[0,1],"e":"(A) and (B) are correct because lodging a prospectus with MAS is a requirement for an IPO, and an introduction involves no shares being offered to the public, suitable for companies not requiring funds at the point of listing.","multi":true},{"n":5,"q":"Regarding SGX-ST's actions on breaches of Mainboard or Catalist Rules, which of the following measures can SGX-ST take?","o":["Issuing a private warning to an issuer or its directors.","Offering a composition sum to an issuer.","Automatically delisting a company after a single minor breach.","Requiring all company directors to resign after a breach is detected."],"a":[0,1],"e":"(A) and (B) are correct because SGX-ST can issue a private warning to an issuer or its directors and offer a composition sum to an issuer as part of its enforcement actions.","multi":true},{"n":6,"q":"Which of the following are features of listing debt securities on SGX-ST?","o":["Entities can list various types of debt securities, including fixed and floating-rate bonds.","Listing of debt securities is subject to the same continuing obligations as equity listings.","A trustee and trust deed are typically required for the listing of debt securities.","Debt securities listings are exclusively for government-issued bonds."],"a":[0,2],"e":"(A) and (C) are correct because entities can list various types of debt securities on SGX-ST, including fixed and floating-rate bonds, and a trustee and trust deed are typically required for the listing of debt securities.","multi":true},{"n":7,"q":"Regarding the continuing listing obligations for companies listed on SGX-ST's Mainboard and Catalist, which of the following are requirements?","o":["Companies must disclose all material information that might affect their share price.","Listed issuers are required to hold all general meetings in Singapore, unless prohibited by laws and regulations in the jurisdiction of incorporation.","Companies must issue periodic financial reports regardless of their size.","Companies must have a minimum of 50% of their shares held by the public at all times."],"a":[0,1,2],"e":"(A) and (C) are correct because listed companies are required to disclose all material information that might affect their share price, and periodic reporting is a part of the continuing obligations. Option (B) is correct because listed issuers are required to hold all general meetings in Singapore, unless prohibited by laws and regulations in the jurisdiction of incorporation. Option (D) is incorrect because there is no requirement for companies to have a minimum of 50% of their shares held by the public at all times.","multi":true},{"n":8,"q":"For a company seeking a primary listing on SGX-ST's Mainboard, which of the following are among the initial listing requirements?","o":["The company must have a market capitalization of not less than S$150 million if it is profitable in the latest financial year.","The company must demonstrate a minimum operating revenue for the past five years.","The entity must be in a healthy financial position, with positive cash flow from operating activities.","The company must exclusively deal in the technology sector to qualify for listing."],"a":[0,2],"e":"(A) and (C) are correct because one of the quantitative requirements for listing on the Mainboard includes having a market capitalization of not less than S$150 million if profitable in the latest financial year, and the entity must be in a healthy financial position with positive cash flow from operating activities.","multi":true},{"n":9,"q":"When a company decides to go public in Singapore, what roles does the issue manager play in the listing process on SGX-ST?","o":["Gathering required information and liaising with SGX-ST on matters relating to the application.","Directly offering the newly issued shares to the public.","Ensuring that the company's business model is aligned with SGX-ST's strategic goals.","Acting as the primary legal advisor to the company on corporate law matters."],"a":[0],"e":"(A) is correct because the issue manager gathers required information and liaises with SGX-ST, playing a central role in the listing process."},{"n":10,"q":"In the context of shareholders' rights to vote at meetings for companies listed on SGX-ST, which of the following statements are TRUE?","o":["Shareholders must attend meetings in person to vote.","Shareholders who are unable to attend can appoint a proxy to vote on their behalf.","All resolutions at general meetings shall be voted by show of hands.","Resolutions at general meetings shall be voted by poll."],"a":[1,3],"e":"(B) and (D) are correct because shareholders who are unable to attend meetings can appoint a proxy to vote on their behalf, and all resolutions at general meetings are required to be voted by poll, ensuring a more accurate and formal voting process.","multi":true},{"n":11,"q":"What are the responsibilities of a sponsor in relation to a company listed on SGX-ST's Catalist?","o":["The sponsor must ensure the company complies with all MAS regulations.","The sponsor must act professionally, transparently, and efficiently in its dealings with the company.","The sponsor is responsible for the direct marketing of the company's shares.","A company on Catalist must engage a Continuing Sponsor on an ongoing basis for as long as they are listed on Catalist."],"a":[1,3],"e":"(B) and (D) are correct because sponsors are expected to act professionally, transparently, and a company on Catalist must engage a Continuing Sponsor on an ongoing basis for as long as they are listed on Catalist.","multi":true},{"n":12,"q":"During the IPO process for a company seeking to list on the Main Board of SGX-ST, which of the following stages are part of the timeline?","o":["Conducting a roadshow for potential investors immediately after submitting Section (A).","Review of Section (A) by SGX-ST to highlight key matters relating to the issuer.","Public exposure of the prospectus on MAS OPERA for a minimum of 7 calendar days after lodgement.","Registration and launch phase taking place 1 to 2 weeks after the public exposure period."],"a":[1,2,3],"e":"(B), (C) and (D) are correct because the review of Section (A) by SGX-ST is an early stage in the IPO process, public exposure of the prospectus on OPERA for 7 calendar days after lodgement is a requirement, and the registration and launch phase typically occurs 1 to 2 weeks after the public exposure period on MAS OPERA.","multi":true},{"n":13,"q":"For a company aiming to list on the SGX Mainboard, which of the following are part of the Mainboard admission criteria?","o":["The company must have a physical office in Singapore","The company must have a market capitalization of not less than S$300 million based on the issue price","The company must have operating revenue in the latest completed financial year and a market capitalization of not less than S$300 million based on the issue price and postinvitation issued share capital.","Directors and substantial shareholders must settle all debts owing to the group before listing"],"a":[2,3],"e":"(C) and (D) are correct because one of the quantitative requirements for Mainboard listing includes having operating revenue in the latest completed financial year and a requirement that all debts owing to the group by its directors and substantial shareholders must be settled prior to listing.","multi":true},{"n":14,"q":"In the context of Special Purpose Acquisition Companies (SPACs) listing on SGX-ST, which of the following statements accurately describe SPACs?","o":["SPACs are listed investment vehicles with no prior operating history.","SPACs must complete a business combination within a specified timeframe after listing.","SPACs are primarily focused on investing in real estate projects in Singapore.","SPACs allow for direct public trading of a company's assets before an IPO."],"a":[0,1],"e":"SPACs are listed investment vehicles with no prior operating history","multi":true},{"n":15,"q":"Which of the following are primary functions of the Monetary Authority of Singapore (MAS) in the context of regulating the capital markets industry?","o":["Conducting integrated supervision of financial services and financial stability surveillance.","Managing the official foreign reserves of Singapore.","Directly managing retail banking operations within Singapore.","Issuing corporate bonds to fund infrastructure projects in Singapore."],"a":[0,1],"e":"(A) and (B) are correct because MAS is responsible for the integrated supervision of financial services and financial stability surveillance, as well as managing Singapore's official foreign reserves.","multi":true},{"n":16,"q":"Regarding the types of banks and their operations under the Banking Act 1970 in Singapore, which of the following statements are TRUE?","o":["Wholesale Banks are allowed to take deposits in any currency but are restricted in taking Singapore dollar deposits.","Merchant Banks are not found in the retail space and cannot accept Singapore deposits from the public.","Full Banks are restricted in offering deposit products to their clients.","Qualifying Full Banks can only serve institutional clients and not the mass retail market."],"a":[0,1],"e":"(A) and (B) are correct because Wholesale Banks have restrictions on Singapore dollar deposits and Merchant Banks cannot accept Singapore deposits from the public and are not in the retail space.","multi":true},{"n":17,"q":"Which of the following best describes the function of the primary market in Singapore's capital markets?","o":["It is where investors manage or transfer their risk to other parties.","It provides opportunities for businesses to raise capital through the issuance of securities.","It operates exclusively for trading derivatives products.","It serves as a platform for secondary trading activities."],"a":[1],"e":"(B) is correct because the primary market's function is to provide opportunities for businesses to raise capital through the issuance of securities."},{"n":18,"q":"Tanisha is considering trading capital market products and is evaluating the differences between OTC markets and regulated exchanges. Which of the following statements are TRUE regarding these trading venues?","o":["OTC markets offer a centralized location for price discovery.","Regulated exchanges require traders to be a Trading Member or a customer of one.","OTC markets are known for their direct calling feature to determine interest.","Regulated exchanges do not facilitate direct communication between buyers and sellers."],"a":[1,2,3],"e":"(B), (C) and (D) are correct because to trade on an exchange, the buyer or seller needs to either be a Trading Member of the exchange, or a customer of a Trading Member of the exchang, OTC markets are characterized by direct communication between participants, and regulated exchanges provide a centralized platform without direct buyer-seller communication.","multi":true},{"n":19,"q":"In the regulatory framework for capital markets in Singapore, SGX adopts several guiding principles for its regulation. Which of the following principles are included?","o":["Prioritizing the development of new financial products over market stability.","Ensuring all market participants have equal access to insider information.","Comprehensive Risk Management focusing on the safe and efficient operation of clearing houses.","Risk-Based Targeting of Regulatory Activities to allocate resources effectively."],"a":[2,3],"e":"(C) and (D) are correct because SGX focuses on Comprehensive Risk Management and adopts a Risk-Based Targeting approach for its regulatory activities, ensuring resources are allocated according to risk profiles.","multi":true},{"n":20,"q":"Which of the following entities typically acts as a financial intermediary by matching selling interest with buying interest in the secondary market?","o":["Brokers","Central banks","Mutual funds","Retail investors"],"a":[0],"e":"(A) Brokers function as middle agents in the secondary market, matching selling and buying interests, which is consistent with the role described."},{"n":21,"q":"In the context of Capital Markets Services (CMS) Licence Holders in Singapore, which of the following services require a CMS licence?","o":["Providing custodial services for capital markets products.","Offering general banking services such as savings accounts.","Broker / dealer companies.","Corporate finance advisory services including acting as issue managers for listings."],"a":[0,2,3],"e":"(A), (C) and (D) are correct because providing custodial services for capital markets products, broker/dealer companis, and corporate finance advisory services, including acting as issue managers for listings, require a CMS licence.","multi":true}];
+const TITLE = "RES 1B Chapter 1";
+const SIZE = 21;
+const MODE = "instant";          // "instant" | "submit"
+const SHUFFLE = false;
+const L = ['a','b','c','d','e','f'];
+const app = document.getElementById('app');
+let state = null;
+
+function esc(s){return String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+function shuffled(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function home(){
+  state=null;
+  const sets=[];
+  for(let i=0;i<DATA.length;i+=SIZE) sets.push([i,Math.min(i+SIZE,DATA.length)]);
+  app.innerHTML = `<h1>${esc(TITLE)}</h1>
+  <p class="sub">${DATA.length} questions &middot; ${sets.length} practice sets of up to ${SIZE}.</p>
+  <div class="grid">
+    <button class="setbtn rand" data-r="1"><b>Random ${Math.min(SIZE,DATA.length)}</b><span>Drawn from all ${DATA.length}</span></button>
+    ${sets.map((s,i)=>`<button class="setbtn" data-i="${i}"><b>Set ${i+1}</b><span>Q${DATA[s[0]].n}&ndash;Q${DATA[s[1]-1].n} &middot; ${s[1]-s[0]} questions</span></button>`).join('')}
+  </div>`;
+  app.querySelectorAll('.setbtn').forEach(b=>b.onclick=()=>{
+    if(b.dataset.r){
+      const idx=shuffled(DATA.map((_,i)=>i)).slice(0,SIZE);
+      start(idx,'Random '+idx.length);
+    } else {
+      const s=sets[+b.dataset.i], idx=[];
+      for(let k=s[0];k<s[1];k++) idx.push(k);
+      start(SHUFFLE?shuffled(idx):idx,'Set '+(+b.dataset.i+1));
+    }
+  });
+}
+
+function start(idx,title){
+  state={idx,title,picked:new Array(idx.length).fill(null),multi:{},locked:{},
+         right:0,answered:0,graded:MODE!=='submit'};
+  render();
+}
+
+function render(){
+  const {idx,title}=state;
+  app.innerHTML = `<div class="bar"><h2>${esc(title)}</h2>
+    <span class="pill">Answered <b id="ans">0</b>/${idx.length}</span>
+    ${MODE==='submit'?'':'<span class="pill">Score <b id="scr">0</b></span>'}
+    <button class="lnk" id="back">&larr; All sets</button></div>
+    <div id="qs"></div>
+    ${MODE==='submit'?'<div class="foot"><button class="btn" id="grade" disabled>Submit answers</button></div>':''}
+    <div id="end"></div>`;
+  document.getElementById('back').onclick=home;
+  const box=document.getElementById('qs');
+  idx.forEach((qi,pos)=>{
+    const q=DATA[qi];
+    const el=document.createElement('div'); el.className='q'; el.id='q'+pos;
+    el.innerHTML = `<div class="qn">Question ${pos+1} &middot; source Q${q.n}</div>
+      <div class="qt">${esc(q.q)}</div>
+      ${q.multi?`<div class="note" style="margin:0 0 8px">Select all that apply &mdash; ${q.a.length} of ${q.o.length} are correct.</div>`:''}
+      ${q.o.map((t,i)=>`<div class="opt" data-i="${i}"><span class="k">${q.multi?'&#9744;':L[i]+'.'}</span><span>${esc(t)}</span></div>`).join('')}
+      ${(!q.multi&&q.a.length>1)?`<div class="note">The source marks ${q.a.map(i=>L[i]).join(' and ')} as correct &mdash; either is accepted.</div>`:''}
+      ${q.multi?`<div class="foot" style="justify-content:flex-start"><button class="btn sec" data-check="${pos}">Check answer</button></div>`:''}
+      ${q.a.length===0?`<div class="note">No answer recorded for this question in the source.</div>`:''}
+      ${(q.e||q.ref)?`<div class="expl" id="e${pos}" style="display:none">${q.ref?`<span class="ref">${esc(q.ref)}</span>`:''}${esc(q.e||'')}</div>`:''}`;
+    el.querySelectorAll('.opt').forEach(o=>o.onclick=()=>pick(el,pos,qi,+o.dataset.i));
+    const cb=el.querySelector('[data-check]'); if(cb) cb.onclick=()=>gradeMulti(pos);
+    box.appendChild(el);
+  });
+  if(MODE==='submit') document.getElementById('grade').onclick=gradeAll;
+  window.scrollTo(0,0);
+}
+
+function pick(el,pos,qi,choice){
+  const q=DATA[qi];
+  if(q.multi){
+    if(state.locked[pos]) return;
+    const sel=state.multi[pos]=state.multi[pos]||new Set();
+    sel.has(choice)?sel.delete(choice):sel.add(choice);
+    el.querySelectorAll('.opt').forEach(o=>o.classList.toggle('sel',sel.has(+o.dataset.i)));
+    return;
+  }
+  if(state.graded && state.picked[pos]!==null) return;
+  const first=state.picked[pos]===null;
+  state.picked[pos]=choice;
+  if(first) state.answered++;
+  document.getElementById('ans').textContent=state.answered;
+
+  if(MODE==='submit'){
+    el.querySelectorAll('.opt').forEach(o=>o.classList.toggle('sel',+o.dataset.i===choice));
+    const g=document.getElementById('grade');
+    if(g) g.disabled = state.answered<state.idx.length;
+    return;
+  }
+  if(q.a.includes(choice)) state.right++;
+  el.classList.add('done');
+  el.querySelectorAll('.opt').forEach(o=>{
+    const i=+o.dataset.i;
+    if(q.a.includes(i)) o.classList.add('correct');
+    else if(i===choice) o.classList.add('wrong');
+  });
+  document.getElementById('scr').textContent=state.right;
+  const ex=document.getElementById('e'+pos); if(ex) ex.style.display='block';
+  if(state.answered===state.idx.length) finish();
+}
+
+function gradeMulti(pos){
+  const qi=state.idx[pos], q=DATA[qi], el=document.getElementById('q'+pos);
+  if(state.locked[pos]) return;
+  const sel=state.multi[pos]||new Set();
+  if(!sel.size) return;
+  state.locked[pos]=true; state.answered++;
+  // Select-all-that-apply is only right if the chosen set matches exactly;
+  // crediting a partial selection would teach the wrong thing.
+  const ok = sel.size===q.a.length && q.a.every(i=>sel.has(i));
+  if(ok) state.right++;
+  el.classList.add('done');
+  el.querySelectorAll('.opt').forEach(o=>{
+    const i=+o.dataset.i; o.classList.remove('sel');
+    if(q.a.includes(i)) o.classList.add('correct');
+    else if(sel.has(i)) o.classList.add('wrong');
+  });
+  const b=el.querySelector('[data-check]'); if(b) b.remove();
+  const ex=document.getElementById('e'+pos); if(ex) ex.style.display='block';
+  const a=document.getElementById('ans'); if(a) a.textContent=state.answered;
+  const s=document.getElementById('scr'); if(s) s.textContent=state.right;
+  if(state.answered===state.idx.length) finish();
+}
+
+function gradeAll(){
+  state.right=0;
+  state.idx.forEach((qi,pos)=>{
+    const q=DATA[qi], el=document.getElementById('q'+pos), choice=state.picked[pos];
+    if(q.a.includes(choice)) state.right++;
+    el.classList.add('done');
+    el.querySelectorAll('.opt').forEach(o=>{
+      const i=+o.dataset.i;
+      o.classList.remove('sel');
+      if(q.a.includes(i)) o.classList.add('correct');
+      else if(i===choice) o.classList.add('wrong');
+    });
+    const ex=document.getElementById('e'+pos); if(ex) ex.style.display='block';
+  });
+  const g=document.getElementById('grade'); if(g) g.remove();
+  finish();
+}
+
+function finish(){
+  const n=state.idx.length, r=state.right, pct=Math.round(r/n*100);
+  const wrong=state.idx.map((qi,pos)=>[qi,pos]).filter(([qi,pos])=>!DATA[qi].a.includes(state.picked[pos]));
+  const end=document.getElementById('end');
+  end.innerHTML=`<div class="res"><div class="score">${r} / ${n}</div>
+    <div class="sub">${pct}% correct${wrong.length?` &middot; missed Q${wrong.map(([qi])=>DATA[qi].n).join(', Q')}`:''}</div>
+    <div class="foot"><button class="btn" id="again">Retry this set</button>
+    ${wrong.length?'<button class="btn sec" id="onlywrong">Retry missed only</button>':''}
+    <button class="btn sec" id="home2">All sets</button></div></div>`;
+  document.getElementById('again').onclick=()=>start(state.idx,state.title);
+  const ow=document.getElementById('onlywrong');
+  if(ow) ow.onclick=()=>start(wrong.map(([qi])=>qi), state.title+' (missed)');
+  document.getElementById('home2').onclick=home;
+  end.scrollIntoView({behavior:'smooth'});
+}
+
+home();
+</script></body></html>
