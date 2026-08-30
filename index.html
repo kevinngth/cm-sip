@@ -1,25 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-    <!-- Link your external CSS file here -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <h1>CM-SIP practice sets</h1>
-    <a href="./Set2Quiz.html">Set 2</a>
-    <a href="./Set10Quiz.html">Set 10</a>
-    <a href="./Set11Quiz.html">Set 11</a>
-    <a href="./Set12Quiz.html">Set 12</a>
-    <a href="./Set13Quiz.html">Set 13</a>
-    <a href="./Set14Quiz.html">Set 14</a>
-    <a href="./Set15Quiz.html">Set 15</a>
-    <a href="./Set16Quiz.html">Set 16</a>
-    
-    <!-- Link your external JavaScript file here -->
-    <script src="script.js"></script>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CMFAS Practice Quizzes</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1b1f24;--mut:#6b7280;--line:#e3e6ea;--acc:#2563eb;--warn:#b45309}
+@media (prefers-color-scheme:dark){:root{--bg:#14171a;--card:#1c2024;--ink:#e8eaed;--mut:#9aa3ad;--line:#2c3238;--warn:#f59e0b}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:880px;margin:0 auto;padding:32px 18px 80px}
+h1{font-size:24px;margin:0 0 4px}
+.lede{color:var(--mut);font-size:14px;margin:0 0 32px}
+section{margin-bottom:34px}
+h2{font-size:17px;margin:0 0 2px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.sec-count{font-size:13px;color:var(--mut);font-weight:400}
+.blurb{color:var(--mut);font-size:13px;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:10px}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;
+padding:13px 15px;text-decoration:none;color:inherit}
+.card:hover{border-color:var(--acc);box-shadow:0 1px 6px rgba(0,0,0,.06)}
+.row{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+.row b{font-size:15px}
+.count{font-size:13px;color:var(--mut);white-space:nowrap}
+.sub{color:var(--mut);font-size:12.5px;margin-top:3px}
+.tags{margin-top:8px;display:flex;gap:5px;flex-wrap:wrap}
+.tag{font-size:11px;color:var(--mut);border:1px solid var(--line);border-radius:20px;padding:2px 8px}
+.tag.multi{border-color:var(--acc);color:var(--acc)}
+.tag.warn{border-color:var(--warn);color:var(--warn)}
+footer{color:var(--mut);font-size:12.5px;border-top:1px solid var(--line);padding-top:16px;margin-top:8px}
+</style></head><body><div class="wrap">
+<h1>CMFAS Practice Quizzes</h1>
+<p class="lede">17 quizzes &middot; 1,915 questions. Click any set to start; each opens in its own page with practice sets and instant feedback.</p>
+  <section>
+    <h2>CM-SIP / Module 6A <span class="sec-count">8 quizzes &middot; 1169 questions</span></h2>
+    <p class="blurb">Structured products, derivatives, futures and CFDs</p>
+    <div class="grid">
+    <a class="card" href="./Set2Quiz.html">
+      <div class="row"><b>Set 2</b><span class="count">374</span></div>
+      <div class="sub">Structured products &middot; 374 questions, the largest bank</div>
+      <div class="tags"></div>
+    </a>
+    <a class="card" href="./Set10Quiz.html">
+      <div class="row"><b>Set 10</b><span class="count">171</span></div>
+      <div class="sub">Must do</div>
+      <div class="tags"><span class="tag">explanations</span><span class="tag">page refs</span></div>
+    </a>
+    <a class="card" href="./Set11Quiz.html">
+      <div class="row"><b>Set 11</b><span class="count">120</span></div>
+      <div class="sub">Module 6A Set A</div>
+      <div class="tags"></div>
+    </a>
+    <a class="card" href="./Set12Quiz.html">
+      <div class="row"><b>Set 12</b><span class="count">120</span></div>
+      <div class="sub">Module 6A Set B</div>
+      <div class="tags"><span class="tag warn">1 ungraded</span></div>
+    </a>
+    <a class="card" href="./Set13Quiz.html">
+      <div class="row"><b>Set 13</b><span class="count">103</span></div>
+      <div class="sub">Module 6A</div>
+      <div class="tags"></div>
+    </a>
+    <a class="card" href="./Set14Quiz.html">
+      <div class="row"><b>Set 14</b><span class="count">130</span></div>
+      <div class="sub">Module 6A Set 3</div>
+      <div class="tags"><span class="tag">page refs</span></div>
+    </a>
+    <a class="card" href="./Set15Quiz.html">
+      <div class="row"><b>Set 15</b><span class="count">51</span></div>
+      <div class="sub">Must do</div>
+      <div class="tags"></div>
+    </a>
+    <a class="card" href="./Set16Quiz.html">
+      <div class="row"><b>Set 16</b><span class="count">100</span></div>
+      <div class="sub">100 Questions</div>
+      <div class="tags"></div>
+    </a>
+    </div>
+  </section>
+  <section>
+    <h2>RES 1B <span class="sec-count">9 quizzes &middot; 746 questions</span></h2>
+    <p class="blurb">Rules, ethics, AML/CFT and market conduct</p>
+    <div class="grid">
+    <a class="card" href="./RES 1B (Others) Quiz.html">
+      <div class="row"><b>Others</b><span class="count">77</span></div>
+      
+      <div class="tags"><span class="tag multi">53 multi-select</span><span class="tag">explanations</span></div>
+    </a>
+    <a class="card" href="./RES 1B (Premium) Quiz.html">
+      <div class="row"><b>Premium</b><span class="count">35</span></div>
+      
+      <div class="tags"><span class="tag multi">11 multi-select</span><span class="tag">explanations</span></div>
+    </a>
+    <a class="card" href="./RES 1B Chapter 1 Quiz.html">
+      <div class="row"><b>Chapter 1</b><span class="count">21</span></div>
+      
+      <div class="tags"><span class="tag multi">18 multi-select</span><span class="tag">explanations</span></div>
+    </a>
+    <a class="card" href="./RES 1B Chapter 2 Quiz.html">
+      <div class="row"><b>Chapter 2</b><span class="count">200</span></div>
+      
+      <div class="tags"><span class="tag multi">68 multi-select</span><span class="tag">explanations</span></div>
+    </a>
+    <a class="card" href="./RES 1B Chapter 3 Quiz.html">
+      <div class="row"><b>Chapter 3</b><span class="count">74</span></div>
+      
+      <div class="tags"><span class="tag multi">22 multi-select</span><span class="tag">explanations</span></div>
+    </a>
+    <a class="card" href="./RES 1B Chapter 4 Quiz.html">
+      <div class="row"><b>Chapter 4</b><span class="count">84</span></div>
+      
+      <div class="tags"><span class="tag multi">51 multi-select</span><span class="tag">explanations</span></div>
+    </a>
+    <a class="card" href="./RES 1B Chapter 5 Quiz.html">
+      <div class="row"><b>Chapter 5</b><span class="count">21</span></div>
+      
+      <div class="tags"><span class="tag multi">13 multi-select</span><span class="tag">explanations</span></div>
+    </a>
+    <a class="card" href="./RES 1B Chapter 6 Quiz.html">
+      <div class="row"><b>Chapter 6</b><span class="count">51</span></div>
+      
+      <div class="tags"><span class="tag multi">9 multi-select</span><span class="tag">explanations</span></div>
+    </a>
+    <a class="card" href="./RES 1B Chapter 7 Quiz.html">
+      <div class="row"><b>Chapter 7</b><span class="count">183</span></div>
+      
+      <div class="tags"><span class="tag multi">75 multi-select</span><span class="tag">explanations</span></div>
+    </a>
+    </div>
+  </section>
+<footer>For personal revision only; do not replicate or rely on this for the actual exam.</footer>
+</div></body></html>
